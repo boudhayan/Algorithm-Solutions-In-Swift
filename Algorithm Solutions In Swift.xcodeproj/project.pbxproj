@@ -33,6 +33,7 @@
 		6AF578C826A35E79007B37CA /* GenerateDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578C726A35E79007B37CA /* GenerateDocument.swift */; };
 		6AF578CB26A360C4007B37CA /* RunLengthEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578CA26A360C4007B37CA /* RunLengthEncoding.swift */; };
 		6AF578CE26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578CD26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift */; };
+		6AF578D626A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578D526A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,10 +76,19 @@
 		6AF578C726A35E79007B37CA /* GenerateDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateDocument.swift; sourceTree = "<group>"; };
 		6AF578CA26A360C4007B37CA /* RunLengthEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLengthEncoding.swift; sourceTree = "<group>"; };
 		6AF578CD26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNonRepeatingCharacter.swift; sourceTree = "<group>"; };
+		6AF578D326A376C4007B37CA /* Algorithm Solutions In Swift Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm Solutions In Swift Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF578D526A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm_Solutions_In_Swift_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6AF5787626A2E60E007B37CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF578D026A376C4007B37CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,6 +103,7 @@
 			children = (
 				6AF5788326A2E674007B37CA /* AlgoExpert */,
 				6AF5787B26A2E60E007B37CA /* Algorithm Solutions In Swift */,
+				6AF578D426A376C4007B37CA /* Algorithm Solutions In Swift Tests */,
 				6AF5787A26A2E60E007B37CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				6AF5787926A2E60E007B37CA /* Algorithm Solutions In Swift */,
+				6AF578D326A376C4007B37CA /* Algorithm Solutions In Swift Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,6 +357,14 @@
 			path = "First Non Repeating Character";
 			sourceTree = "<group>";
 		};
+		6AF578D426A376C4007B37CA /* Algorithm Solutions In Swift Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578D526A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift */,
+			);
+			path = "Algorithm Solutions In Swift Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,6 +385,23 @@
 			productReference = 6AF5787926A2E60E007B37CA /* Algorithm Solutions In Swift */;
 			productType = "com.apple.product-type.tool";
 		};
+		6AF578D226A376C4007B37CA /* Algorithm Solutions In Swift Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF578D726A376C4007B37CA /* Build configuration list for PBXNativeTarget "Algorithm Solutions In Swift Tests" */;
+			buildPhases = (
+				6AF578CF26A376C4007B37CA /* Sources */,
+				6AF578D026A376C4007B37CA /* Frameworks */,
+				6AF578D126A376C4007B37CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algorithm Solutions In Swift Tests";
+			productName = "Algorithm Solutions In Swift Tests";
+			productReference = 6AF578D326A376C4007B37CA /* Algorithm Solutions In Swift Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -376,6 +413,9 @@
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					6AF5787826A2E60E007B37CA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6AF578D226A376C4007B37CA = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
@@ -394,9 +434,20 @@
 			projectRoot = "";
 			targets = (
 				6AF5787826A2E60E007B37CA /* Algorithm Solutions In Swift */,
+				6AF578D226A376C4007B37CA /* Algorithm Solutions In Swift Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF578D126A376C4007B37CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AF5787526A2E60E007B37CA /* Sources */ = {
@@ -429,6 +480,14 @@
 				6AF5788626A2E67F007B37CA /* TwoNumberSum.swift in Sources */,
 				6AF578BC26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift in Sources */,
 				6AF578A426A2E7BC007B37CA /* BubbleSort.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF578CF26A376C4007B37CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF578D626A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +631,48 @@
 			};
 			name = Release;
 		};
+		6AF578D826A376C4007B37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD9M264MPY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algorithm-Solutions-In-Swift.Algorithm-Solutions-In-Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AF578D926A376C4007B37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD9M264MPY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Algorithm-Solutions-In-Swift.Algorithm-Solutions-In-Swift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -589,6 +690,15 @@
 			buildConfigurations = (
 				6AF5788126A2E60E007B37CA /* Debug */,
 				6AF5788226A2E60E007B37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF578D726A376C4007B37CA /* Build configuration list for PBXNativeTarget "Algorithm Solutions In Swift Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF578D826A376C4007B37CA /* Debug */,
+				6AF578D926A376C4007B37CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
