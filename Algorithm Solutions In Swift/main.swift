@@ -9,4 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
-print(generateDocument("boudhayan", "boudhayana"))
+print(runLengthEncoding("........______=========AAAA   AAABBBB   BBB"))
