@@ -14,6 +14,7 @@
 		6AF5788F26A2E6D7007B37CA /* TournamentWinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5788E26A2E6D7007B37CA /* TournamentWinner.swift */; };
 		6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789126A2E6F6007B37CA /* NonConstructibleChange.swift */; };
 		6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789426A2E711007B37CA /* FindClosestValueInBST.swift */; };
+		6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789726A2E728007B37CA /* BranchSums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		6AF5788E26A2E6D7007B37CA /* TournamentWinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentWinner.swift; sourceTree = "<group>"; };
 		6AF5789126A2E6F6007B37CA /* NonConstructibleChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonConstructibleChange.swift; sourceTree = "<group>"; };
 		6AF5789426A2E711007B37CA /* FindClosestValueInBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindClosestValueInBST.swift; sourceTree = "<group>"; };
+		6AF5789726A2E728007B37CA /* BranchSums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchSums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5789626A2E728007B37CA /* Branch Sums */,
 				6AF5789326A2E711007B37CA /* Find Closest Value In BST */,
 				6AF5789026A2E6F6007B37CA /* Non-Constructible Change */,
 				6AF5788D26A2E6D7007B37CA /* Tournament Winner */,
@@ -134,6 +137,14 @@
 				6AF5789426A2E711007B37CA /* FindClosestValueInBST.swift */,
 			);
 			path = "Find Closest Value In BST";
+			sourceTree = "<group>";
+		};
+		6AF5789626A2E728007B37CA /* Branch Sums */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5789726A2E728007B37CA /* BranchSums.swift */,
+			);
+			path = "Branch Sums";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */,
+				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
 				6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */,
 				6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */,
 				6AF5787D26A2E60E007B37CA /* main.swift in Sources */,
