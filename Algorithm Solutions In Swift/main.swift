@@ -9,4 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
-print(runLengthEncoding("........______=========AAAA   AAABBBB   BBB"))
+print(firstNonRepeatingCharacter("faadabcbbebdf"))
