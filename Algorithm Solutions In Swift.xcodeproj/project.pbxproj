@@ -16,6 +16,7 @@
 		6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789426A2E711007B37CA /* FindClosestValueInBST.swift */; };
 		6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789726A2E728007B37CA /* BranchSums.swift */; };
 		6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789A26A2E73A007B37CA /* NodeDpeths.swift */; };
+		6AF5789E26A2E74D007B37CA /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5789D26A2E74D007B37CA /* DepthFirstSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		6AF5789426A2E711007B37CA /* FindClosestValueInBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindClosestValueInBST.swift; sourceTree = "<group>"; };
 		6AF5789726A2E728007B37CA /* BranchSums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchSums.swift; sourceTree = "<group>"; };
 		6AF5789A26A2E73A007B37CA /* NodeDpeths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeDpeths.swift; sourceTree = "<group>"; };
+		6AF5789D26A2E74D007B37CA /* DepthFirstSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5789C26A2E74D007B37CA /* Depth First Search */,
 				6AF5789926A2E73A007B37CA /* Node Depths */,
 				6AF5789626A2E728007B37CA /* Branch Sums */,
 				6AF5789326A2E711007B37CA /* Find Closest Value In BST */,
@@ -158,6 +161,14 @@
 			path = "Node Depths";
 			sourceTree = "<group>";
 		};
+		6AF5789C26A2E74D007B37CA /* Depth First Search */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5789D26A2E74D007B37CA /* DepthFirstSearch.swift */,
+			);
+			path = "Depth First Search";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,6 +229,7 @@
 			files = (
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
 				6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */,
+				6AF5789E26A2E74D007B37CA /* DepthFirstSearch.swift in Sources */,
 				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
 				6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */,
 				6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */,
