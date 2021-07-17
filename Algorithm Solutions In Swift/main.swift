@@ -9,3 +9,4 @@ import Foundation
 
 print("Hello, World!")
 
+print(findThreeLargestNumbers(array: [10, 5, 9, 10, 12]))

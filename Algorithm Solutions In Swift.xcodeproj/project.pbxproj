@@ -29,6 +29,7 @@
 		6AF578BC26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578BB26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift */; };
 		6AF578BF26A3507B007B37CA /* PalindromeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578BE26A3507B007B37CA /* PalindromeCheck.swift */; };
 		6AF578C226A351F6007B37CA /* CaesarCipherEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578C126A351F6007B37CA /* CaesarCipherEncryptor.swift */; };
+		6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578C426A35410007B37CA /* ThreeLargestNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		6AF578BB26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromLinkedList.swift; sourceTree = "<group>"; };
 		6AF578BE26A3507B007B37CA /* PalindromeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeCheck.swift; sourceTree = "<group>"; };
 		6AF578C126A351F6007B37CA /* CaesarCipherEncryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipherEncryptor.swift; sourceTree = "<group>"; };
+		6AF578C426A35410007B37CA /* ThreeLargestNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLargestNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578C326A35402007B37CA /* Find Three Largest Numbers */,
 				6AF578C026A351E6007B37CA /* Caesar Cipher Encryptor */,
 				6AF578BD26A3506D007B37CA /* Palindrome Check */,
 				6AF578BA26A34C81007B37CA /* Remove Duplicates From Linked List */,
@@ -301,6 +304,14 @@
 			path = "Caesar Cipher Encryptor";
 			sourceTree = "<group>";
 		};
+		6AF578C326A35402007B37CA /* Find Three Largest Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578C426A35410007B37CA /* ThreeLargestNumbers.swift */,
+			);
+			path = "Find Three Largest Numbers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -360,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
+				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
 				6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */,
 				6AF578AA26A2E7DE007B37CA /* SelectionSort.swift in Sources */,
 				6AF578B626A34871007B37CA /* ClassPhotos.swift in Sources */,
