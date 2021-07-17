@@ -10,6 +10,7 @@
 		6AF5787D26A2E60E007B37CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5787C26A2E60E007B37CA /* main.swift */; };
 		6AF5788626A2E67F007B37CA /* TwoNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5788526A2E67F007B37CA /* TwoNumberSum.swift */; };
 		6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5788826A2E6A4007B37CA /* ValidateSubsequence.swift */; };
+		6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5788B26A2E6C0007B37CA /* SortedSquaredArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		6AF5787C26A2E60E007B37CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6AF5788526A2E67F007B37CA /* TwoNumberSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoNumberSum.swift; sourceTree = "<group>"; };
 		6AF5788826A2E6A4007B37CA /* ValidateSubsequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateSubsequence.swift; sourceTree = "<group>"; };
+		6AF5788B26A2E6C0007B37CA /* SortedSquaredArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedSquaredArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5788A26A2E6C0007B37CA /* Sorted Squared Array */,
 				6AF5788726A2E6A4007B37CA /* Validate Subsequence */,
 				6AF5788426A2E67F007B37CA /* Two Number Sum */,
 			);
@@ -90,6 +93,14 @@
 				6AF5788826A2E6A4007B37CA /* ValidateSubsequence.swift */,
 			);
 			path = "Validate Subsequence";
+			sourceTree = "<group>";
+		};
+		6AF5788A26A2E6C0007B37CA /* Sorted Squared Array */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5788B26A2E6C0007B37CA /* SortedSquaredArray.swift */,
+			);
+			path = "Sorted Squared Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */,
 				6AF5787D26A2E60E007B37CA /* main.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
 				6AF5788626A2E67F007B37CA /* TwoNumberSum.swift in Sources */,
