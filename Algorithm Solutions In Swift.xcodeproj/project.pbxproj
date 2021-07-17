@@ -22,6 +22,7 @@
 		6AF578A726A2E7CD007B37CA /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578A626A2E7CD007B37CA /* InsertionSort.swift */; };
 		6AF578AA26A2E7DE007B37CA /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578A926A2E7DE007B37CA /* SelectionSort.swift */; };
 		6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578AC26A2E7F0007B37CA /* NthFibonacci.swift */; };
+		6AF578B026A2F44C007B37CA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578AF26A2F44C007B37CA /* BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		6AF578A626A2E7CD007B37CA /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		6AF578A926A2E7DE007B37CA /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		6AF578AC26A2E7F0007B37CA /* NthFibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NthFibonacci.swift; sourceTree = "<group>"; };
+		6AF578AF26A2F44C007B37CA /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578AE26A2F440007B37CA /* Binary Search */,
 				6AF578AB26A2E7F0007B37CA /* Nth Fibonacci */,
 				6AF578A826A2E7DE007B37CA /* Selection Sort */,
 				6AF578A526A2E7CD007B37CA /* Insertion Sort */,
@@ -224,6 +227,14 @@
 			path = "Nth Fibonacci";
 			sourceTree = "<group>";
 		};
+		6AF578AE26A2F440007B37CA /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578AF26A2F44C007B37CA /* BinarySearch.swift */,
+			);
+			path = "Binary Search";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,6 +301,7 @@
 				6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */,
 				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
 				6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */,
+				6AF578B026A2F44C007B37CA /* BinarySearch.swift in Sources */,
 				6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */,
 				6AF5787D26A2E60E007B37CA /* main.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
