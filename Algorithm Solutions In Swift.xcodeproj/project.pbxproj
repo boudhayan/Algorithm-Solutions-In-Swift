@@ -30,6 +30,7 @@
 		6AF578BF26A3507B007B37CA /* PalindromeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578BE26A3507B007B37CA /* PalindromeCheck.swift */; };
 		6AF578C226A351F6007B37CA /* CaesarCipherEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578C126A351F6007B37CA /* CaesarCipherEncryptor.swift */; };
 		6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578C426A35410007B37CA /* ThreeLargestNumbers.swift */; };
+		6AF578C826A35E79007B37CA /* GenerateDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578C726A35E79007B37CA /* GenerateDocument.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		6AF578BE26A3507B007B37CA /* PalindromeCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeCheck.swift; sourceTree = "<group>"; };
 		6AF578C126A351F6007B37CA /* CaesarCipherEncryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipherEncryptor.swift; sourceTree = "<group>"; };
 		6AF578C426A35410007B37CA /* ThreeLargestNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeLargestNumbers.swift; sourceTree = "<group>"; };
+		6AF578C726A35E79007B37CA /* GenerateDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateDocument.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578C626A35E6D007B37CA /* Generate Document */,
 				6AF578C326A35402007B37CA /* Find Three Largest Numbers */,
 				6AF578C026A351E6007B37CA /* Caesar Cipher Encryptor */,
 				6AF578BD26A3506D007B37CA /* Palindrome Check */,
@@ -312,6 +315,14 @@
 			path = "Find Three Largest Numbers";
 			sourceTree = "<group>";
 		};
+		6AF578C626A35E6D007B37CA /* Generate Document */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578C726A35E79007B37CA /* GenerateDocument.swift */,
+			);
+			path = "Generate Document";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -381,6 +392,7 @@
 				6AF578B926A34AD6007B37CA /* TandemBicycle.swift in Sources */,
 				6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */,
 				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
+				6AF578C826A35E79007B37CA /* GenerateDocument.swift in Sources */,
 				6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */,
 				6AF578B026A2F44C007B37CA /* BinarySearch.swift in Sources */,
 				6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */,
