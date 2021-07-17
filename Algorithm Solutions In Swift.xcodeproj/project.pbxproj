@@ -25,6 +25,7 @@
 		6AF578B026A2F44C007B37CA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578AF26A2F44C007B37CA /* BinarySearch.swift */; };
 		6AF578B326A2F62A007B37CA /* ProductSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578B226A2F62A007B37CA /* ProductSum.swift */; };
 		6AF578B626A34871007B37CA /* ClassPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578B526A34871007B37CA /* ClassPhotos.swift */; };
+		6AF578B926A34AD6007B37CA /* TandemBicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578B826A34AD6007B37CA /* TandemBicycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		6AF578AF26A2F44C007B37CA /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		6AF578B226A2F62A007B37CA /* ProductSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSum.swift; sourceTree = "<group>"; };
 		6AF578B526A34871007B37CA /* ClassPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPhotos.swift; sourceTree = "<group>"; };
+		6AF578B826A34AD6007B37CA /* TandemBicycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TandemBicycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578B726A34ACC007B37CA /* Tandem Bicycle */,
 				6AF578B426A34864007B37CA /* Class Photos */,
 				6AF578B126A2F621007B37CA /* Product Sum */,
 				6AF578AE26A2F440007B37CA /* Binary Search */,
@@ -257,6 +260,14 @@
 			path = "Class Photos";
 			sourceTree = "<group>";
 		};
+		6AF578B726A34ACC007B37CA /* Tandem Bicycle */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578B826A34AD6007B37CA /* TandemBicycle.swift */,
+			);
+			path = "Tandem Bicycle";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +332,7 @@
 				6AF578B626A34871007B37CA /* ClassPhotos.swift in Sources */,
 				6AF578A126A2E7A7007B37CA /* MinimumWaitingTime.swift in Sources */,
 				6AF5789E26A2E74D007B37CA /* DepthFirstSearch.swift in Sources */,
+				6AF578B926A34AD6007B37CA /* TandemBicycle.swift in Sources */,
 				6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */,
 				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
 				6AF5788C26A2E6C0007B37CA /* SortedSquaredArray.swift in Sources */,
