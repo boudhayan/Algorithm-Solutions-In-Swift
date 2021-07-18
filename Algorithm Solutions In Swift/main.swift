@@ -8,6 +8,6 @@
 import Foundation
 
 print("Hello, World!")
-var arrayOne = [-1, 5, 10, 20, 28, 3]
+var arrayOne = [2, 1, 2, 2, 2, 3, 4, 2]
 var arrayTwo = [26, 134, 135, 15, 17]
-print(smallestDifference(arrayOne: &arrayOne, arrayTwo: &arrayTwo))
+print(moveElementToEnd(array: &arrayOne, 2))
