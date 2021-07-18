@@ -35,6 +35,8 @@
 		6AF578CE26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578CD26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift */; };
 		6AF578D626A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578D526A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift */; };
 		6AF578DA26A378F0007B37CA /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578A326A2E7BC007B37CA /* BubbleSort.swift */; };
+		6AF578DD26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578DC26A3DD8F007B37CA /* ThreeNumberSum.swift */; };
+		6AF578DE26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578DC26A3DD8F007B37CA /* ThreeNumberSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +81,7 @@
 		6AF578CD26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNonRepeatingCharacter.swift; sourceTree = "<group>"; };
 		6AF578D326A376C4007B37CA /* Algorithm Solutions In Swift Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithm Solutions In Swift Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF578D526A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm_Solutions_In_Swift_Tests.swift; sourceTree = "<group>"; };
+		6AF578DC26A3DD8F007B37CA /* ThreeNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeNumberSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578DB26A3DD81007B37CA /* Three Number Sum */,
 				6AF578CC26A36A8C007B37CA /* First Non Repeating Character */,
 				6AF578C926A360B4007B37CA /* Run Length Encoding */,
 				6AF578C626A35E6D007B37CA /* Generate Document */,
@@ -366,6 +370,14 @@
 			path = "Algorithm Solutions In Swift Tests";
 			sourceTree = "<group>";
 		};
+		6AF578DB26A3DD81007B37CA /* Three Number Sum */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578DC26A3DD8F007B37CA /* ThreeNumberSum.swift */,
+			);
+			path = "Three Number Sum";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -457,6 +469,7 @@
 			files = (
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
+				6AF578DD26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
 				6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */,
 				6AF578AA26A2E7DE007B37CA /* SelectionSort.swift in Sources */,
 				6AF578B626A34871007B37CA /* ClassPhotos.swift in Sources */,
@@ -490,6 +503,7 @@
 			files = (
 				6AF578D626A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift in Sources */,
 				6AF578DA26A378F0007B37CA /* BubbleSort.swift in Sources */,
+				6AF578DE26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
