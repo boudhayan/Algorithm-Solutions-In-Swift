@@ -8,5 +8,6 @@
 import Foundation
 
 print("Hello, World!")
-
-print(firstNonRepeatingCharacter("faadabcbbebdf"))
+var arrayOne = [-1, 5, 10, 20, 28, 3]
+var arrayTwo = [26, 134, 135, 15, 17]
+print(smallestDifference(arrayOne: &arrayOne, arrayTwo: &arrayTwo))
