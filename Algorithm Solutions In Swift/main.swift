@@ -10,4 +10,4 @@ import Foundation
 print("Hello, World!")
 var arrayOne = [2, 1, 2, 2, 2, 3, 4, 2]
 var arrayTwo = [26, 134, 135, 15, 17]
-print(isMonotonic(array: [-1, -2, -3, -4]))
+print(arrayOfProducts([5, 1, 4, 2]))
