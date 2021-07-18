@@ -48,6 +48,8 @@
 		6AF578F026A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578EE26A3EDCC007B37CA /* ArrayOfProducts.swift */; };
 		6AF578F326A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578F226A4AF2F007B37CA /* InvertBinaryTree.swift */; };
 		6AF578F426A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578F226A4AF2F007B37CA /* InvertBinaryTree.swift */; };
+		6AF578F726A4B207007B37CA /* BSTTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578F626A4B207007B37CA /* BSTTraversal.swift */; };
+		6AF578F826A4B207007B37CA /* BSTTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578F626A4B207007B37CA /* BSTTraversal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +101,7 @@
 		6AF578EA26A3E923007B37CA /* MonotonicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicArray.swift; sourceTree = "<group>"; };
 		6AF578EE26A3EDCC007B37CA /* ArrayOfProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOfProducts.swift; sourceTree = "<group>"; };
 		6AF578F226A4AF2F007B37CA /* InvertBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBinaryTree.swift; sourceTree = "<group>"; };
+		6AF578F626A4B207007B37CA /* BSTTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTTraversal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578F526A4B1F7007B37CA /* BST Traversal */,
 				6AF578F126A4AEFA007B37CA /* Invert Binary Tree */,
 				6AF578ED26A3EDAB007B37CA /* Array of Products */,
 				6AF578E926A3E917007B37CA /* Monotonic Array */,
@@ -441,6 +445,14 @@
 			path = "Invert Binary Tree";
 			sourceTree = "<group>";
 		};
+		6AF578F526A4B1F7007B37CA /* BST Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578F626A4B207007B37CA /* BSTTraversal.swift */,
+			);
+			path = "BST Traversal";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -530,6 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF578F726A4B207007B37CA /* BSTTraversal.swift in Sources */,
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
 				6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */,
@@ -571,6 +584,7 @@
 			files = (
 				6AF578F026A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
 				6AF578F426A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */,
+				6AF578F826A4B207007B37CA /* BSTTraversal.swift in Sources */,
 				6AF578E826A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
 				6AF578D626A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift in Sources */,
 				6AF578E026A3DF2C007B37CA /* ThreeNumberSumTests.swift in Sources */,
