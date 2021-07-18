@@ -42,6 +42,8 @@
 		6AF578E426A3E024007B37CA /* SmallestDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578E226A3E024007B37CA /* SmallestDifference.swift */; };
 		6AF578E726A3E320007B37CA /* MoveElementToEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578E626A3E320007B37CA /* MoveElementToEnd.swift */; };
 		6AF578E826A3E320007B37CA /* MoveElementToEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578E626A3E320007B37CA /* MoveElementToEnd.swift */; };
+		6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578EA26A3E923007B37CA /* MonotonicArray.swift */; };
+		6AF578EC26A3E923007B37CA /* MonotonicArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578EA26A3E923007B37CA /* MonotonicArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +92,7 @@
 		6AF578DF26A3DF2C007B37CA /* ThreeNumberSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeNumberSumTests.swift; sourceTree = "<group>"; };
 		6AF578E226A3E024007B37CA /* SmallestDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestDifference.swift; sourceTree = "<group>"; };
 		6AF578E626A3E320007B37CA /* MoveElementToEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveElementToEnd.swift; sourceTree = "<group>"; };
+		6AF578EA26A3E923007B37CA /* MonotonicArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF578E926A3E917007B37CA /* Monotonic Array */,
 				6AF578E526A3E311007B37CA /* Move Element to End */,
 				6AF578E126A3E016007B37CA /* Smallest Difference */,
 				6AF578DB26A3DD81007B37CA /* Three Number Sum */,
@@ -405,6 +409,14 @@
 			path = "Move Element to End";
 			sourceTree = "<group>";
 		};
+		6AF578E926A3E917007B37CA /* Monotonic Array */ = {
+			isa = PBXGroup;
+			children = (
+				6AF578EA26A3E923007B37CA /* MonotonicArray.swift */,
+			);
+			path = "Monotonic Array";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -496,6 +508,7 @@
 			files = (
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
+				6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */,
 				6AF578DD26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
 				6AF578E326A3E024007B37CA /* SmallestDifference.swift in Sources */,
 				6AF578E726A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
@@ -535,6 +548,7 @@
 				6AF578E026A3DF2C007B37CA /* ThreeNumberSumTests.swift in Sources */,
 				6AF578DA26A378F0007B37CA /* BubbleSort.swift in Sources */,
 				6AF578DE26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
+				6AF578EC26A3E923007B37CA /* MonotonicArray.swift in Sources */,
 				6AF578E426A3E024007B37CA /* SmallestDifference.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
