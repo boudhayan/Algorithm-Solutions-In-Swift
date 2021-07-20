@@ -10,4 +10,16 @@ import Foundation
 var arrayOne = [2, 1, 2, 2, 2, 3, 4, 2]
 var arrayTwo = [26, 134, 135, 15, 17]
 
-print(larrysArray(A: [1, 6, 5, 2, 4, 3]))
+var root = BSTNode(value: 3)
+root.left = BSTNode(value: 2)
+root.left?.left = BSTNode(value: 1)
+root.right = BSTNode(value: 5)
+root.right?.left = BSTNode(value: 4)
+root.right?.right = BSTNode(value: 6)
+root.right?.right?.right = BSTNode(value: 7)
+
+
+print(getHeight(root: root))
+
+var moves = [["O", "X", "X"], ["O", "O", "X"], ["X", "O", "O"]]
+print(checkTicTacToeWinner(for: moves))
