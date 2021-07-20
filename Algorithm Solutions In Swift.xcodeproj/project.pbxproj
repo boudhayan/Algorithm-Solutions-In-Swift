@@ -54,6 +54,8 @@
 		6AF578FC26A4B69F007B37CA /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF578FA26A4B69F007B37CA /* BreadthFirstSearch.swift */; };
 		6AF5790126A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5790026A5ACBD007B37CA /* ExtraLongFactorials.swift */; };
 		6AF5790226A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5790026A5ACBD007B37CA /* ExtraLongFactorials.swift */; };
+		6AF5790526A6DCA1007B37CA /* LarrysArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5790426A6DCA1007B37CA /* LarrysArray.swift */; };
+		6AF5790626A6DCA1007B37CA /* LarrysArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5790426A6DCA1007B37CA /* LarrysArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -108,6 +110,7 @@
 		6AF578F626A4B207007B37CA /* BSTTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTTraversal.swift; sourceTree = "<group>"; };
 		6AF578FA26A4B69F007B37CA /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
 		6AF5790026A5ACBD007B37CA /* ExtraLongFactorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLongFactorials.swift; sourceTree = "<group>"; };
+		6AF5790426A6DCA1007B37CA /* LarrysArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarrysArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -472,6 +475,7 @@
 		6AF578FE26A5ACA3007B37CA /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5790326A6DC93007B37CA /* Larry's Array */,
 				6AF578FF26A5ACB1007B37CA /* Extra Long Factorials */,
 			);
 			path = HackerRank;
@@ -483,6 +487,14 @@
 				6AF5790026A5ACBD007B37CA /* ExtraLongFactorials.swift */,
 			);
 			path = "Extra Long Factorials";
+			sourceTree = "<group>";
+		};
+		6AF5790326A6DC93007B37CA /* Larry's Array */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5790426A6DCA1007B37CA /* LarrysArray.swift */,
+			);
+			path = "Larry's Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -578,6 +590,7 @@
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
 				6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */,
+				6AF5790526A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF578DD26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
 				6AF578E326A3E024007B37CA /* SmallestDifference.swift in Sources */,
 				6AF578E726A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
@@ -618,6 +631,7 @@
 			files = (
 				6AF578F026A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
 				6AF578F426A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */,
+				6AF5790626A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF578F826A4B207007B37CA /* BSTTraversal.swift in Sources */,
 				6AF578E826A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
 				6AF5790226A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */,
