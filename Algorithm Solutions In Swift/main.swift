@@ -19,7 +19,5 @@ root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
 
-print(getHeight(root: root))
+print(pairs(k: 2, arr: [1, 5, 3, 4, 2]))
 
-var moves = [["O", "X", "X"], ["O", "O", "X"], ["X", "O", "O"]]
-print(checkTicTacToeWinner(for: moves))
