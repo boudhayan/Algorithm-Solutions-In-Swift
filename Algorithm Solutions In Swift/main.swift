@@ -19,4 +19,7 @@ root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
 var array = [1, 5, 4, 3, 2, 6]
-almostSorted(arr: array)
+let firstString = "if man was meant to stay on the ground god would have given us roots"
+let secondString = "feedthedog"
+let thirdString = "chillout"
+print(encryption(s: thirdString))
