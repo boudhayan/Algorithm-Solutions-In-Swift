@@ -18,6 +18,5 @@ root.right?.left = BSTNode(value: 4)
 root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
-
-print(pairs(k: 2, arr: [1, 5, 3, 4, 2]))
-
+var array = [1, 5, 4, 3, 2, 6]
+almostSorted(arr: array)

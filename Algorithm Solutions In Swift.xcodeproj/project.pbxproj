@@ -64,6 +64,8 @@
 		6AF5791226A744AD007B37CA /* TicTacToeWinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791026A744AC007B37CA /* TicTacToeWinner.swift */; };
 		6AF5791526A74CC6007B37CA /* CountPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791426A74CC6007B37CA /* CountPairs.swift */; };
 		6AF5791626A74CC6007B37CA /* CountPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791426A74CC6007B37CA /* CountPairs.swift */; };
+		6AF5791926A75668007B37CA /* AlmostSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791826A75668007B37CA /* AlmostSorted.swift */; };
+		6AF5791A26A75668007B37CA /* AlmostSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791826A75668007B37CA /* AlmostSorted.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -123,6 +125,7 @@
 		6AF5790C26A6EECD007B37CA /* BitwiseAND.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitwiseAND.swift; sourceTree = "<group>"; };
 		6AF5791026A744AC007B37CA /* TicTacToeWinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeWinner.swift; sourceTree = "<group>"; };
 		6AF5791426A74CC6007B37CA /* CountPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairs.swift; sourceTree = "<group>"; };
+		6AF5791826A75668007B37CA /* AlmostSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostSorted.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -487,6 +490,7 @@
 		6AF578FE26A5ACA3007B37CA /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5791726A75649007B37CA /* Almost Sorted */,
 				6AF5791326A74CBA007B37CA /* Count Pairs */,
 				6AF5790F26A7449B007B37CA /* Tic Tac Toe Winner */,
 				6AF5790B26A6EEB1007B37CA /* Bitwise AND */,
@@ -543,6 +547,14 @@
 				6AF5791426A74CC6007B37CA /* CountPairs.swift */,
 			);
 			path = "Count Pairs";
+			sourceTree = "<group>";
+		};
+		6AF5791726A75649007B37CA /* Almost Sorted */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5791826A75668007B37CA /* AlmostSorted.swift */,
+			);
+			path = "Almost Sorted";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -654,6 +666,7 @@
 				6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */,
 				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
 				6AF5791526A74CC6007B37CA /* CountPairs.swift in Sources */,
+				6AF5791926A75668007B37CA /* AlmostSorted.swift in Sources */,
 				6AF578C826A35E79007B37CA /* GenerateDocument.swift in Sources */,
 				6AF578CE26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift in Sources */,
 				6AF578EF26A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
@@ -693,6 +706,7 @@
 				6AF578E026A3DF2C007B37CA /* ThreeNumberSumTests.swift in Sources */,
 				6AF5790A26A6E0FC007B37CA /* BinarySearchTrees.swift in Sources */,
 				6AF578DA26A378F0007B37CA /* BubbleSort.swift in Sources */,
+				6AF5791A26A75668007B37CA /* AlmostSorted.swift in Sources */,
 				6AF578DE26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
 				6AF578EC26A3E923007B37CA /* MonotonicArray.swift in Sources */,
 				6AF578E426A3E024007B37CA /* SmallestDifference.swift in Sources */,
