@@ -18,8 +18,6 @@ root.right?.left = BSTNode(value: 4)
 root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
-var array = [1, 5, 4, 3, 2, 6]
-let firstString = "if man was meant to stay on the ground god would have given us roots"
-let secondString = "feedthedog"
-let thirdString = "chillout"
-print(encryption(s: thirdString))
+var array = [2, 1, 1, 2, 3, 3, 4]
+
+print(firstDuplicateValue(&array))

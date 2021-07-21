@@ -68,6 +68,8 @@
 		6AF5791A26A75668007B37CA /* AlmostSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791826A75668007B37CA /* AlmostSorted.swift */; };
 		6AF5791D26A82ABE007B37CA /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791C26A82ABE007B37CA /* Encryption.swift */; };
 		6AF5791E26A82ABE007B37CA /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5791C26A82ABE007B37CA /* Encryption.swift */; };
+		6AF5792126A860E8007B37CA /* FirstDuplicateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5792026A860E8007B37CA /* FirstDuplicateValue.swift */; };
+		6AF5792226A860E8007B37CA /* FirstDuplicateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5792026A860E8007B37CA /* FirstDuplicateValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -129,6 +131,7 @@
 		6AF5791426A74CC6007B37CA /* CountPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPairs.swift; sourceTree = "<group>"; };
 		6AF5791826A75668007B37CA /* AlmostSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmostSorted.swift; sourceTree = "<group>"; };
 		6AF5791C26A82ABE007B37CA /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		6AF5792026A860E8007B37CA /* FirstDuplicateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDuplicateValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5791F26A860DA007B37CA /* First Duplicate Value */,
 				6AF578F926A4B674007B37CA /*  Breadth First Search */,
 				6AF578F526A4B1F7007B37CA /* BST Traversal */,
 				6AF578F126A4AEFA007B37CA /* Invert Binary Tree */,
@@ -569,6 +573,14 @@
 			path = Encryption;
 			sourceTree = "<group>";
 		};
+		6AF5791F26A860DA007B37CA /* First Duplicate Value */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5792026A860E8007B37CA /* FirstDuplicateValue.swift */,
+			);
+			path = "First Duplicate Value";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -689,6 +701,7 @@
 				6AF5787D26A2E60E007B37CA /* main.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
 				6AF5788F26A2E6D7007B37CA /* TournamentWinner.swift in Sources */,
+				6AF5792126A860E8007B37CA /* FirstDuplicateValue.swift in Sources */,
 				6AF578FB26A4B69F007B37CA /* BreadthFirstSearch.swift in Sources */,
 				6AF578C226A351F6007B37CA /* CaesarCipherEncryptor.swift in Sources */,
 				6AF578CB26A360C4007B37CA /* RunLengthEncoding.swift in Sources */,
@@ -707,6 +720,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AF5792226A860E8007B37CA /* FirstDuplicateValue.swift in Sources */,
 				6AF578F026A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
 				6AF578F426A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */,
 				6AF5790626A6DCA1007B37CA /* LarrysArray.swift in Sources */,
