@@ -9,12 +9,12 @@ import Foundation
 import CloudKit
 
 
-class BinarySearchTree<Element: Comparable> {
-    var value: Element
+class BinarySearchTree {
+    var value: Int
     var left: BinarySearchTree?
     var right: BinarySearchTree?
     
-    init(value: Element) {
+    init(value: Int) {
         self.value = value
         self.left = nil
         self.right = nil

@@ -7,24 +7,23 @@
 
 import Foundation
 
-typealias List = LinkedList<Int>
 
 /**
  Time Complexity: O(n)
  Space Complexity: O(1)
  Note:
  */
-func findLoop(head: List) -> List? {
-    var slowPointer: List? = head.next
-    var fastPointer: List? = head.next?.next
+func findLoop(head: LinkedList) -> LinkedList? {
+    var slowPointer: LinkedList? = head.next
+    var fastPointer: LinkedList? = head.next?.next
     
     while slowPointer !== fastPointer {
         slowPointer = slowPointer?.next
         fastPointer = fastPointer?.next?.next
     }
     
-    var firstPointer: List? = head
-    var secondPointer: List? = fastPointer
+    var firstPointer: LinkedList? = head
+    var secondPointer: LinkedList? = fastPointer
     
     while firstPointer !== secondPointer {
         firstPointer = firstPointer?.next

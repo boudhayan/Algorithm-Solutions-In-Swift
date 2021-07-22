@@ -7,15 +7,6 @@
 
 import Foundation
 
-fileprivate class LinkedList {
-    var value: Int
-    var next: LinkedList?
-    
-    init(value: Int) {
-        self.value = value
-    }
-}
-
 /**
  Time Complexity: O(n)
  Space Complexity: O(1)

@@ -7,11 +7,11 @@
 
 import Foundation
 
-class LinkedList<Element: Comparable> {
-    var value: Element
+class LinkedList {
+    var value: Int
     var next: LinkedList?
     
-    init(value: Element) {
+    init(value: Int) {
         self.value = value
         self.next = nil
     }

@@ -7,16 +7,6 @@
 
 import Foundation
 
-fileprivate class BinaryTree {
-    var value: Int
-    var left: BinaryTree?
-    var right: BinaryTree?
-    
-    init(value: Int) {
-        self.value = value
-    }
-}
-
 /**
  Time Complexity: O(n)
  Space Complexity: O(h)

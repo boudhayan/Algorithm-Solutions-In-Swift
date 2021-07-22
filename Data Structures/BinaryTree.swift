@@ -7,12 +7,12 @@
 
 import Foundation
 
-class BinaryTree<Element: Comparable> {
-    var value: Element
+class BinaryTree {
+    var value: Int
     var left: BinaryTree?
     var right: BinaryTree?
     
-    init(value: Element) {
+    init(value: Int) {
         self.value = value
         self.left = nil
         self.right = nil
