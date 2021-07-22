@@ -1,0 +1,20 @@
+//
+//  BinaryTree.swift
+//  Algorithm Solutions In Swift
+//
+//  Created by Boudhayan Biswas on 22/07/21.
+//
+
+import Foundation
+
+class BinaryTree<Element: Comparable> {
+    var value: Element
+    var left: BinaryTree?
+    var right: BinaryTree?
+    
+    init(value: Element) {
+        self.value = value
+        self.left = nil
+        self.right = nil
+    }
+}
