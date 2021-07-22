@@ -18,6 +18,6 @@ root.right?.left = BSTNode(value: 4)
 root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
-var array = [2, 1, 1, 2, 3, 3, 4]
-
-print(firstDuplicateValue(&array))
+var array = [3, 1, 2, 5, 6, 4]
+quickSort(&array)
+print(array)
