@@ -18,6 +18,5 @@ root.right?.left = BSTNode(value: 4)
 root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
-var array = [3, 1, 2, 5, 6, 4]
-quickSort(&array)
-print(array)
+var array = [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]
+print(longestPeak(array: array))
