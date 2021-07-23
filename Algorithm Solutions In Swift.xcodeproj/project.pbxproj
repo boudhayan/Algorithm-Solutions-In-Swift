@@ -88,6 +88,8 @@
 		6AF5793F26A9F609007B37CA /* LongestPeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5793D26A9F609007B37CA /* LongestPeak.swift */; };
 		6AF5794226A9FF10007B37CA /* SingleCycleCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794126A9FF10007B37CA /* SingleCycleCheck.swift */; };
 		6AF5794326A9FF10007B37CA /* SingleCycleCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794126A9FF10007B37CA /* SingleCycleCheck.swift */; };
+		6AF5794626AA9109007B37CA /* SpiralTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794526AA9109007B37CA /* SpiralTraverse.swift */; };
+		6AF5794726AA9109007B37CA /* SpiralTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794526AA9109007B37CA /* SpiralTraverse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,6 +161,7 @@
 		6AF5793926A9E332007B37CA /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
 		6AF5793D26A9F609007B37CA /* LongestPeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPeak.swift; sourceTree = "<group>"; };
 		6AF5794126A9FF10007B37CA /* SingleCycleCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCycleCheck.swift; sourceTree = "<group>"; };
+		6AF5794526AA9109007B37CA /* SpiralTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralTraverse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +214,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5794426AA90F8007B37CA /* Spiral Traverse */,
 				6AF5794026A9FF02007B37CA /* Single Cycle Check */,
 				6AF5793C26A9F5FC007B37CA /* Longest Peak */,
 				6AF5792B26A9E062007B37CA /* Find Loop in Linked List */,
@@ -665,6 +669,14 @@
 			path = "Single Cycle Check";
 			sourceTree = "<group>";
 		};
+		6AF5794426AA90F8007B37CA /* Spiral Traverse */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5794526AA9109007B37CA /* SpiralTraverse.swift */,
+			);
+			path = "Spiral Traverse";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -759,6 +771,7 @@
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
 				6AF5790D26A6EECD007B37CA /* BitwiseAND.swift in Sources */,
 				6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */,
+				6AF5794626AA9109007B37CA /* SpiralTraverse.swift in Sources */,
 				6AF5790526A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF5791D26A82ABE007B37CA /* Encryption.swift in Sources */,
 				6AF578DD26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
@@ -821,6 +834,7 @@
 				6AF5790626A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF5791226A744AD007B37CA /* TicTacToeWinner.swift in Sources */,
 				6AF5793226A9E0D3007B37CA /* LinkedList.swift in Sources */,
+				6AF5794726AA9109007B37CA /* SpiralTraverse.swift in Sources */,
 				6AF5790E26A6EECD007B37CA /* BitwiseAND.swift in Sources */,
 				6AF578F826A4B207007B37CA /* BSTTraversal.swift in Sources */,
 				6AF578E826A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
