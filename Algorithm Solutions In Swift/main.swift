@@ -18,5 +18,5 @@ root.right?.left = BSTNode(value: 4)
 root.right?.right = BSTNode(value: 6)
 root.right?.right?.right = BSTNode(value: 7)
 
-var array = [1, 2, 3, 3, 4, 0, 10, 6, 5, -1, -3, 2, 3]
-print(longestPeak(array: array))
+var array = [1, 1, 1, 1, 2]
+print(hasSingleCycle(array: array))
