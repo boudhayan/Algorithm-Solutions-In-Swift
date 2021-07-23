@@ -37,5 +37,7 @@ var matrix3 = [
     [3],
     [4]
 ]
-print(spiralTraverse(array: matrix3))
+
+var array = [2, 1]
+print(mergeSort(&array))
 
