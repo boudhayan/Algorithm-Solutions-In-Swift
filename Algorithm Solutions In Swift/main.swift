@@ -38,6 +38,20 @@ var matrix3 = [
     [4]
 ]
 
-var array = [2, 1]
-print(mergeSort(&array))
 
+var bt = BinaryTree(value: 1)
+bt.left = BinaryTree(value: 3)
+bt.left?.left = BinaryTree(value: 7)
+bt.left?.left?.left = BinaryTree(value: 8)
+bt.left?.left?.left?.left = BinaryTree(value: 9)
+bt.right = BinaryTree(value: 2)
+bt.left?.right = BinaryTree(value: 4)
+bt.left?.right?.right = BinaryTree(value: 5)
+bt.left?.right?.right?.right = BinaryTree(value: 6)
+
+//var bt = BinaryTree(value: 2)
+//bt.left = BinaryTree(value: 1)
+//bt.left?.left = BinaryTree(value: 3)
+//bt.left?.left?.right = BinaryTree(value: 5)
+//bt.left?.left?.right?.right = BinaryTree(value: 10)
+print(bt.diameter(bt))
