@@ -92,6 +92,8 @@
 		6AF5794726AA9109007B37CA /* SpiralTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794526AA9109007B37CA /* SpiralTraverse.swift */; };
 		6AF5794A26AAC047007B37CA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794926AAC047007B37CA /* MergeSort.swift */; };
 		6AF5794B26AAC047007B37CA /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794926AAC047007B37CA /* MergeSort.swift */; };
+		6AF5794E26ABD338007B37CA /* BSTConstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794D26ABD338007B37CA /* BSTConstruction.swift */; };
+		6AF5794F26ABD338007B37CA /* BSTConstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5794D26ABD338007B37CA /* BSTConstruction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +167,7 @@
 		6AF5794126A9FF10007B37CA /* SingleCycleCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCycleCheck.swift; sourceTree = "<group>"; };
 		6AF5794526AA9109007B37CA /* SpiralTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralTraverse.swift; sourceTree = "<group>"; };
 		6AF5794926AAC047007B37CA /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		6AF5794D26ABD338007B37CA /* BSTConstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTConstruction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5794C26ABD327007B37CA /* BST Construction */,
 				6AF5794826AAC03E007B37CA /* Merge Sort */,
 				6AF5794426AA90F8007B37CA /* Spiral Traverse */,
 				6AF5794026A9FF02007B37CA /* Single Cycle Check */,
@@ -689,6 +693,14 @@
 			path = "Merge Sort";
 			sourceTree = "<group>";
 		};
+		6AF5794C26ABD327007B37CA /* BST Construction */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5794D26ABD338007B37CA /* BSTConstruction.swift */,
+			);
+			path = "BST Construction";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -824,6 +836,7 @@
 				6AF578FB26A4B69F007B37CA /* BreadthFirstSearch.swift in Sources */,
 				6AF578C226A351F6007B37CA /* CaesarCipherEncryptor.swift in Sources */,
 				6AF578CB26A360C4007B37CA /* RunLengthEncoding.swift in Sources */,
+				6AF5794E26ABD338007B37CA /* BSTConstruction.swift in Sources */,
 				6AF578B326A2F62A007B37CA /* ProductSum.swift in Sources */,
 				6AF578A726A2E7CD007B37CA /* InsertionSort.swift in Sources */,
 				6AF5788626A2E67F007B37CA /* TwoNumberSum.swift in Sources */,
@@ -843,6 +856,7 @@
 				6AF5792E26A9E06C007B37CA /* FindLoop.swift in Sources */,
 				6AF578F026A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
 				6AF5793B26A9E332007B37CA /* TypeAliases.swift in Sources */,
+				6AF5794F26ABD338007B37CA /* BSTConstruction.swift in Sources */,
 				6AF578F426A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */,
 				6AF5790626A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF5791226A744AD007B37CA /* TicTacToeWinner.swift in Sources */,
