@@ -98,6 +98,8 @@
 		6AF5795326ABF532007B37CA /* ValidateBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5795126ABF532007B37CA /* ValidateBST.swift */; };
 		6AF5795626AC0FC9007B37CA /* BinaryTreeDiameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5795526AC0FC9007B37CA /* BinaryTreeDiameter.swift */; };
 		6AF5795726AC0FC9007B37CA /* BinaryTreeDiameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5795526AC0FC9007B37CA /* BinaryTreeDiameter.swift */; };
+		6AF5795A26AC287A007B37CA /* ThreeNumberSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5795926AC2879007B37CA /* ThreeNumberSort.swift */; };
+		6AF5795B26AC287A007B37CA /* ThreeNumberSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF5795926AC2879007B37CA /* ThreeNumberSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -174,6 +176,7 @@
 		6AF5794D26ABD338007B37CA /* BSTConstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSTConstruction.swift; sourceTree = "<group>"; };
 		6AF5795126ABF532007B37CA /* ValidateBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateBST.swift; sourceTree = "<group>"; };
 		6AF5795526AC0FC9007B37CA /* BinaryTreeDiameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeDiameter.swift; sourceTree = "<group>"; };
+		6AF5795926AC2879007B37CA /* ThreeNumberSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeNumberSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +229,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AF5795826AC286C007B37CA /* Three Number Sort */,
 				6AF5795426AC0FB9007B37CA /* Binary Tree Diameter */,
 				6AF5795026ABF524007B37CA /* Validate BST */,
 				6AF5794C26ABD327007B37CA /* BST Construction */,
@@ -725,6 +729,14 @@
 			path = "Binary Tree Diameter";
 			sourceTree = "<group>";
 		};
+		6AF5795826AC286C007B37CA /* Three Number Sort */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5795926AC2879007B37CA /* ThreeNumberSort.swift */,
+			);
+			path = "Three Number Sort";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -867,6 +879,7 @@
 				6AF5788626A2E67F007B37CA /* TwoNumberSum.swift in Sources */,
 				6AF5790926A6E0FC007B37CA /* BinarySearchTrees.swift in Sources */,
 				6AF578BC26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift in Sources */,
+				6AF5795A26AC287A007B37CA /* ThreeNumberSort.swift in Sources */,
 				6AF5790126A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */,
 				6AF578F326A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */,
 				6AF5795626AC0FC9007B37CA /* BinaryTreeDiameter.swift in Sources */,
@@ -880,6 +893,7 @@
 			files = (
 				6AF5792226A860E8007B37CA /* FirstDuplicateValue.swift in Sources */,
 				6AF5792E26A9E06C007B37CA /* FindLoop.swift in Sources */,
+				6AF5795B26AC287A007B37CA /* ThreeNumberSort.swift in Sources */,
 				6AF578F026A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
 				6AF5793B26A9E332007B37CA /* TypeAliases.swift in Sources */,
 				6AF5794F26ABD338007B37CA /* BSTConstruction.swift in Sources */,
