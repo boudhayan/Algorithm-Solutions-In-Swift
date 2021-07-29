@@ -11,10 +11,12 @@ class BinaryTree {
     var value: Int
     var left: BinaryTree?
     var right: BinaryTree?
+    var parent: BinaryTree?
     
     init(value: Int) {
         self.value = value
         self.left = nil
         self.right = nil
+        self.parent = nil
     }
 }
