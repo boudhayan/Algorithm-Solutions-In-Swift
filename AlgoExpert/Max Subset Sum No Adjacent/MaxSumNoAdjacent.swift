@@ -10,7 +10,7 @@ import Foundation
 /**
  Time Complexity: O(n)
  Space Complexity: O(n)
- Note: 
+ Note:
  */
 func maximumSubsetSum(array: [Int]) -> Int {
     guard !array.isEmpty else { return 0 }
@@ -26,3 +26,20 @@ func maximumSubsetSum(array: [Int]) -> Int {
     return maxSums[maxSums.count - 1]
 }
 
+/**
+ Time Complexity: O(n)
+ Space Complexity: O(1)
+ Note: 
+ */
+func maximumSubsetSum2(array: [Int]) -> Int {
+    if array.count == 0 { return 0 }
+    if array.count == 1 { return array[0] }
+    var second = array[0]
+    var first = max(array[0], array[1])
+    for idx in 2..<array.count {
+        let temp = first
+        first = max(first, second + array[idx])
+        second = temp
+    }
+    return first
+}

@@ -49,4 +49,4 @@ bt.right = BinaryTree(value: 3)
 
 var array = [0, 1]
 let node: BinaryTree? = bt.left?.right
-print(findSuccessor(bt, node!))
+print(maximumSubsetSum(array: [75, 105, 120, 75, 90, 135]))
