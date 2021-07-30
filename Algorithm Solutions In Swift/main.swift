@@ -54,5 +54,8 @@ llist1.adding(4).adding(7).adding(1)
 llist1.traverse()
 
 var llist2 = LinkedList(value: 9)
-llist2.adding(4).adding(2)
+llist2.adding(4).adding(5)
 llist2.traverse()
+
+var list = sumOfLinkedLists(llist1, llist2)
+list!.traverse()
