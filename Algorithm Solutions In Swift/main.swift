@@ -49,4 +49,10 @@ bt.right = BinaryTree(value: 3)
 
 var intervals = [[1, 22], [-20, 30]]
 
-print(mergeOverlappingIntervals(intervals))
+var llist1 = LinkedList(value: 2)
+llist1.adding(4).adding(7).adding(1)
+llist1.traverse()
+
+var llist2 = LinkedList(value: 9)
+llist2.adding(4).adding(2)
+llist2.traverse()

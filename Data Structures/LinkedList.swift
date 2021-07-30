@@ -17,4 +17,24 @@ class LinkedList {
     }
 }
 
+extension LinkedList {
+    func traverse() {
+        var current: LinkedList? = self
+        while current != nil {
+            print("\(current!.value) >> ", terminator: "")
+            current = current?.next
+        }
+        print("\n")
+    }
+    
+    @discardableResult func adding(_ value: Int) -> LinkedList {
+        var current: LinkedList? = self
+        while current?.next != nil {
+            current = current?.next
+        }
+        current?.next = LinkedList(value: value)
+        return self
+    }
+}
+
 
