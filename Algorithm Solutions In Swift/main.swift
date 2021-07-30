@@ -47,6 +47,6 @@ bt.left?.right = BinaryTree(value: 5)
 bt.left?.left?.left = BinaryTree(value: 6)
 bt.right = BinaryTree(value: 3)
 
-var array = [0, 1]
-let node: BinaryTree? = bt.left?.right
-print(maximumSubsetSum(array: [75, 105, 120, 75, 90, 135]))
+var intervals = [[1, 22], [-20, 30]]
+
+print(mergeOverlappingIntervals(intervals))
