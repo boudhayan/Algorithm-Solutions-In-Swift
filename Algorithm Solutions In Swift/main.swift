@@ -60,4 +60,4 @@ llist2.traverse()
 var list = sumOfLinkedLists(llist1, llist2)
 list!.traverse()
 
-print(subarraySort(array: [1, 2, 4, 7, 10, 11, 7, 12, 7, 7, 16, 18, 19]))
+print(fourNumberSum(array: [7, 6, 4, -1, 1, 2], targetSum: 16))
