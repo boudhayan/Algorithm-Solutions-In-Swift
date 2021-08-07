@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
+		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D2E26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */; };
@@ -133,6 +135,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSuccessor.swift; sourceTree = "<group>"; };
 		6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumNoAdjacent.swift; sourceTree = "<group>"; };
 		6AE51D3426B3343A00102A7C /* RemoveKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKthNodeFromEnd.swift; sourceTree = "<group>"; };
@@ -224,6 +227,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
+			isa = PBXGroup;
+			children = (
+				6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */,
+			);
+			path = "3D Surface Area";
+			sourceTree = "<group>";
+		};
 		6AE51D2B26B2995E00102A7C /* Find Successor */ = {
 			isa = PBXGroup;
 			children = (
@@ -654,6 +665,7 @@
 		6AF578FE26A5ACA3007B37CA /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
+				6A88CED526BF03EA00A3746B /* 3D Surface Area */,
 				6AF5791B26A82AAF007B37CA /* Encryption */,
 				6AF5791726A75649007B37CA /* Almost Sorted */,
 				6AF5791326A74CBA007B37CA /* Count Pairs */,
@@ -949,6 +961,7 @@
 				6AF578E326A3E024007B37CA /* SmallestDifference.swift in Sources */,
 				6AF578E726A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
 				6AE51D3D26B3C89C00102A7C /* SumOfLinkedList.swift in Sources */,
+				6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */,
 				6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */,
 				6AF5791126A744AC007B37CA /* TicTacToeWinner.swift in Sources */,
 				6AF578AA26A2E7DE007B37CA /* SelectionSort.swift in Sources */,
@@ -1030,6 +1043,7 @@
 				6AF5790E26A6EECD007B37CA /* BitwiseAND.swift in Sources */,
 				6AF5794B26AAC047007B37CA /* MergeSort.swift in Sources */,
 				6AF578F826A4B207007B37CA /* BSTTraversal.swift in Sources */,
+				6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */,
 				6AF578E826A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
 				6AF5792626A863A6007B37CA /* MinHeightBST.swift in Sources */,
 				6AF5790226A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */,

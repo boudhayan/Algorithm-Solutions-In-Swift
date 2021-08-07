@@ -60,4 +60,9 @@ llist2.traverse()
 var list = sumOfLinkedLists(llist1, llist2)
 list!.traverse()
 
-print(largestRange(array: [1]))
+let surface = [
+    [1, 3, 4],
+    [2, 2, 3],
+    [1, 2, 4]
+]
+print(surfaceArea(A: surface))
