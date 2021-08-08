@@ -13,6 +13,8 @@
 		6A88CEDC26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
 		6A88CEDF26BFD73500A3746B /* SearchInSortedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */; };
 		6A88CEE026BFD73500A3746B /* SearchInSortedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */; };
+		6A88CEE326BFDC2100A3746B /* ShiftedBinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEE226BFDC2100A3746B /* ShiftedBinarySearch.swift */; };
+		6A88CEE426BFDC2100A3746B /* ShiftedBinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEE226BFDC2100A3746B /* ShiftedBinarySearch.swift */; };
 		6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D2E26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */; };
@@ -142,6 +144,7 @@
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
+		6A88CEE226BFDC2100A3746B /* ShiftedBinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftedBinarySearch.swift; sourceTree = "<group>"; };
 		6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSuccessor.swift; sourceTree = "<group>"; };
 		6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumNoAdjacent.swift; sourceTree = "<group>"; };
 		6AE51D3426B3343A00102A7C /* RemoveKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKthNodeFromEnd.swift; sourceTree = "<group>"; };
@@ -257,6 +260,14 @@
 			path = "Search In Sorted Matrix";
 			sourceTree = "<group>";
 		};
+		6A88CEE126BFDC1300A3746B /* Shifted Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				6A88CEE226BFDC2100A3746B /* ShiftedBinarySearch.swift */,
+			);
+			path = "Shifted Binary Search";
+			sourceTree = "<group>";
+		};
 		6AE51D2B26B2995E00102A7C /* Find Successor */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +364,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A88CEE126BFDC1300A3746B /* Shifted Binary Search */,
 				6A88CEDD26BFD72900A3746B /* Search In Sorted Matrix */,
 				6A88CED926BFB9C800A3746B /* ZigZag Traverse */,
 				6AE51D4726B9CFBA00102A7C /* Largest Range */,
@@ -1014,6 +1026,7 @@
 				6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */,
 				6AF5787D26A2E60E007B37CA /* main.swift in Sources */,
 				6AF5793426A9E11A007B37CA /* BinaryTree.swift in Sources */,
+				6A88CEE326BFDC2100A3746B /* ShiftedBinarySearch.swift in Sources */,
 				6AF5793E26A9F609007B37CA /* LongestPeak.swift in Sources */,
 				6AE51D4526B9C62000102A7C /* FourNumberSum.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
@@ -1085,6 +1098,7 @@
 				6AF5791E26A82ABE007B37CA /* Encryption.swift in Sources */,
 				6AF578DA26A378F0007B37CA /* BubbleSort.swift in Sources */,
 				6AF5794326A9FF10007B37CA /* SingleCycleCheck.swift in Sources */,
+				6A88CEE426BFDC2100A3746B /* ShiftedBinarySearch.swift in Sources */,
 				6AF5793826A9E1DD007B37CA /* BinarySearchTree.swift in Sources */,
 				6AF5792A26A9D7B3007B37CA /* QuickSort.swift in Sources */,
 				6AF5791A26A75668007B37CA /* AlmostSorted.swift in Sources */,

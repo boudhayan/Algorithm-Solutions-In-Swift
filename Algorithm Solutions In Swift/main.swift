@@ -54,4 +54,4 @@ var arrayToTraverse = [
     [7, 13, 14, 16]
 ]
 
-print(zigZagTraverse(array: arrayToTraverse))
+print(shiftedBinarySearch([3, 4, 1, 2], 2))
