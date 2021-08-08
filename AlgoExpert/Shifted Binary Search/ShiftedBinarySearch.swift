@@ -10,8 +10,9 @@ import Foundation
 /**
  Time Complexity: O(logn)
  Space Complexity: O(1)
- Note: 
+ Note:
  */
+
 func shiftedBinarySearch(_ array: [Int], _ target: Int) -> Int {
     var left = 0
     var right = array.count - 1
@@ -23,7 +24,7 @@ func shiftedBinarySearch(_ array: [Int], _ target: Int) -> Int {
         if potentialMatch == target {
             return mid
         } else if leftNumber < potentialMatch {
-            if target < potentialMatch, target >= leftNumber {
+            if target >= leftNumber, target < potentialMatch {
                 right = mid - 1
             } else {
                 left = mid + 1

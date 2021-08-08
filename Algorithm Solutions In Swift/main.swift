@@ -54,4 +54,4 @@ var arrayToTraverse = [
     [7, 13, 14, 16]
 ]
 
-print(shiftedBinarySearch([3, 4, 1, 2], 2))
+print(shiftedBinarySearch([4, 5, 6, 1, 2, 3], 2))
