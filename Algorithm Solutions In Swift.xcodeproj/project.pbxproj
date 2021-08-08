@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
+		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
+		6A88CEDC26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
 		6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D2E26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */; };
@@ -136,6 +138,7 @@
 
 /* Begin PBXFileReference section */
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
+		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSuccessor.swift; sourceTree = "<group>"; };
 		6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumNoAdjacent.swift; sourceTree = "<group>"; };
 		6AE51D3426B3343A00102A7C /* RemoveKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKthNodeFromEnd.swift; sourceTree = "<group>"; };
@@ -235,6 +238,14 @@
 			path = "3D Surface Area";
 			sourceTree = "<group>";
 		};
+		6A88CED926BFB9C800A3746B /* ZigZag Traverse */ = {
+			isa = PBXGroup;
+			children = (
+				6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */,
+			);
+			path = "ZigZag Traverse";
+			sourceTree = "<group>";
+		};
 		6AE51D2B26B2995E00102A7C /* Find Successor */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +342,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A88CED926BFB9C800A3746B /* ZigZag Traverse */,
 				6AE51D4726B9CFBA00102A7C /* Largest Range */,
 				6AE51D4326B9C61200102A7C /* Four Number Sum */,
 				6AE51D3F26B5523700102A7C /* Subarray Sort */,
@@ -947,6 +959,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF578F726A4B207007B37CA /* BSTTraversal.swift in Sources */,
+				6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */,
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
 				6AF5790D26A6EECD007B37CA /* BitwiseAND.swift in Sources */,
@@ -1022,6 +1035,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF5792226A860E8007B37CA /* FirstDuplicateValue.swift in Sources */,
+				6A88CEDC26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */,
 				6AE51D3226B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */,
 				6AF5795F26AC2BA0007B37CA /* LinkedListConstruction.swift in Sources */,
 				6AF5792E26A9E06C007B37CA /* FindLoop.swift in Sources */,

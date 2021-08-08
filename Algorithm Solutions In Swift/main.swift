@@ -47,22 +47,11 @@ bt.left?.right = BinaryTree(value: 5)
 bt.left?.left?.left = BinaryTree(value: 6)
 bt.right = BinaryTree(value: 3)
 
-var intervals = [[1, 22], [-20, 30]]
-
-var llist1 = LinkedList(value: 2)
-llist1.adding(4).adding(7).adding(1)
-llist1.traverse()
-
-var llist2 = LinkedList(value: 9)
-llist2.adding(4).adding(5)
-llist2.traverse()
-
-var list = sumOfLinkedLists(llist1, llist2)
-list!.traverse()
-
-let surface = [
-    [1, 3, 4],
-    [2, 2, 3],
-    [1, 2, 4]
+var arrayToTraverse = [
+    [1, 3,  4,  10],
+    [2, 5,  9,  11],
+    [6, 8,  12, 15],
+    [7, 13, 14, 16]
 ]
-print(surfaceArea(A: surface))
+
+print(zigZagTraverse(array: arrayToTraverse))
