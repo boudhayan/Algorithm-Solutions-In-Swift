@@ -53,5 +53,5 @@ var arrayToTraverse = [
     [6, 8,  12, 15],
     [7, 13, 14, 16]
 ]
-
-print(shiftedBinarySearch([4, 5, 6, 1, 2, 3], 2))
+//[[1, 3], [2, 6], [8, 10], [15, 18]]
+print(merge([[1, 4], [4, 5]]))
