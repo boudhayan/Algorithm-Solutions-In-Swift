@@ -35,6 +35,8 @@
 		6A88CF0926C915B100A3746B /* MergeSortRecursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CF0726C915B100A3746B /* MergeSortRecursion.swift */; };
 		6A88CF0C26C98D8300A3746B /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CF0B26C98D8300A3746B /* ReverseLinkedList.swift */; };
 		6A88CF0D26C98D8300A3746B /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CF0B26C98D8300A3746B /* ReverseLinkedList.swift */; };
+		6A88CF1026C995F700A3746B /* MergeListLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CF0F26C995F700A3746B /* MergeListLists.swift */; };
+		6A88CF1126C995F700A3746B /* MergeListLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CF0F26C995F700A3746B /* MergeListLists.swift */; };
 		6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D2E26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */; };
@@ -175,6 +177,7 @@
 		6A88CF0326C8E22A00A3746B /* NaturalNumberSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalNumberSum.swift; sourceTree = "<group>"; };
 		6A88CF0726C915B100A3746B /* MergeSortRecursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortRecursion.swift; sourceTree = "<group>"; };
 		6A88CF0B26C98D8300A3746B /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		6A88CF0F26C995F700A3746B /* MergeListLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeListLists.swift; sourceTree = "<group>"; };
 		6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSuccessor.swift; sourceTree = "<group>"; };
 		6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumNoAdjacent.swift; sourceTree = "<group>"; };
 		6AE51D3426B3343A00102A7C /* RemoveKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKthNodeFromEnd.swift; sourceTree = "<group>"; };
@@ -387,6 +390,14 @@
 			path = "Reverse Linkedlist";
 			sourceTree = "<group>";
 		};
+		6A88CF0E26C995EA00A3746B /* Merge LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				6A88CF0F26C995F700A3746B /* MergeListLists.swift */,
+			);
+			path = "Merge LinkedLists";
+			sourceTree = "<group>";
+		};
 		6AE51D2B26B2995E00102A7C /* Find Successor */ = {
 			isa = PBXGroup;
 			children = (
@@ -484,6 +495,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A88CF0E26C995EA00A3746B /* Merge LinkedLists */,
 				6A88CF0A26C98D7600A3746B /* Reverse Linkedlist */,
 				6A88CEF226C5AE4000A3746B /* Longest Palindromic Substring */,
 				6A88CEEE26C44FD400A3746B /* Search For Range */,
@@ -1114,6 +1126,7 @@
 				6A88CF0426C8E22A00A3746B /* NaturalNumberSum.swift in Sources */,
 				6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */,
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
+				6A88CF1026C995F700A3746B /* MergeListLists.swift in Sources */,
 				6AF578C526A35410007B37CA /* ThreeLargestNumbers.swift in Sources */,
 				6AF5790D26A6EECD007B37CA /* BitwiseAND.swift in Sources */,
 				6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */,
@@ -1204,6 +1217,7 @@
 				6A88CEDC26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */,
 				6AE51D3226B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */,
 				6AF5795F26AC2BA0007B37CA /* LinkedListConstruction.swift in Sources */,
+				6A88CF1126C995F700A3746B /* MergeListLists.swift in Sources */,
 				6A88CEF526C5AE5A00A3746B /* LongestPalindromicSubstring.swift in Sources */,
 				6AF5792E26A9E06C007B37CA /* FindLoop.swift in Sources */,
 				6AF5795B26AC287A007B37CA /* ThreeNumberSort.swift in Sources */,
