@@ -7,7 +7,7 @@
 
 import Foundation
 
-func isPalindrome(string: String) -> Bool {
+func isPalindromeString(_ string: String) -> Bool {
     return isPalindromeHelper(string: string, firstIndex: string.startIndex, lastIndex: string.index(before: string.endIndex))
 }
 
