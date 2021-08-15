@@ -54,4 +54,4 @@ var arrayToTraverse = [
     [7, 13, 14, 16]
 ]
 //[0, 1, 21, 33, 45, 45, 45, 45, 45, 45, 61, 72, 73]
-print(searchForRange([0, 1, 21, 33, 45, 45, 45, 45, 45, 45, 61, 72, 73], 73))
+print(longestPalindromicSubstring(string: "abaxyzzyxf"))
