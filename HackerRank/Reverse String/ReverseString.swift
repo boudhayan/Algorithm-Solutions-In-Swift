@@ -15,5 +15,5 @@ func reverse(string: String, index: String.Index) -> String {
     if index == string.endIndex {
         return ""
     }
-    return reverse(string: string, index: value.index(index, offsetBy: 1)) + String(string[index])
+    return reverse(string: string, index: string.index(index, offsetBy: 1)) + String(string[index])
 }
