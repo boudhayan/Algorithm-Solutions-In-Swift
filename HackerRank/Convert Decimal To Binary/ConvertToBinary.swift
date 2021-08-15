@@ -27,5 +27,5 @@ func convertIntoBinaryHelper(number: Int) -> String {
     }
     let divisionByTwo = number / 2
     let remainder = number % 2
-    return String(remainder) + convertIntoBinaryHelper(number: divisionByTwo)
+    return convertIntoBinaryHelper(number: divisionByTwo) + String(remainder)
 }
