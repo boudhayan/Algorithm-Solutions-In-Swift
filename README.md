@@ -52,4 +52,24 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 28. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Merge%20Overlapping%20Intervals">Merge Overlapping Intervals</a>
 29. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Merge%20Sort">Merge Sort</a>
 30. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Min%20Height%20BST">Minimum Height Binary Search Tree</a>
+31. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Minimum%20Waiting%20Time">Minimum Waiting Time</a>
+32. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Monotonic%20Array">Monotonic Array</a>
+33. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Move%20Element%20to%20End">Move Element To End</a>
+34. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Node%20Depths">Node Depths</a>
+35. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Non-Constructible%20Change">Non-Constructible Change</a>
+36. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Nth%20Fibonacci">Nth Fibonacci Number</a>
+37. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Palindrome%20Check">Palindrome Check</a>
+38. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Product%20Sum">Prodcut Sum</a>
+39. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Quick%20Sort">Quick Sort</a>
+40. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Remove%20Duplicates%20From%20Linked%20List">Remove Duplicates From Linked List</a>
+41. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Remove%20Kth%20Node%20From%20End">Remove kth Node From End</a>
+42. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Reverse%20Linkedlist">Reverse Linkedlist</a>
+43. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Run%20Length%20Encoding">Run Length Encoding</a>
+44. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Search%20For%20Range">Search For Range</a>
+45. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Search%20In%20Sorted%20Matrix">Search in Sorted Matrix</a>
+46. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Selection%20Sort">Selection Sort</a>
+47. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Shifted%20Binary%20Search">Shifted Binary Search</a>
+48. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Single%20Cycle%20Check">Single Cycle Check</a>
+49. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Smallest%20Difference">Smallest Difference</a>
+50. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Sorted%20Squared%20Array">Sorted Squared Array</a>
 
