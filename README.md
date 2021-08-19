@@ -1,6 +1,6 @@
 # Algorithm in Swift
 This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
-
+<a href=""></a>
 ### HackerRank
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">3D Surface Area</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Almost%20Sorted">Almost Sorted</a>
@@ -18,4 +18,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Tic Tac Toe Winner</a>
 
 ### LeetCode
+1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">3 Sum Closest</a>
+2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Intervals">Merge Intervals</a>
+
 ### AlgoExpert
