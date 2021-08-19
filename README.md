@@ -72,4 +72,15 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 48. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Single%20Cycle%20Check">Single Cycle Check</a>
 49. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Smallest%20Difference">Smallest Difference</a>
 50. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Sorted%20Squared%20Array">Sorted Squared Array</a>
+51. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Spiral%20Traverse">Spiral Traverse</a>
+52. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Subarray%20Sort">Subarray Sort</a>
+53. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Sum%20of%20Linked%20List">Sum of Linkedlist</a>
+54. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Tandem%20Bicycle">Tandem Bicycle</a>
+55. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Three%20Number%20Sort">Three Number Sort</a>
+56. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Three%20Number%20Sum">Three Number Sum</a>
+57. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Tournament%20Winner">Tournament Winner</a>
+58. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Two%20Number%20Sum">Two Number Sum</a>
+59. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Validate%20BST">Validate Binary Search Tree</a>
+60. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Validate%20Subsequence">Validate Subsequence</a>
+61. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse">ZigZag Traverse</a>
 
