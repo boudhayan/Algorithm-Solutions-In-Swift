@@ -16,6 +16,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 12. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Reverse%20String">Reverse String</a>
 13. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Sum%20of%20Natural%20Number">Sum of Natural Number</a>
 14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Tic Tac Toe Winner</a>
+15. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Two%20Strings">Two Strings</a>
 
 ### LeetCode
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">3 Sum Closest</a>
