@@ -39,6 +39,9 @@
 		6A88CF1126C995F700A3746B /* MergeListLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CF0F26C995F700A3746B /* MergeListLists.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
+		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
+		6ABE6FCF26FD073300C6E524 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCE26FD073300C6E524 /* MajorityElement.swift */; };
+		6ABE6FD126FD075500C6E524 /* ThreeSumZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FD026FD075500C6E524 /* ThreeSumZero.swift */; };
 		6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D2E26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */; };
@@ -182,6 +185,9 @@
 		6A88CF0F26C995F700A3746B /* MergeListLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeListLists.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
+		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		6ABE6FCE26FD073300C6E524 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		6ABE6FD026FD075500C6E524 /* ThreeSumZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumZero.swift; sourceTree = "<group>"; };
 		6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSuccessor.swift; sourceTree = "<group>"; };
 		6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumNoAdjacent.swift; sourceTree = "<group>"; };
 		6AE51D3426B3343A00102A7C /* RemoveKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKthNodeFromEnd.swift; sourceTree = "<group>"; };
@@ -308,6 +314,9 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6ABE6FCB26FD070A00C6E524 /* Three Sum Zero */,
+				6ABE6FCA26FD06F800C6E524 /* Majority Element */,
+				6ABE6FC926FD06E800C6E524 /* Single Number */,
 				6ABE6FC626FC635500C6E524 /* Divide Two Integers */,
 				6A88CEEA26C3132700A3746B /* Merge Intervals */,
 				6A88CEE626C056BD00A3746B /* 3 Sum Closest */,
@@ -417,6 +426,30 @@
 				6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */,
 			);
 			path = "Divide Two Integers";
+			sourceTree = "<group>";
+		};
+		6ABE6FC926FD06E800C6E524 /* Single Number */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */,
+			);
+			path = "Single Number";
+			sourceTree = "<group>";
+		};
+		6ABE6FCA26FD06F800C6E524 /* Majority Element */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE6FCE26FD073300C6E524 /* MajorityElement.swift */,
+			);
+			path = "Majority Element";
+			sourceTree = "<group>";
+		};
+		6ABE6FCB26FD070A00C6E524 /* Three Sum Zero */ = {
+			isa = PBXGroup;
+			children = (
+				6ABE6FD026FD075500C6E524 /* ThreeSumZero.swift */,
+			);
+			path = "Three Sum Zero";
 			sourceTree = "<group>";
 		};
 		6AE51D2B26B2995E00102A7C /* Find Successor */ = {
@@ -1145,6 +1178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF578F726A4B207007B37CA /* BSTTraversal.swift in Sources */,
+				6ABE6FCF26FD073300C6E524 /* MajorityElement.swift in Sources */,
 				6A88CF0426C8E22A00A3746B /* NaturalNumberSum.swift in Sources */,
 				6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */,
 				6AF5789B26A2E73A007B37CA /* NodeDpeths.swift in Sources */,
@@ -1176,6 +1210,7 @@
 				6AF5789E26A2E74D007B37CA /* DepthFirstSearch.swift in Sources */,
 				6AF578BF26A3507B007B37CA /* PalindromeCheck.swift in Sources */,
 				6AF578B926A34AD6007B37CA /* TandemBicycle.swift in Sources */,
+				6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */,
 				6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */,
 				6AE51D3926B3C20500102A7C /* MergeOverlappingIntervals.swift in Sources */,
 				6AF5789826A2E728007B37CA /* BranchSums.swift in Sources */,
@@ -1224,6 +1259,7 @@
 				6AF578BC26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift in Sources */,
 				6AF5795A26AC287A007B37CA /* ThreeNumberSort.swift in Sources */,
 				6AF5790126A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */,
+				6ABE6FD126FD075500C6E524 /* ThreeSumZero.swift in Sources */,
 				6AF578F326A4AF2F007B37CA /* InvertBinaryTree.swift in Sources */,
 				6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */,
 				6AF5795626AC0FC9007B37CA /* BinaryTreeDiameter.swift in Sources */,
