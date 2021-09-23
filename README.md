@@ -25,6 +25,9 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 4. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Single%20Number">Single Number</a>
 5. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Majority%20Element">Majority Element</a>
 6. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Three%20Sum%20Zero">Three Number Sum Zero</a>
+7. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Binary%20Search">Binary Search</a>
+8. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/First%20Bad%20Version">First Bad Version</a>
+9. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Search%20Insert%20Position">Search Insert Position</a>
 
 
 ### AlgoExpert
