@@ -21,6 +21,11 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 ### LeetCode
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">3 Sum Closest</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Intervals">Merge Intervals</a>
+3. <a href="">Divide Two Integers</a>
+4. <a href="">Single Number</a>
+5. <a href="">Majority Element</a>
+6. <a href="">Three Number Sum Zero</a>
+
 
 ### AlgoExpert
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/%20Breadth%20First%20Search">Breadth First Search</a>
