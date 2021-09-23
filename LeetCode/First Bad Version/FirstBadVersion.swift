@@ -25,4 +25,5 @@ func firstBadVersion(_ n: Int) -> Int {
 
 func isBadVersion(_ version: Int) -> Bool {
     //implementation needed
+    return true
 }
