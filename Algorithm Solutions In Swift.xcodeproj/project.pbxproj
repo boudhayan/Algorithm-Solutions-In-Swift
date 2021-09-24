@@ -320,6 +320,9 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A91240426FE5B7400D50C17 /* Design HashMap */,
+				6A91240326FE5B5700D50C17 /* Merge Intervals */,
+				6A91240226FE5B4800D50C17 /* Sort Colors */,
 				6ABE6FD426FD0F0300C6E524 /* Search Insert Position */,
 				6ABE6FD326FD0EE300C6E524 /* First Bad Version */,
 				6ABE6FD226FD0ED300C6E524 /* Binary Search */,
@@ -419,6 +422,28 @@
 				6A88CF0F26C995F700A3746B /* MergeListLists.swift */,
 			);
 			path = "Merge LinkedLists";
+			sourceTree = "<group>";
+		};
+		6A91240226FE5B4800D50C17 /* Sort Colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sort Colors";
+			sourceTree = "<group>";
+		};
+		6A91240326FE5B5700D50C17 /* Merge Intervals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Merge Intervals";
+			path = "../../../Merge Intervals";
+			sourceTree = "<group>";
+		};
+		6A91240426FE5B7400D50C17 /* Design HashMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Design HashMap";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
