@@ -28,11 +28,11 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 7. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Binary%20Search">Binary Search</a>
 8. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/First%20Bad%20Version">First Bad Version</a>
 9. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Search%20Insert%20Position">Search Insert Position</a>
-10. <a href="">Merge Intervals</a>
-11. <a href="">Sort Colors</a>
-12. <a href="">Design HashMap</a>
-13. <a href="">Squares of a Sorted Array</a>
-14. <a href="">Rotate Array</a>
+10. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Intervals">Merge Intervals</a>
+11. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Sort%20Colors">Sort Colors</a>
+12. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Design%20HashMap">Design HashMap</a>
+13. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Squares%20of%20a%20Sorted%20Array">Squares of a Sorted Array</a>
+14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Rotate%20Array">Rotate Array</a>
 
 
 ### AlgoExpert
