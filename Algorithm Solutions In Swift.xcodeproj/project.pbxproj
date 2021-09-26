@@ -330,6 +330,11 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A912418270080FF00D50C17 /* Spiral Matrix II */,
+				6A912417270080E300D50C17 /* Rotate Image */,
+				6A91241627007C4900D50C17 /* Pascal's Triangle II */,
+				6A91241527007BFB00D50C17 /* Two Number Sum - Sorted Input Array */,
+				6A91241427007BE800D50C17 /* Move Zeros to End */,
 				6A91240F26FE5D4900D50C17 /* Rotate Array */,
 				6A91240E26FE5D2C00D50C17 /* Squares of a Sorted Array */,
 				6A91240B26FE5CA100D50C17 /* MergeIntervals */,
@@ -474,6 +479,41 @@
 				6A91241026FE5D5A00D50C17 /* RotateArray.swift */,
 			);
 			path = "Rotate Array";
+			sourceTree = "<group>";
+		};
+		6A91241427007BE800D50C17 /* Move Zeros to End */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Move Zeros to End";
+			sourceTree = "<group>";
+		};
+		6A91241527007BFB00D50C17 /* Two Number Sum - Sorted Input Array */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Two Number Sum - Sorted Input Array";
+			sourceTree = "<group>";
+		};
+		6A91241627007C4900D50C17 /* Pascal's Triangle II */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Pascal's Triangle II";
+			sourceTree = "<group>";
+		};
+		6A912417270080E300D50C17 /* Rotate Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Rotate Image";
+			sourceTree = "<group>";
+		};
+		6A912418270080FF00D50C17 /* Spiral Matrix II */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Spiral Matrix II";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
