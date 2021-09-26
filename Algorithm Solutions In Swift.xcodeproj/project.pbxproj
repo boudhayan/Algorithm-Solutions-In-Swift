@@ -42,6 +42,7 @@
 		6A91240D26FE5CB000D50C17 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91240C26FE5CB000D50C17 /* MergeIntervals.swift */; };
 		6A91241126FE5D5A00D50C17 /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91241026FE5D5A00D50C17 /* RotateArray.swift */; };
 		6A91241326FE5D6B00D50C17 /* SortedArraySquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91241226FE5D6B00D50C17 /* SortedArraySquares.swift */; };
+		6A91241A2700812700D50C17 /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124192700812700D50C17 /* PascalsTriangleII.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -196,6 +197,7 @@
 		6A91240C26FE5CB000D50C17 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		6A91241026FE5D5A00D50C17 /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 		6A91241226FE5D6B00D50C17 /* SortedArraySquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArraySquares.swift; sourceTree = "<group>"; };
+		6A9124192700812700D50C17 /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -498,6 +500,7 @@
 		6A91241627007C4900D50C17 /* Pascal's Triangle II */ = {
 			isa = PBXGroup;
 			children = (
+				6A9124192700812700D50C17 /* PascalsTriangleII.swift */,
 			);
 			path = "Pascal's Triangle II";
 			sourceTree = "<group>";
@@ -1306,6 +1309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF578F726A4B207007B37CA /* BSTTraversal.swift in Sources */,
+				6A91241A2700812700D50C17 /* PascalsTriangleII.swift in Sources */,
 				6ABE6FCF26FD073300C6E524 /* MajorityElement.swift in Sources */,
 				6A88CF0426C8E22A00A3746B /* NaturalNumberSum.swift in Sources */,
 				6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */,
