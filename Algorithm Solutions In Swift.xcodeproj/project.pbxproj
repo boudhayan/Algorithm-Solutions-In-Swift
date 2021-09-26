@@ -44,6 +44,7 @@
 		6A91241326FE5D6B00D50C17 /* SortedArraySquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91241226FE5D6B00D50C17 /* SortedArraySquares.swift */; };
 		6A91241A2700812700D50C17 /* PascalsTriangleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124192700812700D50C17 /* PascalsTriangleII.swift */; };
 		6A91241C2700815D00D50C17 /* RotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91241B2700815D00D50C17 /* RotateImage.swift */; };
+		6A91241E270081A000D50C17 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91241D270081A000D50C17 /* SpiralMatrix.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -200,6 +201,7 @@
 		6A91241226FE5D6B00D50C17 /* SortedArraySquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArraySquares.swift; sourceTree = "<group>"; };
 		6A9124192700812700D50C17 /* PascalsTriangleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalsTriangleII.swift; sourceTree = "<group>"; };
 		6A91241B2700815D00D50C17 /* RotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateImage.swift; sourceTree = "<group>"; };
+		6A91241D270081A000D50C17 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -518,6 +520,7 @@
 		6A912418270080FF00D50C17 /* Spiral Matrix II */ = {
 			isa = PBXGroup;
 			children = (
+				6A91241D270081A000D50C17 /* SpiralMatrix.swift */,
 			);
 			path = "Spiral Matrix II";
 			sourceTree = "<group>";
@@ -1372,6 +1375,7 @@
 				6AF5787D26A2E60E007B37CA /* main.swift in Sources */,
 				6AF5793426A9E11A007B37CA /* BinaryTree.swift in Sources */,
 				6A88CEE326BFDC2100A3746B /* ShiftedBinarySearch.swift in Sources */,
+				6A91241E270081A000D50C17 /* SpiralMatrix.swift in Sources */,
 				6A91241126FE5D5A00D50C17 /* RotateArray.swift in Sources */,
 				6AF5793E26A9F609007B37CA /* LongestPeak.swift in Sources */,
 				6A88CEF426C5AE5A00A3746B /* LongestPalindromicSubstring.swift in Sources */,
