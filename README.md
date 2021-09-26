@@ -35,7 +35,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Rotate%20Array">Rotate Array</a>
 15. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Move%20Zeros%20to%20End">Move Zeros to End</a>
 16. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Two%20Number%20Sum%20-%20Sorted%20Input%20Array">Two Sum - Input Array Sorted</a>
-17. <a href="">Pascal's Triangle - II</a>
+17. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Pascal's%20Triangle%20II">Pascal's Triangle - II</a>
 18. <a href="">Rotate Image</a>
 19. <a href="">Spiral Matix II</a>
 
