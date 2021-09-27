@@ -344,6 +344,8 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A91242C27023BB700D50C17 /* Reverse Words in a String */,
+				6A91242B27023B9700D50C17 /* Reverse String */,
 				6A91242427023A4F00D50C17 /* Non-Overlapping Intervals */,
 				6A91242327023A3A00D50C17 /* Search a 2D Matrix II */,
 				6A912418270080FF00D50C17 /* Spiral Matrix II */,
@@ -551,6 +553,20 @@
 				6A91242927023AE500D50C17 /* Non-OverlappingIntervals.swift */,
 			);
 			path = "Non-Overlapping Intervals";
+			sourceTree = "<group>";
+		};
+		6A91242B27023B9700D50C17 /* Reverse String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Reverse String";
+			sourceTree = "<group>";
+		};
+		6A91242C27023BB700D50C17 /* Reverse Words in a String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Reverse Words in a String";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
