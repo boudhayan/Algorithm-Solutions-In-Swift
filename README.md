@@ -38,8 +38,8 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 17. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Pascal's%20Triangle%20II">Pascal's Triangle - II</a>
 18. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Rotate%20Image">Rotate Image</a>
 19. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Spiral%20Matrix%20II">Spiral Matix II</a>
-20. <a href="">Reverse String</a>
-21. <a href="">Reverse Words in a String</a>
+20. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Reverse%20String">Reverse String</a>
+21. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Reverse%20Words%20in%20a%20String">Reverse Words in a String</a>
 22. <a href="">Search in a 2D Matrix</a>
 23. <a href="">Erase Overlapping Intervals</a>
 
