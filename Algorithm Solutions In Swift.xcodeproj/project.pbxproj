@@ -50,6 +50,7 @@
 		6A91242827023ACC00D50C17 /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91242727023ACC00D50C17 /* Search2DMatrix.swift */; };
 		6A91242A27023AE500D50C17 /* Non-OverlappingIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91242927023AE500D50C17 /* Non-OverlappingIntervals.swift */; };
 		6A91242E27023BCF00D50C17 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91242D27023BCF00D50C17 /* ReverseString.swift */; };
+		6A91243027023BF200D50C17 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91242F27023BF200D50C17 /* ReverseWords.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -212,6 +213,7 @@
 		6A91242727023ACC00D50C17 /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
 		6A91242927023AE500D50C17 /* Non-OverlappingIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Non-OverlappingIntervals.swift"; sourceTree = "<group>"; };
 		6A91242D27023BCF00D50C17 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		6A91242F27023BF200D50C17 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -568,6 +570,7 @@
 		6A91242C27023BB700D50C17 /* Reverse Words in a String */ = {
 			isa = PBXGroup;
 			children = (
+				6A91242F27023BF200D50C17 /* ReverseWords.swift */,
 			);
 			path = "Reverse Words in a String";
 			sourceTree = "<group>";
@@ -1385,6 +1388,7 @@
 				6AF578E726A3E320007B37CA /* MoveElementToEnd.swift in Sources */,
 				6AE51D3D26B3C89C00102A7C /* SumOfLinkedList.swift in Sources */,
 				6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */,
+				6A91243027023BF200D50C17 /* ReverseWords.swift in Sources */,
 				6A88CEF826C8D61900A3746B /* ReverseString.swift in Sources */,
 				6A88CF0026C8DE2800A3746B /* ConvertToBinary.swift in Sources */,
 				6A91242E27023BCF00D50C17 /* ReverseString.swift in Sources */,
