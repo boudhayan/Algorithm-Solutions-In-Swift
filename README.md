@@ -40,8 +40,8 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 19. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Spiral%20Matrix%20II">Spiral Matix II</a>
 20. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Reverse%20String">Reverse String</a>
 21. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Reverse%20Words%20in%20a%20String">Reverse Words in a String</a>
-22. <a href="">Search in a 2D Matrix</a>
-23. <a href="">Erase Overlapping Intervals</a>
+22. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Search%20a%202D%20Matrix%20II">Search in a 2D Matrix</a>
+23. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Non-Overlapping%20Intervals">Erase Overlapping Intervals</a>
 
 
 ### AlgoExpert
