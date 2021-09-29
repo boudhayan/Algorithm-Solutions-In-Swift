@@ -348,6 +348,10 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A9124342704803900D50C17 /* Permutation in String */,
+				6A9124332704802300D50C17 /* Longest Substring without Repeating Characters */,
+				6A91243227047FFC00D50C17 /* Remove Nth Node from Linked List */,
+				6A91243127047FDF00D50C17 /* Middle of the Linked List */,
 				6A91242C27023BB700D50C17 /* Reverse Words in a String */,
 				6A91242B27023B9700D50C17 /* Reverse String */,
 				6A91242427023A4F00D50C17 /* Non-Overlapping Intervals */,
@@ -573,6 +577,34 @@
 				6A91242F27023BF200D50C17 /* ReverseWords.swift */,
 			);
 			path = "Reverse Words in a String";
+			sourceTree = "<group>";
+		};
+		6A91243127047FDF00D50C17 /* Middle of the Linked List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Middle of the Linked List";
+			sourceTree = "<group>";
+		};
+		6A91243227047FFC00D50C17 /* Remove Nth Node from Linked List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Remove Nth Node from Linked List";
+			sourceTree = "<group>";
+		};
+		6A9124332704802300D50C17 /* Longest Substring without Repeating Characters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Longest Substring without Repeating Characters";
+			sourceTree = "<group>";
+		};
+		6A9124342704803900D50C17 /* Permutation in String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Permutation in String";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
