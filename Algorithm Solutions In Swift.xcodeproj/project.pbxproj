@@ -59,6 +59,7 @@
 		6A912445270482F700D50C17 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912444270482F700D50C17 /* ProductOfArrayExceptSelf.swift */; };
 		6A9124472704834100D50C17 /* SubArraySumEqualsK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124462704834100D50C17 /* SubArraySumEqualsK.swift */; };
 		6A9124492704842200D50C17 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124482704842200D50C17 /* AddStrings.swift */; };
+		6A91244B2704846800D50C17 /* LongestPalindromw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91244A2704846800D50C17 /* LongestPalindromw.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -230,6 +231,7 @@
 		6A912444270482F700D50C17 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
 		6A9124462704834100D50C17 /* SubArraySumEqualsK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubArraySumEqualsK.swift; sourceTree = "<group>"; };
 		6A9124482704842200D50C17 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
+		6A91244A2704846800D50C17 /* LongestPalindromw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromw.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -667,6 +669,7 @@
 		6A9124412704828400D50C17 /* Longest Palindrome */ = {
 			isa = PBXGroup;
 			children = (
+				6A91244A2704846800D50C17 /* LongestPalindromw.swift */,
 			);
 			path = "Longest Palindrome";
 			sourceTree = "<group>";
@@ -1547,6 +1550,7 @@
 				6A88CEDF26BFD73500A3746B /* SearchInSortedMatrix.swift in Sources */,
 				6AF5792126A860E8007B37CA /* FirstDuplicateValue.swift in Sources */,
 				6AF5793A26A9E332007B37CA /* TypeAliases.swift in Sources */,
+				6A91244B2704846800D50C17 /* LongestPalindromw.swift in Sources */,
 				6A91240A26FE5BB800D50C17 /* DesignHashMap.swift in Sources */,
 				6AF5795E26AC2BA0007B37CA /* LinkedListConstruction.swift in Sources */,
 				6A91243C2704819900D50C17 /* PermutationString.swift in Sources */,
