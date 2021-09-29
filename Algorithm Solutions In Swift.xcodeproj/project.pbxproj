@@ -55,6 +55,8 @@
 		6A912438270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912437270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift */; };
 		6A91243A2704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124392704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		6A91243C2704819900D50C17 /* PermutationString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91243B2704819900D50C17 /* PermutationString.swift */; };
+		6A912443270482A600D50C17 /* IncreasingTripletSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912442270482A600D50C17 /* IncreasingTripletSubsequence.swift */; };
+		6A912445270482F700D50C17 /* ProductOfArrayExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912444270482F700D50C17 /* ProductOfArrayExceptSelf.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -222,6 +224,8 @@
 		6A912437270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromLinkedList.swift; sourceTree = "<group>"; };
 		6A9124392704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		6A91243B2704819900D50C17 /* PermutationString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationString.swift; sourceTree = "<group>"; };
+		6A912442270482A600D50C17 /* IncreasingTripletSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncreasingTripletSubsequence.swift; sourceTree = "<group>"; };
+		6A912444270482F700D50C17 /* ProductOfArrayExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptSelf.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -627,6 +631,7 @@
 		6A91243D2704820600D50C17 /* Increasing Triplet Subsequence */ = {
 			isa = PBXGroup;
 			children = (
+				6A912442270482A600D50C17 /* IncreasingTripletSubsequence.swift */,
 			);
 			path = "Increasing Triplet Subsequence";
 			sourceTree = "<group>";
@@ -634,6 +639,7 @@
 		6A91243E2704822400D50C17 /* Product of Array Except Self */ = {
 			isa = PBXGroup;
 			children = (
+				6A912444270482F700D50C17 /* ProductOfArrayExceptSelf.swift */,
 			);
 			path = "Product of Array Except Self";
 			sourceTree = "<group>";
@@ -1461,8 +1467,10 @@
 				6AF5790D26A6EECD007B37CA /* BitwiseAND.swift in Sources */,
 				6AF578EB26A3E923007B37CA /* MonotonicArray.swift in Sources */,
 				6A88CEFC26C8DA0A00A3746B /* PalindromeString.swift in Sources */,
+				6A912445270482F700D50C17 /* ProductOfArrayExceptSelf.swift in Sources */,
 				6AE51D3526B3343A00102A7C /* RemoveKthNodeFromEnd.swift in Sources */,
 				6AF5794626AA9109007B37CA /* SpiralTraverse.swift in Sources */,
+				6A912443270482A600D50C17 /* IncreasingTripletSubsequence.swift in Sources */,
 				6AF5790526A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF5795226ABF532007B37CA /* ValidateBST.swift in Sources */,
 				6AF5791D26A82ABE007B37CA /* Encryption.swift in Sources */,
