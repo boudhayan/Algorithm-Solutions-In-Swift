@@ -53,6 +53,7 @@
 		6A91243027023BF200D50C17 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91242F27023BF200D50C17 /* ReverseWords.swift */; };
 		6A9124362704805600D50C17 /* MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124352704805600D50C17 /* MiddleOfLinkedList.swift */; };
 		6A912438270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912437270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift */; };
+		6A91243A2704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124392704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -218,6 +219,7 @@
 		6A91242F27023BF200D50C17 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
 		6A9124352704805600D50C17 /* MiddleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfLinkedList.swift; sourceTree = "<group>"; };
 		6A912437270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthNodeFromLinkedList.swift; sourceTree = "<group>"; };
+		6A9124392704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -602,6 +604,7 @@
 		6A9124332704802300D50C17 /* Longest Substring without Repeating Characters */ = {
 			isa = PBXGroup;
 			children = (
+				6A9124392704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift */,
 			);
 			path = "Longest Substring without Repeating Characters";
 			sourceTree = "<group>";
@@ -1442,6 +1445,7 @@
 				6AF5789E26A2E74D007B37CA /* DepthFirstSearch.swift in Sources */,
 				6A912420270082E700D50C17 /* MoveZerosToEnd.swift in Sources */,
 				6AF578BF26A3507B007B37CA /* PalindromeCheck.swift in Sources */,
+				6A91243A2704814A00D50C17 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				6AF578B926A34AD6007B37CA /* TandemBicycle.swift in Sources */,
 				6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */,
 				6AF578AD26A2E7F0007B37CA /* NthFibonacci.swift in Sources */,
