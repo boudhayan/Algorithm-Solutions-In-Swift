@@ -356,6 +356,11 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A9124412704828400D50C17 /* Longest Palindrome */,
+				6A9124402704827100D50C17 /* Add Strings */,
+				6A91243F2704825900D50C17 /* Sub Array Sum Equals K */,
+				6A91243E2704822400D50C17 /* Product of Array Except Self */,
+				6A91243D2704820600D50C17 /* Increasing Triplet Subsequence */,
 				6A9124342704803900D50C17 /* Permutation in String */,
 				6A9124332704802300D50C17 /* Longest Substring without Repeating Characters */,
 				6A91243227047FFC00D50C17 /* Remove Nth Node from Linked List */,
@@ -617,6 +622,41 @@
 				6A91243B2704819900D50C17 /* PermutationString.swift */,
 			);
 			path = "Permutation in String";
+			sourceTree = "<group>";
+		};
+		6A91243D2704820600D50C17 /* Increasing Triplet Subsequence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Increasing Triplet Subsequence";
+			sourceTree = "<group>";
+		};
+		6A91243E2704822400D50C17 /* Product of Array Except Self */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Product of Array Except Self";
+			sourceTree = "<group>";
+		};
+		6A91243F2704825900D50C17 /* Sub Array Sum Equals K */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sub Array Sum Equals K";
+			sourceTree = "<group>";
+		};
+		6A9124402704827100D50C17 /* Add Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Add Strings";
+			sourceTree = "<group>";
+		};
+		6A9124412704828400D50C17 /* Longest Palindrome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Longest Palindrome";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
