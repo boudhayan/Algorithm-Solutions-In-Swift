@@ -51,10 +51,10 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 30. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Sub%20Array%20Sum%20Equals%20K">Sub Array Sum Equals K</a>
 31. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Add%20Strings">Add Strings</a>
 32. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Longest%20Palindrome">Longest Palindrome</a>
-33. <a href="">Word Pattern</a>
-34. <a href="">Partition Labels</a>
-35. <a href="">Group Anagrams</a>
-36. <a href="">Multiply Strings</a>
+33. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Word%20Pattern">Word Pattern</a>
+34. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Partition%20Labels">Partition Labels</a>
+35. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Group%20Anagrams">Group Anagrams</a>
+36. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Multiply%20Strings">Multiply Strings</a>
 
 
 ### AlgoExpert
