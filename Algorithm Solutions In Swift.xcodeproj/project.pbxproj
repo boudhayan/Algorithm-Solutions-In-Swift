@@ -63,6 +63,7 @@
 		6A912451270645F300D50C17 /* MultiplyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912450270645F300D50C17 /* MultiplyStrings.swift */; };
 		6A9124532706462B00D50C17 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124522706462B00D50C17 /* GroupAnagrams.swift */; };
 		6A9124552706468500D50C17 /* PartitionLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9124542706468500D50C17 /* PartitionLabels.swift */; };
+		6A912457270646FB00D50C17 /* WordPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A912456270646FB00D50C17 /* WordPattern.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
 		6ABE6FC826FC636D00C6E524 /* DivideTwoIntegers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */; };
 		6ABE6FCD26FD071600C6E524 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */; };
@@ -238,6 +239,7 @@
 		6A912450270645F300D50C17 /* MultiplyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyStrings.swift; sourceTree = "<group>"; };
 		6A9124522706462B00D50C17 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		6A9124542706468500D50C17 /* PartitionLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLabels.swift; sourceTree = "<group>"; };
+		6A912456270646FB00D50C17 /* WordPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPattern.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
 		6ABE6FC726FC636D00C6E524 /* DivideTwoIntegers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideTwoIntegers.swift; sourceTree = "<group>"; };
 		6ABE6FCC26FD071600C6E524 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
@@ -687,6 +689,7 @@
 		6A91244C2706459E00D50C17 /* Word Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				6A912456270646FB00D50C17 /* WordPattern.swift */,
 			);
 			path = "Word Pattern";
 			sourceTree = "<group>";
@@ -1585,6 +1588,7 @@
 				6AE51D4526B9C62000102A7C /* FourNumberSum.swift in Sources */,
 				6A9124222700832400D50C17 /* TwoNumberSumSortedArrray.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
+				6A912457270646FB00D50C17 /* WordPattern.swift in Sources */,
 				6ABE6FD626FD0F1700C6E524 /* BinarySearchL.swift in Sources */,
 				6AF5792926A9D7B3007B37CA /* QuickSort.swift in Sources */,
 				6AF5794226A9FF10007B37CA /* SingleCycleCheck.swift in Sources */,
