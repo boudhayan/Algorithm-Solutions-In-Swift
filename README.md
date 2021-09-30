@@ -55,6 +55,10 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 34. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Partition%20Labels">Partition Labels</a>
 35. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Group%20Anagrams">Group Anagrams</a>
 36. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Multiply%20Strings">Multiply Strings</a>
+37. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Flood%20Fill">Flood Fill</a>
+38. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Max%20Area%20of%20Island">Max Area of Island</a>
+39. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Two%20Binary%20Trees">Merge Two Binary Trees</a>
+40. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Populating%20Next%20Right%20Pointer%20in%20Each%20Node">Populatng Next Right Pointer In Each Node</a>
 
 
 ### AlgoExpert
