@@ -366,6 +366,10 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A91244F270645D600D50C17 /* Multiply Strings */,
+				6A91244E270645C000D50C17 /* Group Anagrams */,
+				6A91244D270645AC00D50C17 /* Partition Labels */,
+				6A91244C2706459E00D50C17 /* Word Pattern */,
 				6A9124412704828400D50C17 /* Longest Palindrome */,
 				6A9124402704827100D50C17 /* Add Strings */,
 				6A91243F2704825900D50C17 /* Sub Array Sum Equals K */,
@@ -672,6 +676,34 @@
 				6A91244A2704846800D50C17 /* LongestPalindromw.swift */,
 			);
 			path = "Longest Palindrome";
+			sourceTree = "<group>";
+		};
+		6A91244C2706459E00D50C17 /* Word Pattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Word Pattern";
+			sourceTree = "<group>";
+		};
+		6A91244D270645AC00D50C17 /* Partition Labels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Partition Labels";
+			sourceTree = "<group>";
+		};
+		6A91244E270645C000D50C17 /* Group Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Group Anagrams";
+			sourceTree = "<group>";
+		};
+		6A91244F270645D600D50C17 /* Multiply Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Multiply Strings";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
