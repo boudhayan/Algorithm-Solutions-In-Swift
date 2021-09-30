@@ -374,6 +374,10 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A91245B270648FB00D50C17 /* Populating Next Right Pointer in Each Node */,
+				6A91245A270648CC00D50C17 /* Merge Two Binary Trees */,
+				6A912459270648B600D50C17 /* Max Area of Island */,
+				6A9124582706489800D50C17 /* Flood Fill */,
 				6A91244F270645D600D50C17 /* Multiply Strings */,
 				6A91244E270645C000D50C17 /* Group Anagrams */,
 				6A91244D270645AC00D50C17 /* Partition Labels */,
@@ -716,6 +720,34 @@
 				6A912450270645F300D50C17 /* MultiplyStrings.swift */,
 			);
 			path = "Multiply Strings";
+			sourceTree = "<group>";
+		};
+		6A9124582706489800D50C17 /* Flood Fill */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Flood Fill";
+			sourceTree = "<group>";
+		};
+		6A912459270648B600D50C17 /* Max Area of Island */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Max Area of Island";
+			sourceTree = "<group>";
+		};
+		6A91245A270648CC00D50C17 /* Merge Two Binary Trees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Merge Two Binary Trees";
+			sourceTree = "<group>";
+		};
+		6A91245B270648FB00D50C17 /* Populating Next Right Pointer in Each Node */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Populating Next Right Pointer in Each Node";
 			sourceTree = "<group>";
 		};
 		6ABE653326F70B6C005C8DE5 /* Two Strings */ = {
