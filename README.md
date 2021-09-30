@@ -42,6 +42,10 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 21. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Reverse%20Words%20in%20a%20String">Reverse Words in a String</a>
 22. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Search%20a%202D%20Matrix%20II">Search in a 2D Matrix</a>
 23. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Non-Overlapping%20Intervals">Erase Overlapping Intervals</a>
+24. <a href="">Middle of the Linked List</a>
+25. <a href="">Remove Nth Node from End of the Linked List</a>
+26. <a href="">Longest Substring without Repeating Characters</a>
+27. <a href="">Permutation in a String</a>
 
 
 ### AlgoExpert
