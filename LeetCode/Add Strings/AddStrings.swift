@@ -8,8 +8,8 @@
 import Foundation
 
 func addStrings(_ num1: String, _ num2: String) -> String {
-    var num1Array = Array(num1)
-    var num2Array = Array(num2)
+    let num1Array = Array(num1)
+    let num2Array = Array(num2)
     var num1Integers: [Int] = num1Array.map { Int(String($0))! }
     var num2Integers: [Int] = num2Array.map { Int(String($0))! }
     

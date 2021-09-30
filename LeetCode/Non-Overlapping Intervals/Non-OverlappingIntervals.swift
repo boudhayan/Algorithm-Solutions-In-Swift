@@ -9,7 +9,7 @@ import Foundation
 
 func eraseOverlapIntervals(_ intervals: [[Int]]) -> Int {
     var intervalCount = 0
-    var sortedIntervals = intervals.sorted { $0[0] < $1[0] }
+    let sortedIntervals = intervals.sorted { $0[0] < $1[0] }
     var lastIntervalEnd = Int(Int32.min)
     for interval in sortedIntervals {
         if interval[0] >= lastIntervalEnd {

@@ -18,10 +18,10 @@ func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
         for r in 0...endRow {
             columnArray.append(matrix[r][currentColumn])
         }
-        var lowRow = currentRow
-        var highRow = endColumn
-        var columnLow = currentColumn
-        var columnHigh = endRow
+        let lowRow = currentRow
+        let highRow = endColumn
+        let columnLow = currentColumn
+        let columnHigh = endRow
         if target >= rowArray[lowRow], target <= rowArray[highRow] {
             // search in row array
             let result = binarySearch(array: rowArray, low: lowRow, high: highRow, target: target)
