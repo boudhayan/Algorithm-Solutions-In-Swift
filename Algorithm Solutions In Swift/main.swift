@@ -7,7 +7,7 @@
 
 import Foundation
 
-var array = [5, 7, 3, 1]
+var array = [45, 61, 71, 72, 73, 0, 1, 21, 33, 37]
 
-print(quickSort(&array))
+print(shiftedBinarySearch(array, 33))
 
