@@ -7,8 +7,7 @@
 
 import Foundation
 
-var array = [26, 134, 135, 15, 17]
+var array = [5, 7, 3, 1]
 
-print(mergeSort(array))
+print(quickSort(&array))
 
-print(array[0...0])
