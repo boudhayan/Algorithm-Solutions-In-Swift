@@ -7,7 +7,9 @@
 
 import Foundation
 
-var array = [45, 61, 71, 72, 73, 0, 1, 21, 33, 37]
+var array = [0, 1, 21, 33, 45, 45, 45, 45, 45, 45, 61, 71, 73]
 
-print(shiftedBinarySearch(array, 33))
 
+
+
+print(searchRange(from: array, target: -1))
