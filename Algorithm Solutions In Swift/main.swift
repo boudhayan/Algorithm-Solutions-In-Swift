@@ -10,4 +10,4 @@ import Foundation
 var reds = [5, 5, 3, 9, 2]
 var blues = [3, 6, 7, 2, 1]
 
-print(taskAssignment(3, [1, 3, 5, 3, 1, 4]))
+print(validStartingCity([5, 25, 15, 10, 15], [1, 2, 1, 0, 3], 10))
