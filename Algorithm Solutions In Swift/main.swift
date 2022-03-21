@@ -7,9 +7,7 @@
 
 import Foundation
 
-var array = [0, 1, 21, 33, 45, 45, 45, 45, 45, 45, 61, 71, 73]
+var reds = [5, 5, 3, 9, 2]
+var blues = [3, 6, 7, 2, 1]
 
-
-
-
-print(searchRange(from: array, target: -1))
+print(taskAssignment(3, [1, 3, 5, 3, 1, 4]))
