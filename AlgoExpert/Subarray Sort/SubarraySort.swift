@@ -54,3 +54,41 @@ func subarraySort(array: [Int]) -> [Int] {
     
     return [start, end]
 }
+
+/**
+ Time Complexity: O(n)
+ Space Complexity: O(1)
+ Note:
+ */
+
+func subarraySort1(array: [Int]) -> [Int] {
+    var minOutOfOrder = Int(Int32.max)
+    var maxOutOfOrder = Int(Int32.min)
+    var start = -1
+    var end = -1
+    for idx in 0..<array.count where isOutOfOrder(index: idx, array: array) {
+        minOutOfOrder = min(minOutOfOrder, array[idx])
+        maxOutOfOrder = max(maxOutOfOrder, array[idx])
+    }
+    for idx in 0..<array.count where array[idx] > minOutOfOrder {
+        start = idx
+        break
+    }
+    for idx in stride(from: array.count - 1, through: 0, by: -1) where array[idx] < maxOutOfOrder {
+        end = idx
+        break
+    }
+    return [start, end]
+}
+
+func isOutOfOrder(index: Int, array: [Int]) -> Bool {
+    if index == 0 {
+        return array[index] > array[index + 1]
+    }
+    
+    if index == array.count - 1 {
+        return array[index] < array[index - 1]
+    }
+    
+    return array[index] < array[index - 1] || array[index] > array[index + 1]
+}
