@@ -10,6 +10,7 @@
 		6A09C87827EA646600BB9A38 /* MinRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87727EA646600BB9A38 /* MinRewards.swift */; };
 		6A09C87B27EA690200BB9A38 /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87A27EA690200BB9A38 /* BuySellStock.swift */; };
 		6A09C87C27EA690200BB9A38 /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87A27EA690200BB9A38 /* BuySellStock.swift */; };
+		6A09C88027EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87F27EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -211,6 +212,7 @@
 /* Begin PBXFileReference section */
 		6A09C87727EA646600BB9A38 /* MinRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinRewards.swift; sourceTree = "<group>"; };
 		6A09C87A27EA690200BB9A38 /* BuySellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellStock.swift; sourceTree = "<group>"; };
+		6A09C87F27EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestSubstringAllCharacters.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -373,6 +375,22 @@
 				6A09C87A27EA690200BB9A38 /* BuySellStock.swift */,
 			);
 			path = "Best Time to Buy and Sell Stock";
+			sourceTree = "<group>";
+		};
+		6A09C87D27EBA40900BB9A38 /* Pramp */ = {
+			isa = PBXGroup;
+			children = (
+				6A09C87E27EBA42600BB9A38 /* Smallest Substring of All Characters */,
+			);
+			path = Pramp;
+			sourceTree = "<group>";
+		};
+		6A09C87E27EBA42600BB9A38 /* Smallest Substring of All Characters */ = {
+			isa = PBXGroup;
+			children = (
+				6A09C87F27EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift */,
+			);
+			path = "Smallest Substring of All Characters";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -954,6 +972,7 @@
 		6AF5787026A2E60E007B37CA = {
 			isa = PBXGroup;
 			children = (
+				6A09C87D27EBA40900BB9A38 /* Pramp */,
 				6A9927EF27EA4AC700848E23 /* GeekForGeeks */,
 				6A88CEE526C056A400A3746B /* LeetCode */,
 				6AF5792F26A9E0C9007B37CA /* Data Structures */,
@@ -1702,6 +1721,7 @@
 				6AF5793E26A9F609007B37CA /* LongestPeak.swift in Sources */,
 				6A88CEF426C5AE5A00A3746B /* LongestPalindromicSubstring.swift in Sources */,
 				6AE51D4526B9C62000102A7C /* FourNumberSum.swift in Sources */,
+				6A09C88027EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift in Sources */,
 				6A9124222700832400D50C17 /* TwoNumberSumSortedArrray.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
 				6A912457270646FB00D50C17 /* WordPattern.swift in Sources */,
