@@ -12,6 +12,8 @@
 		6A09C87C27EA690200BB9A38 /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87A27EA690200BB9A38 /* BuySellStock.swift */; };
 		6A09C88027EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87F27EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift */; };
 		6A09C88327ECF2F600BB9A38 /* KadanesAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C88227ECF2F600BB9A38 /* KadanesAlgorithm.swift */; };
+		6A09C88627EDC26600BB9A38 /* ApartmentHunting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C88527EDC26600BB9A38 /* ApartmentHunting.swift */; };
+		6A09C88827EDC29200BB9A38 /* ApartmentHunting+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C88727EDC29200BB9A38 /* ApartmentHunting+.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -215,6 +217,8 @@
 		6A09C87A27EA690200BB9A38 /* BuySellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellStock.swift; sourceTree = "<group>"; };
 		6A09C87F27EBA43800BB9A38 /* SmallestSubstringAllCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallestSubstringAllCharacters.swift; sourceTree = "<group>"; };
 		6A09C88227ECF2F600BB9A38 /* KadanesAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KadanesAlgorithm.swift; sourceTree = "<group>"; };
+		6A09C88527EDC26600BB9A38 /* ApartmentHunting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentHunting.swift; sourceTree = "<group>"; };
+		6A09C88727EDC29200BB9A38 /* ApartmentHunting+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApartmentHunting+.swift"; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -401,6 +405,15 @@
 				6A09C88227ECF2F600BB9A38 /* KadanesAlgorithm.swift */,
 			);
 			path = "Kadanes Algorithm";
+			sourceTree = "<group>";
+		};
+		6A09C88427EDC25600BB9A38 /* Apartment Hunting */ = {
+			isa = PBXGroup;
+			children = (
+				6A09C88527EDC26600BB9A38 /* ApartmentHunting.swift */,
+				6A09C88727EDC29200BB9A38 /* ApartmentHunting+.swift */,
+			);
+			path = "Apartment Hunting";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -1014,6 +1027,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A09C88427EDC25600BB9A38 /* Apartment Hunting */,
 				6A09C88127ECF2E700BB9A38 /* Kadanes Algorithm */,
 				6A09C87627EA645400BB9A38 /* Min Rewards */,
 				6A9927EC27E8609400848E23 /* Valid Starting City */,
@@ -1669,6 +1683,7 @@
 				6AF5790526A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AF5795226ABF532007B37CA /* ValidateBST.swift in Sources */,
 				6AF5791D26A82ABE007B37CA /* Encryption.swift in Sources */,
+				6A09C88627EDC26600BB9A38 /* ApartmentHunting.swift in Sources */,
 				6AF578DD26A3DD8F007B37CA /* ThreeNumberSum.swift in Sources */,
 				6AE51D4926B9CFC700102A7C /* LargestRange.swift in Sources */,
 				6AF578E326A3E024007B37CA /* SmallestDifference.swift in Sources */,
@@ -1737,6 +1752,7 @@
 				6A9124222700832400D50C17 /* TwoNumberSumSortedArrray.swift in Sources */,
 				6AF5788926A2E6A4007B37CA /* ValidateSubsequence.swift in Sources */,
 				6A912457270646FB00D50C17 /* WordPattern.swift in Sources */,
+				6A09C88827EDC29200BB9A38 /* ApartmentHunting+.swift in Sources */,
 				6ABE6FD626FD0F1700C6E524 /* BinarySearchL.swift in Sources */,
 				6AF5792926A9D7B3007B37CA /* QuickSort.swift in Sources */,
 				6AF5794226A9FF10007B37CA /* SingleCycleCheck.swift in Sources */,
