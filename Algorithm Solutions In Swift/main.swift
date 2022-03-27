@@ -12,38 +12,5 @@ var reds = [5, 5, 3, 9, 2]
 var array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
 
 var colors = [-2,1,-3,4,-1,2,1,-5,4]
-let blocks = [
-    [
-        "gym": false,
-        "school": true,
-        "store": false
-    ],
-    [
-        "gym": true,
-        "school": false,
-        "store": false
-    ],
-    [
-        "gym": true,
-        "school": true,
-        "store": false
-    ],
-    [
-        "gym": false,
-        "school": true,
-        "store": false
-    ],
-    [
-        "gym": false,
-        "school": true,
-        "store": true
-    ]
-]
 
-let reqs = ["gym", "school", "store"]
-
-
-
-
-
-print(apartmentHunting1(blocks, reqs))
+print(LongestPalindome().find(in: "babad"))
