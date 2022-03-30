@@ -14,6 +14,5 @@ var array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
 var colors = [-2,1,-3,4,-1,2,1,-5,4]
 
 
-print(isValid("({{{{}}}))"))
 
-
+print(balancedBrackets(string: "([])(){}(())()()"))
