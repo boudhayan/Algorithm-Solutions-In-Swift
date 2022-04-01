@@ -18,7 +18,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Tic Tac Toe Winner</a>
 15. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Two%20Strings">Two Strings</a>
 
-### LeetCode
+### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode">LeetCode</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">3 Sum Closest</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Intervals">Merge Intervals</a>
 3. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Divide%20Two%20Integers">Divide Two Integers</a>
