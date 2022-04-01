@@ -61,7 +61,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 40. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Populating%20Next%20Right%20Pointer%20in%20Each%20Node">Populatng Next Right Pointer In Each Node</a>
 
 
-### AlgoExpert
+### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert">AlgoExpert</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/%20Breadth%20First%20Search">Breadth First Search</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Array%20of%20Products">Array of Products</a>
 3. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/BST%20Construction">Binary Search Tree Construction</a>
