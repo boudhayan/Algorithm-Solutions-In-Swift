@@ -6,13 +6,13 @@
 //
 
 import Foundation
-import CloudKit
 
-var reds = [5, 5, 3, 9, 2]
-var array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
+var array = [3, 1, 0, -2]
 
-var colors = [-2,1,-3,4,-1,2,1,-5,4]
+// -2, 0, 1, 3
+// -2, 0, 3
+// -2, 0, 1
+// -2, 1, 3
 
 
-
-print(balancedBrackets(string: "([])(){}(())()()"))
+print(threeSumSmaller(array, 4))
