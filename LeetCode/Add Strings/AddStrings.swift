@@ -7,7 +7,45 @@
 
 import Foundation
 
-func addStrings(_ num1: String, _ num2: String) -> String {
+/**
+ Question Link: https://leetcode.com/problems/add-strings/
+ Time Complexity: O(max(N1, N2))
+ Space Complexity: O(max(N1, N2))
+ Note: N1 => length of first string, N2 => length of second string. Maximum sum length will be (MAX(N1, N2) + 1)
+ */
+
+func addStringsOptimized(_ num1: String, _ num2: String) -> String {
+    guard !num1.isEmpty, !num2.isEmpty else { return "0" }
+    
+    let numbers1 = Array(num1)
+    let numbers2 = Array(num2)
+    // stores the sum
+    var sumArray = Array(repeating: "-1", count: max(num1.count, num2.count) + 1)
+    var n1 = numbers1.count - 1
+    var n2 = numbers2.count - 1
+    var k = sumArray.count - 1
+    var carry = 0
+    // loop through the each of the number from both the strings
+    while n1 >= 0 || n2 >= 0 {
+        // if n1 or n2 is less than 0, it indicates the all of the numbers from that string has been used to generate the sum
+        let fn = n1 >= 0 ? Int(String(numbers1[n1]))! : 0 // if index is less than 0, return 0 as it will not affect the current sum
+        let sn = n2 >= 0 ? Int(String(numbers2[n2]))! : 0
+        let sum = fn + sn + carry
+        carry = sum / 10
+        sumArray[k] = "\(sum % 10)"
+        k -= 1
+        n1 -= 1
+        n2 -= 1
+        
+    }
+    // if carry is greater than zero, it means that is extra carry. We have to store that in the sum array
+    if carry > 0 {
+        sumArray[k] = "\(carry)"
+    }
+    return sumArray.filter { $0 != "-1" }.joined()
+}
+
+func addStringsOld(_ num1: String, _ num2: String) -> String {
     let num1Array = Array(num1)
     let num2Array = Array(num2)
     var num1Integers: [Int] = num1Array.map { Int(String($0))! }
