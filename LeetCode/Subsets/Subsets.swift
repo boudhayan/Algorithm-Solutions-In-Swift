@@ -36,8 +36,11 @@ func subsetsGenerator(from array: [Int], index: Int, subs: inout [[Int]]) {
 // Iterative Solution
 func subsetsIterative(_ nums: [Int]) -> [[Int]] {
     var subs = [[Int]]()
+    // create the default empty subset
     subs.append([])
+    // iterate through each of the numbers
     for num in nums {
+        // iterate through each of the subset and append the current number to each of the subset
         for sub in subs {
             subs.append(sub + [num])
         }
