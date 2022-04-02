@@ -1,5 +1,7 @@
-# Algorithms in Swift
-This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
+# Algorithms Solutions in Swift
+This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank in Swift programming language. 
+Suggestions and contributions are welcome.
+
 <a href=""></a>
 ### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank">HackerRank</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">3D Surface Area</a>
