@@ -62,6 +62,8 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 41. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Three%20Sum%20Smaller">Three Sum Smaller</a>
 42. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Sprial%20Matrix">Spiral Matrix</a>
 43. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Valid%20Parentheses">Valid Parentheses</a>
+44. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock">Best Time to Buy and Sell Stock</a>
+45. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Longest%20Palindrome">Longest Palindrome</a>
 
 
 ### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert">AlgoExpert</a>
