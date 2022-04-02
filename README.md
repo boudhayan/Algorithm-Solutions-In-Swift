@@ -1,7 +1,7 @@
 # Algorithms in Swift
 This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 <a href=""></a>
-### HackerRank
+### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank">HackerRank</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">3D Surface Area</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Almost%20Sorted">Almost Sorted</a>
 3. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Binary%20Search%20Trees">Binary Search Trees</a>
@@ -18,7 +18,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Tic Tac Toe Winner</a>
 15. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Two%20Strings">Two Strings</a>
 
-### LeetCode
+### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode">LeetCode</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">3 Sum Closest</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Intervals">Merge Intervals</a>
 3. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Divide%20Two%20Integers">Divide Two Integers</a>
@@ -61,7 +61,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 40. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Populating%20Next%20Right%20Pointer%20in%20Each%20Node">Populatng Next Right Pointer In Each Node</a>
 
 
-### AlgoExpert
+### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert">AlgoExpert</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/%20Breadth%20First%20Search">Breadth First Search</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Array%20of%20Products">Array of Products</a>
 3. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/BST%20Construction">Binary Search Tree Construction</a>
