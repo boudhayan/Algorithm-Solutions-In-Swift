@@ -59,6 +59,9 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank.
 38. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Max%20Area%20of%20Island">Max Area of Island</a>
 39. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Two%20Binary%20Trees">Merge Two Binary Trees</a>
 40. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Populating%20Next%20Right%20Pointer%20in%20Each%20Node">Populatng Next Right Pointer In Each Node</a>
+41. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Three%20Sum%20Smaller">Three Sum Smaller</a>
+42. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Sprial%20Matrix">Spiral Matrix</a>
+43. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Valid%20Parentheses">Valid Parentheses</a>
 
 
 ### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert">AlgoExpert</a>
