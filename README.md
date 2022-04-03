@@ -67,6 +67,9 @@ Suggestions and contributions are welcome.
 43. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Valid%20Parentheses">Valid Parentheses</a>
 44. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Best%20Time%20to%20Buy%20and%20Sell%20Stock">Best Time to Buy and Sell Stock</a>
 45. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Longest%20Palindrome">Longest Palindrome</a>
+46. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Subsets">Subsets</a>
+47. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Convert%20Time%20Minimum%20Operations">Convert Time with Minimum Operations</a>
+48. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Find%20Players%20Zero%20or%20One%20Loses">Find Players with Zero or One Loses</a>
 
 
 ### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert">AlgoExpert</a>
