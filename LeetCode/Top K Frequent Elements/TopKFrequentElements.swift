@@ -39,3 +39,29 @@ func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
     }
     return result
 }
+
+// using bucket
+func topKFrequent1(_ nums: [Int], _ k: Int) -> [Int] {
+    var dict = [Int: Int]()
+    for num in nums {
+        if let count = dict[num] {
+            dict[num] = count + 1
+        } else {
+            dict[num] = 1
+        }
+    }
+    var freq = [[Int]](repeating: [], count: nums.count + 1)
+    for (k, v) in dict {
+        freq[v].append(k)
+    }
+    var result = [Int]()
+    for idx in stride(from: freq.count - 1, through: 0, by: -1) {
+        for num in freq[idx] {
+            result.append(num)
+            if result.count == k {
+                return result
+            }
+        }
+    }
+    return result
+}
