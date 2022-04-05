@@ -23,6 +23,7 @@
 		6A4364BA27FA224300F09D92 /* ConvertTimeMinimumOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364B927FA224300F09D92 /* ConvertTimeMinimumOperations.swift */; };
 		6A4364BD27FA242600F09D92 /* FindPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364BC27FA242600F09D92 /* FindPlayers.swift */; };
 		6A4364C027FB836200F09D92 /* LongestConsecutiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364BF27FB836200F09D92 /* LongestConsecutiveSequence.swift */; };
+		6A4364C327FC04B900F09D92 /* EncodeDecodeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364C227FC04B900F09D92 /* EncodeDecodeStrings.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -237,6 +238,7 @@
 		6A4364B927FA224300F09D92 /* ConvertTimeMinimumOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertTimeMinimumOperations.swift; sourceTree = "<group>"; };
 		6A4364BC27FA242600F09D92 /* FindPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPlayers.swift; sourceTree = "<group>"; };
 		6A4364BF27FB836200F09D92 /* LongestConsecutiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequence.swift; sourceTree = "<group>"; };
+		6A4364C227FC04B900F09D92 /* EncodeDecodeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeDecodeStrings.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -498,6 +500,14 @@
 			path = "Longest Consecutive Sequence";
 			sourceTree = "<group>";
 		};
+		6A4364C127FC04A900F09D92 /* Encode Decode Strings */ = {
+			isa = PBXGroup;
+			children = (
+				6A4364C227FC04B900F09D92 /* EncodeDecodeStrings.swift */,
+			);
+			path = "Encode Decode Strings";
+			sourceTree = "<group>";
+		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,6 +543,7 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A4364C127FC04A900F09D92 /* Encode Decode Strings */,
 				6A4364BE27FB834A00F09D92 /* Longest Consecutive Sequence */,
 				6A4364BB27FA241500F09D92 /* Find Players Zero or One Loses */,
 				6A4364B827FA222A00F09D92 /* Convert Time Minimum Operations */,
@@ -1787,6 +1798,7 @@
 				6A88CEF826C8D61900A3746B /* ReverseString.swift in Sources */,
 				6A4364C027FB836200F09D92 /* LongestConsecutiveSequence.swift in Sources */,
 				6A88CF0026C8DE2800A3746B /* ConvertToBinary.swift in Sources */,
+				6A4364C327FC04B900F09D92 /* EncodeDecodeStrings.swift in Sources */,
 				6A9124492704842200D50C17 /* AddStrings.swift in Sources */,
 				6A91242E27023BCF00D50C17 /* ReverseString2.swift in Sources */,
 				6A4364B427F7EFA600F09D92 /* ThreeSumSmaller.swift in Sources */,
