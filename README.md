@@ -136,7 +136,7 @@ Suggestions and contributions are welcome.
 61. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse">ZigZag Traverse</a>
 62. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Valid%20Starting%20City">Valid Starting City</a>
 63. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Task%20Assignment">Task Assignment</a>
-64. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
+64. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Min%20Rewards">Min Rewards</a>
 65. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
 66. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
 67. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
