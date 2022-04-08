@@ -137,10 +137,11 @@ Suggestions and contributions are welcome.
 62. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Valid%20Starting%20City">Valid Starting City</a>
 63. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Task%20Assignment">Task Assignment</a>
 64. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Min%20Rewards">Min Rewards</a>
-65. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
-66. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
-67. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
-68. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
-69. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
-70. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/ZigZag%20Traverse"></a>
+65. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Kadanes%20Algorithm">Kadanes Algorithm</a>
+66. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Calender%20Matching">Calender Matching</a>
+67. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Balanced%20Brackets">Balanced Brackets</a>
+68. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Apartment%20Hunting">Apartment Hunting</a>
+69. <a href=""></a>
+70. <a href=""></a>
+
 
