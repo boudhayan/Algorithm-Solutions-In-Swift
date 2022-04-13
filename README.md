@@ -70,7 +70,7 @@ Suggestions and contributions are welcome.
 46. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Subsets">Subsets</a>
 47. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Convert%20Time%20Minimum%20Operations">Convert Time with Minimum Operations</a>
 48. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Find%20Players%20Zero%20or%20One%20Loses">Find Players with Zero or One Loses</a>
-49. <a href=""></a>
+49. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Largest%20Integer%20Digit%20Swaps%20Parity">Largest Integer Digit Swap By Parity</a>
 50. <a href=""></a>
 51. <a href=""></a>
 52. <a href=""></a>
