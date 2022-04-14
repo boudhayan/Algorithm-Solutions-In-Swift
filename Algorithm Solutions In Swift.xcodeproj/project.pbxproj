@@ -92,6 +92,7 @@
 		6A9927EE27E860A600848E23 /* ValidStartingCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9927ED27E860A600848E23 /* ValidStartingCity.swift */; };
 		6A9927F227EA4AEF00848E23 /* NthRootNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9927F127EA4AEF00848E23 /* NthRootNumber.swift */; };
 		6AA826BC2807584F00F79CDF /* GroupAnagrams1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA826BB2807584F00F79CDF /* GroupAnagrams1.swift */; };
+		6AA826BF2808A5F700F79CDF /* ValidIPAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA826BE2808A5F700F79CDF /* ValidIPAddresses.swift */; };
 		6AAC7BEA2800461F00ADB33F /* CalenderMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC7BE92800461F00ADB33F /* CalenderMatching.swift */; };
 		6AAC7BED2803543E00ADB33F /* LargestIntergerByParity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC7BEC2803543E00ADB33F /* LargestIntergerByParity.swift */; };
 		6ABE653526F70B78005C8DE5 /* TwoStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABE653426F70B78005C8DE5 /* TwoStrings.swift */; };
@@ -296,6 +297,7 @@
 		6A9927ED27E860A600848E23 /* ValidStartingCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidStartingCity.swift; sourceTree = "<group>"; };
 		6A9927F127EA4AEF00848E23 /* NthRootNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthRootNumber.swift; sourceTree = "<group>"; };
 		6AA826BB2807584F00F79CDF /* GroupAnagrams1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams1.swift; sourceTree = "<group>"; };
+		6AA826BE2808A5F700F79CDF /* ValidIPAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidIPAddresses.swift; sourceTree = "<group>"; };
 		6AAC7BE92800461F00ADB33F /* CalenderMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderMatching.swift; sourceTree = "<group>"; };
 		6AAC7BEC2803543E00ADB33F /* LargestIntergerByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestIntergerByParity.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
@@ -1009,6 +1011,14 @@
 			path = "Group Anagrams";
 			sourceTree = "<group>";
 		};
+		6AA826BD2808A5E800F79CDF /* Valid IP Addresses */ = {
+			isa = PBXGroup;
+			children = (
+				6AA826BE2808A5F700F79CDF /* ValidIPAddresses.swift */,
+			);
+			path = "Valid IP Addresses";
+			sourceTree = "<group>";
+		};
 		6AAC7BEB2803542900ADB33F /* Largest Integer Digit Swaps Parity */ = {
 			isa = PBXGroup;
 			children = (
@@ -1180,6 +1190,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6AA826BD2808A5E800F79CDF /* Valid IP Addresses */,
 				6AA826BA2807583A00F79CDF /* Group Anagrams */,
 				6A4364CE280045A900F09D92 /* Calender Matching */,
 				6A4364AC27F4E9A000F09D92 /* Balanced Brackets */,
@@ -1885,6 +1896,7 @@
 				6AF5791926A75668007B37CA /* AlmostSorted.swift in Sources */,
 				6A88CF0C26C98D8300A3746B /* ReverseLinkedList.swift in Sources */,
 				6AF5794A26AAC047007B37CA /* MergeSort.swift in Sources */,
+				6AA826BF2808A5F700F79CDF /* ValidIPAddresses.swift in Sources */,
 				6ABE6FD826FD0F2400C6E524 /* FirstBadVersion.swift in Sources */,
 				6AF578C826A35E79007B37CA /* GenerateDocument.swift in Sources */,
 				6AF5793726A9E1DD007B37CA /* BinarySearchTree.swift in Sources */,
