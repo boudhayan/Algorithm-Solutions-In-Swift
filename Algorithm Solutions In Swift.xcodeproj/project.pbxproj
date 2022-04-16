@@ -1227,7 +1227,7 @@
 				6AF5792726A9D7A6007B37CA /* Quick Sort */,
 				6AF5792326A8638B007B37CA /* Min Height BST */,
 				6AF5791F26A860DA007B37CA /* First Duplicate Value */,
-				6AF578F926A4B674007B37CA /*  Breadth First Search */,
+				6AF578F926A4B674007B37CA /* Breadth First Search */,
 				6AF578F526A4B1F7007B37CA /* BST Traversal */,
 				6AF578F126A4AEFA007B37CA /* Invert Binary Tree */,
 				6AF578ED26A3EDAB007B37CA /* Array of Products */,
@@ -1529,12 +1529,12 @@
 			path = "BST Traversal";
 			sourceTree = "<group>";
 		};
-		6AF578F926A4B674007B37CA /*  Breadth First Search */ = {
+		6AF578F926A4B674007B37CA /* Breadth First Search */ = {
 			isa = PBXGroup;
 			children = (
 				6AF578FA26A4B69F007B37CA /* BreadthFirstSearch.swift */,
 			);
-			path = " Breadth First Search";
+			path = "Breadth First Search";
 			sourceTree = "<group>";
 		};
 		6AF578FE26A5ACA3007B37CA /* HackerRank */ = {
