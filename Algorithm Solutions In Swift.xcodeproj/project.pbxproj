@@ -1041,6 +1041,13 @@
 			path = "License Key Formatting";
 			sourceTree = "<group>";
 		};
+		6AA826DB280EB90300F79CDF /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Concepts;
+			sourceTree = "<group>";
+		};
 		6AAC7BEB2803542900ADB33F /* Largest Integer Digit Swaps Parity */ = {
 			isa = PBXGroup;
 			children = (
@@ -1180,6 +1187,7 @@
 		6AF5787026A2E60E007B37CA = {
 			isa = PBXGroup;
 			children = (
+				6AA826DB280EB90300F79CDF /* Concepts */,
 				6A09C87D27EBA40900BB9A38 /* Pramp */,
 				6A9927EF27EA4AC700848E23 /* GeekForGeeks */,
 				6A88CEE526C056A400A3746B /* LeetCode */,
