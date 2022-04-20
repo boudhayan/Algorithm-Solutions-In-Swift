@@ -11,7 +11,7 @@ Implement quicksort helper which takes start and end index and the array
         a. if a[l] is greater than pivot and a[r] is smaller than pivot, swap a[l] & a[r]
         b. if a[l] is smaller than or equal to pivot, it means a[l] is correctly positioned in the array w.r.t pivot, so increase l by 1
         c. if a[r] is greater than or equal to pivot, it means a[r] is correctly positioned in the array w.r.t pivot, so decrease r by 1
-5. when l > r, a[r] will always point to a smaller number than pivot element, so we can swap pivot element with a[r]
+5. when l > r, a[r] will always point to a smaller number than pivot element, so we can swap pivot element with a[r] as a[r] is smaller than pivot, so after swap a[r] will be correctly positioned w.r.t pivot
 6. so after swap, a[r] is in correct sorted position w.r.t array
 7. call quick sort helper recursively on the left half and right half
     Note: call quicksort helper on the smaller half first, r is the final sorted position
