@@ -30,3 +30,5 @@ Worst case happens in below scenarios -
 3) All elements are the same (a special case of cases 1 and 2) 
 
 Since these cases are very common to use cases, the problem was easily solved by choosing either a random index for the pivot, choosing the middle index of the partition, or (especially for longer partitions) choosing the median of the first, middle and last element of the partition for the pivot. With these modifications, the worst case of Quicksort has fewer chances to occur, but a worst case can still occur if the input array is such that the maximum (or minimum) element is always chosen as the pivot. 
+
+** Quick Sort is not stable but in place. 
