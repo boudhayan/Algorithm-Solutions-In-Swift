@@ -310,6 +310,10 @@
 		6AA826E228101B5300F79CDF /* Permutations.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Permutations.md; sourceTree = "<group>"; };
 		6AA826E328101B5F00F79CDF /* ValidIPAddresses.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ValidIPAddresses.md; sourceTree = "<group>"; };
 		6AA826E528108BCD00F79CDF /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		6AA826E928114D5A00F79CDF /* PowerSet.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PowerSet.md; sourceTree = "<group>"; };
+		6AA826EA28114D8700F79CDF /* InsertionSort.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = InsertionSort.md; sourceTree = "<group>"; };
+		6AA826EB28114D9C00F79CDF /* SelectionSort.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SelectionSort.md; sourceTree = "<group>"; };
+		6AA826EC28114DAD00F79CDF /* BubbleSort.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BubbleSort.md; sourceTree = "<group>"; };
 		6AAC7BE92800461F00ADB33F /* CalenderMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderMatching.swift; sourceTree = "<group>"; };
 		6AAC7BEC2803543E00ADB33F /* LargestIntergerByParity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestIntergerByParity.swift; sourceTree = "<group>"; };
 		6ABE653426F70B78005C8DE5 /* TwoStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStrings.swift; sourceTree = "<group>"; };
@@ -1057,6 +1061,10 @@
 				6AA826DE28100EB800F79CDF /* MergeSort.md */,
 				6AA826E228101B5300F79CDF /* Permutations.md */,
 				6AA826E328101B5F00F79CDF /* ValidIPAddresses.md */,
+				6AA826E928114D5A00F79CDF /* PowerSet.md */,
+				6AA826EA28114D8700F79CDF /* InsertionSort.md */,
+				6AA826EB28114D9C00F79CDF /* SelectionSort.md */,
+				6AA826EC28114DAD00F79CDF /* BubbleSort.md */,
 			);
 			path = Concepts;
 			sourceTree = "<group>";
