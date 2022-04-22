@@ -71,9 +71,9 @@ Suggestions and contributions are welcome.
 47. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Convert%20Time%20Minimum%20Operations">Convert Time with Minimum Operations</a>
 48. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Find%20Players%20Zero%20or%20One%20Loses">Find Players with Zero or One Loses</a>
 49. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Largest%20Integer%20Digit%20Swaps%20Parity">Largest Integer Digit Swap By Parity</a>
-50. <a href=""></a>
-51. <a href=""></a>
-52. <a href=""></a>
+50. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Container%20With%20Most%20Water">Container with Most Water</a>
+51. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/License%20Key%20Formatting">License Key Formatting</a>
+52. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Unique%20Email%20Address">Unique Email Addresses</a>
 53. <a href=""></a>
 54. <a href=""></a>
 55. <a href=""></a>
@@ -195,8 +195,8 @@ Suggestions and contributions are welcome.
 68. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Apartment%20Hunting">Apartment Hunting</a>
 69. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Group%20Anagrams">Group Anagrams</a>
 70. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Valid%20IP%20Addresses">Valid IP Addresses</a>
-71. <a href=""></a>
-72. <a href=""></a>
+71. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Permutations">Permutations</a>
+72. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Power%20Set">Power Sets</a>
 73. <a href=""></a>
 74. <a href=""></a>
 75. <a href=""></a>
