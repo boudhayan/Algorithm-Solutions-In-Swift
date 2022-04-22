@@ -195,8 +195,8 @@ Suggestions and contributions are welcome.
 68. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Apartment%20Hunting">Apartment Hunting</a>
 69. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Group%20Anagrams">Group Anagrams</a>
 70. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Valid%20IP%20Addresses">Valid IP Addresses</a>
-71. <a href=""></a>
-72. <a href=""></a>
+71. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Permutations">Permutations</a>
+72. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Power%20Set">Power Sets</a>
 73. <a href=""></a>
 74. <a href=""></a>
 75. <a href=""></a>
