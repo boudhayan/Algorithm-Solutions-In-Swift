@@ -14,19 +14,42 @@ import Foundation
  */
 func groupAnagramsAE(_ words: [String]) -> [[String]] {
     // Write your code here.
-    var dict = [[Int]: [String]]()
+    var anagrams = [String: [String]]()
+     for word in words {
+         let sKey = String(word.sorted())
+         if let existing = anagrams[sKey] {
+             anagrams[sKey] = existing + [word]
+         } else {
+             anagrams[sKey] = [word]
+         }
+     }
+     return Array(anagrams.values)
+}
+
+// without using sorting
+/**
+ Time Complexity: O(wn)
+ Space Complexity: O(w)
+ Note: not considering length of the longest word in calculating space complexity
+ */
+func groupAnagramsWithoutSorting(_ words: [String]) -> [[String]] {
+    var anagrams = [[Int]: [String]]()
     for word in words {
-        let characters = Array(word)
-        var characterMapkey = Array(repeating: 0, count: 26)
-        for char in characters {
-            let position = Int(char.asciiValue! - Character("a").asciiValue!)
-            characterMapkey[position] = characterMapkey[position] + 1
-        }
-        if let anagrams = dict[characterMapkey] {
-            dict[characterMapkey] = anagrams + [word]
+        let anKey = generateKey(for: word)
+        if let exisitingAnagrams = anagrams[anKey] {
+            anagrams[anKey] = exisitingAnagrams + [word]
         } else {
-            dict[characterMapkey] = [word]
+            anagrams[anKey] = [word]
         }
     }
-    return Array(dict.values)
+    return Array(anagrams.values)
+}
+func generateKey(for word: String) -> [Int] {
+    // there are 26 letters in english alphabet
+    var keyArray = Array(repeating: 0, count: 26)
+    for char in word {
+        let positionInAlphabet = Int(char.asciiValue! - Character("a").asciiValue!)
+        keyArray[positionInAlphabet] += 1
+    }
+    return keyArray
 }
