@@ -14,40 +14,37 @@ import Foundation
  */
 func largestRange(array: [Int]) -> [Int] {
     var dict = [Int: Bool]()
+    // generate look up table
+    // will make value as false if ever visited at the time of array enumeration
     for num in array {
-        dict[num] = false
+        dict[num] = true
     }
-    var range = [Int]()
-    var length = 0
-    
+    var range = Int(Int32.min)
+    var result = [-1, -1]
     for num in array {
-        if dict[num] != nil, dict[num]! == false {
-            // explore range
-            // explore left
-            var localMin = num
-            var localMax = num
-            var localLength = 1
-            dict[num] = true
-            var n = num
-            while dict[n - 1] != nil {
-                dict[n - 1] = true
-                localMin = n - 1
-                localLength += 1
-                n -= 1
-            }
-            
-            n  = num
-            while dict[n + 1] != nil {
-                dict[n + 1] = true
-                localMax = n + 1
-                localLength += 1
-                n += 1
-            }
-            if localLength >= length {
-                length = localLength
-                range = [localMin, localMax]
-            }
+        // check whether previous and next number of current number exists in the dictionary
+        var previous = num - 1
+        var next = num + 1
+        // start and end of the range is the current number, assign
+        var start = num
+        var end = num
+        // find the smallest number in the range
+        while let isExist = dict[previous], isExist {
+            dict[previous] = false
+            start = previous
+            previous = previous - 1
+        }
+        // find the largest number in the range
+        while let isExists = dict[next], isExists {
+            dict[next] = false
+            end = next
+            next = next + 1
+        }
+        // check if current range is greater than the previous range
+        if end - start > range {
+            range = end - start
+            result = [start, end]
         }
     }
-    return range
+    return result
 }
