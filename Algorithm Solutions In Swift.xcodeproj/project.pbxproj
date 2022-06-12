@@ -26,6 +26,8 @@
 		6A4364C327FC04B900F09D92 /* EncodeDecodeStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364C227FC04B900F09D92 /* EncodeDecodeStrings.swift */; };
 		6A4364C627FC4B5800F09D92 /* ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364C527FC4B5800F09D92 /* ValidAnagram.swift */; };
 		6A4364C927FC655400F09D92 /* TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4364C827FC655400F09D92 /* TopKFrequentElements.swift */; };
+		6A5022F828562A6200688107 /* ShiftLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022F728562A6200688107 /* ShiftLinkedList.swift */; };
+		6A5022F928562A6200688107 /* ShiftLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022F728562A6200688107 /* ShiftLinkedList.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -256,6 +258,7 @@
 		6A4364C227FC04B900F09D92 /* EncodeDecodeStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeDecodeStrings.swift; sourceTree = "<group>"; };
 		6A4364C527FC4B5800F09D92 /* ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidAnagram.swift; sourceTree = "<group>"; };
 		6A4364C827FC655400F09D92 /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
+		6A5022F728562A6200688107 /* ShiftLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLinkedList.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -570,6 +573,14 @@
 				6AAC7BE92800461F00ADB33F /* CalenderMatching.swift */,
 			);
 			path = "Calender Matching";
+			sourceTree = "<group>";
+		};
+		6A5022F628562A5000688107 /* Shift Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				6A5022F728562A6200688107 /* ShiftLinkedList.swift */,
+			);
+			path = "Shift Linked List";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -1314,6 +1325,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A5022F628562A5000688107 /* Shift Linked List */,
 				6AA826F528129EF300F79CDF /* Longest Substring Without Duplication */,
 				6AA826ED28114DDF00F79CDF /* Power Set */,
 				6AA826DF2810154E00F79CDF /* Permutations */,
@@ -2000,6 +2012,7 @@
 				6AF5789526A2E711007B37CA /* FindClosestValueInBST.swift in Sources */,
 				6AAC7BEA2800461F00ADB33F /* CalenderMatching.swift in Sources */,
 				6A912438270480D000D50C17 /* RemoveNthNodeFromLinkedList.swift in Sources */,
+				6A5022F828562A6200688107 /* ShiftLinkedList.swift in Sources */,
 				6ABE6FDA26FD0F3B00C6E524 /* SearchInsertPosition.swift in Sources */,
 				6A91240D26FE5CB000D50C17 /* MergeIntervals2.swift in Sources */,
 				6AF5791126A744AC007B37CA /* TicTacToeWinner.swift in Sources */,
@@ -2154,6 +2167,7 @@
 				6A88CF0526C8E22A00A3746B /* NaturalNumberSum.swift in Sources */,
 				6AF5790226A5ACBD007B37CA /* ExtraLongFactorials.swift in Sources */,
 				6AF5793526A9E11A007B37CA /* BinaryTree.swift in Sources */,
+				6A5022F928562A6200688107 /* ShiftLinkedList.swift in Sources */,
 				6AF578D626A376C4007B37CA /* Algorithm_Solutions_In_Swift_Tests.swift in Sources */,
 				6AF578E026A3DF2C007B37CA /* ThreeNumberSumTests.swift in Sources */,
 				6AE51D3A26B3C20500102A7C /* MergeOverlappingIntervals.swift in Sources */,
