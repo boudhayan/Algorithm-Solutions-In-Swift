@@ -13,7 +13,7 @@ import Foundation
  Note: 
  */
 func reverseLinkedList(_ linkedList: LinkedList) -> LinkedList {
-    if linkedList == nil || linkedList.next == nil {
+    if linkedList.next == nil {
         return linkedList
     }
     let result = reverseLinkedList(linkedList.next!)
