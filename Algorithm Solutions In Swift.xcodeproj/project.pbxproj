@@ -30,6 +30,7 @@
 		6A5022F928562A6200688107 /* ShiftLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022F728562A6200688107 /* ShiftLinkedList.swift */; };
 		6A5022FC2856F5E900688107 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FB2856F5E900688107 /* LRUCache.swift */; };
 		6A5022FD2856F5E900688107 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FB2856F5E900688107 /* LRUCache.swift */; };
+		6A502300285BAC2200688107 /* StaircaseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -262,6 +263,7 @@
 		6A4364C827FC655400F09D92 /* TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequentElements.swift; sourceTree = "<group>"; };
 		6A5022F728562A6200688107 /* ShiftLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLinkedList.swift; sourceTree = "<group>"; };
 		6A5022FB2856F5E900688107 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTraversal.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -592,6 +594,14 @@
 				6A5022FB2856F5E900688107 /* LRUCache.swift */,
 			);
 			path = "LRU Cache";
+			sourceTree = "<group>";
+		};
+		6A5022FE285BAC1200688107 /* Staircase Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */,
+			);
+			path = "Staircase Traversal";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -1336,6 +1346,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A5022FE285BAC1200688107 /* Staircase Traversal */,
 				6A5022FA2856F5D900688107 /* LRU Cache */,
 				6A5022F628562A5000688107 /* Shift Linked List */,
 				6AA826F528129EF300F79CDF /* Longest Substring Without Duplication */,
@@ -2061,6 +2072,7 @@
 				6A91242827023ACC00D50C17 /* Search2DMatrixAnother.swift in Sources */,
 				6A88CEEC26C3133600A3746B /* MergeIntervals.swift in Sources */,
 				6AF578CE26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift in Sources */,
+				6A502300285BAC2200688107 /* StaircaseTraversal.swift in Sources */,
 				6A4364B727F82D2900F09D92 /* Subsets.swift in Sources */,
 				6AAC7BED2803543E00ADB33F /* LargestIntergerByParity.swift in Sources */,
 				6AF578EF26A3EDCC007B37CA /* ArrayOfProducts.swift in Sources */,
