@@ -31,6 +31,7 @@
 		6A5022FC2856F5E900688107 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FB2856F5E900688107 /* LRUCache.swift */; };
 		6A5022FD2856F5E900688107 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FB2856F5E900688107 /* LRUCache.swift */; };
 		6A502300285BAC2200688107 /* StaircaseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */; };
+		6A502303285C8BA300688107 /* KthLargestNodeBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A502302285C8BA300688107 /* KthLargestNodeBST.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -264,6 +265,7 @@
 		6A5022F728562A6200688107 /* ShiftLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftLinkedList.swift; sourceTree = "<group>"; };
 		6A5022FB2856F5E900688107 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTraversal.swift; sourceTree = "<group>"; };
+		6A502302285C8BA300688107 /* KthLargestNodeBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestNodeBST.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -602,6 +604,14 @@
 				6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */,
 			);
 			path = "Staircase Traversal";
+			sourceTree = "<group>";
+		};
+		6A502301285C8B8E00688107 /* Find Kth Largest Node in BST */ = {
+			isa = PBXGroup;
+			children = (
+				6A502302285C8BA300688107 /* KthLargestNodeBST.swift */,
+			);
+			path = "Find Kth Largest Node in BST";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -1346,6 +1356,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A502301285C8B8E00688107 /* Find Kth Largest Node in BST */,
 				6A5022FE285BAC1200688107 /* Staircase Traversal */,
 				6A5022FA2856F5D900688107 /* LRU Cache */,
 				6A5022F628562A5000688107 /* Shift Linked List */,
@@ -2119,6 +2130,7 @@
 				6AF578FB26A4B69F007B37CA /* BreadthFirstSearch.swift in Sources */,
 				6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */,
 				6A912451270645F300D50C17 /* MultiplyStrings.swift in Sources */,
+				6A502303285C8BA300688107 /* KthLargestNodeBST.swift in Sources */,
 				6AF578C226A351F6007B37CA /* CaesarCipherEncryptor.swift in Sources */,
 				6AA826DA280E0AAB00F79CDF /* LicenseKeyFormatting.swift in Sources */,
 				6A9124552706468500D50C17 /* PartitionLabels.swift in Sources */,
