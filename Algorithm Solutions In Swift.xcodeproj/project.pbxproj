@@ -32,6 +32,8 @@
 		6A5022FD2856F5E900688107 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FB2856F5E900688107 /* LRUCache.swift */; };
 		6A502300285BAC2200688107 /* StaircaseTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */; };
 		6A502303285C8BA300688107 /* KthLargestNodeBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A502302285C8BA300688107 /* KthLargestNodeBST.swift */; };
+		6A502306285C8C4600688107 /* ReconstructBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A502305285C8C4600688107 /* ReconstructBST.swift */; };
+		6A502307285C8C4600688107 /* ReconstructBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A502305285C8C4600688107 /* ReconstructBST.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -266,6 +268,7 @@
 		6A5022FB2856F5E900688107 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		6A5022FF285BAC2200688107 /* StaircaseTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaircaseTraversal.swift; sourceTree = "<group>"; };
 		6A502302285C8BA300688107 /* KthLargestNodeBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestNodeBST.swift; sourceTree = "<group>"; };
+		6A502305285C8C4600688107 /* ReconstructBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconstructBST.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -612,6 +615,14 @@
 				6A502302285C8BA300688107 /* KthLargestNodeBST.swift */,
 			);
 			path = "Find Kth Largest Node in BST";
+			sourceTree = "<group>";
+		};
+		6A502304285C8C3A00688107 /* Reconstruct BST */ = {
+			isa = PBXGroup;
+			children = (
+				6A502305285C8C4600688107 /* ReconstructBST.swift */,
+			);
+			path = "Reconstruct BST";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -1356,6 +1367,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A502304285C8C3A00688107 /* Reconstruct BST */,
 				6A502301285C8B8E00688107 /* Find Kth Largest Node in BST */,
 				6A5022FE285BAC1200688107 /* Staircase Traversal */,
 				6A5022FA2856F5D900688107 /* LRU Cache */,
@@ -2149,6 +2161,7 @@
 				6AF5790926A6E0FC007B37CA /* BinarySearchTrees.swift in Sources */,
 				6AF578BC26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift in Sources */,
 				6AF5795A26AC287A007B37CA /* ThreeNumberSort.swift in Sources */,
+				6A502306285C8C4600688107 /* ReconstructBST.swift in Sources */,
 				6A91246327064AD000D50C17 /* FloodFill.swift in Sources */,
 				6A91241C2700815D00D50C17 /* RotateImage.swift in Sources */,
 				6AA67D18283A1F9D0010DD02 /* MaximumBagsFullCapacity.swift in Sources */,
@@ -2219,6 +2232,7 @@
 				6A88CEE426BFDC2100A3746B /* ShiftedBinarySearch.swift in Sources */,
 				6A09C87C27EA690200BB9A38 /* BuySellStock.swift in Sources */,
 				6A88CEE926C056C900A3746B /* ThreeSumClosest.swift in Sources */,
+				6A502307285C8C4600688107 /* ReconstructBST.swift in Sources */,
 				6AF5793826A9E1DD007B37CA /* BinarySearchTree.swift in Sources */,
 				6A88CEFD26C8DA0A00A3746B /* PalindromeString.swift in Sources */,
 				6AF5792A26A9D7B3007B37CA /* QuickSort.swift in Sources */,
