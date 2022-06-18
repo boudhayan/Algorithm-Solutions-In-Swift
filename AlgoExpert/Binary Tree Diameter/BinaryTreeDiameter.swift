@@ -22,21 +22,27 @@ extension BinaryTree {
      Space Complexity: O(d)
      Note: d is the depth of the longest branch
      */
-    func diameter(_ tree: BinaryTree) -> Int {
-        return getTreeInfo(for: tree).diameter
+    func binaryTreeDiameter(_ tree: BinaryTree) -> Int {
+        var maxDiameter = Int(Int32.min)
+        _ = diameter(tree, maximumDiameter: &maxDiameter)
+        return maxDiameter
     }
-    
-    func getTreeInfo(for tree: BinaryTree?) -> TreeInfo {
-        guard let node = tree else {
-            return TreeInfo(0, 0)
+
+    func diameter(_ tree: BinaryTree?, maximumDiameter: inout Int) -> Int {
+        if tree == nil {
+            // for any node that is nil
+            return -1
         }
-        let leftTreeInfo = getTreeInfo(for: node.left)
-        let rightTreeInfo = getTreeInfo(for: node.right)
-        let longestPathThroughRoot = leftTreeInfo.height + rightTreeInfo.height
-        let maximumDiameterSoFar = max(leftTreeInfo.diameter, rightTreeInfo.diameter)
-        let currentDiameter = max(maximumDiameterSoFar, longestPathThroughRoot)
-        let currentHeight = 1 + max(leftTreeInfo.height, rightTreeInfo.height)
-        return TreeInfo(currentDiameter, currentHeight)
+        let leftTreeDiameter = 1 + diameter(tree?.left, maximumDiameter: &maximumDiameter)
+        let rightTreeDiameter = 1 + diameter(tree?.right, maximumDiameter: &maximumDiameter)
+        // current node's total diamter is total of left and right tree diameter
+        let newTotalDiameter = leftTreeDiameter + rightTreeDiameter
+        if newTotalDiameter > maximumDiameter {
+            // update maximum diameter
+            maximumDiameter = newTotalDiameter
+        }
+        // return either left or right tree diameter, as for diameter no node should be connected to more than two nodes
+        return leftTreeDiameter > rightTreeDiameter ? leftTreeDiameter : rightTreeDiameter
     }
-   
+
 }
