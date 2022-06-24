@@ -10,43 +10,50 @@ import Foundation
 /**
  Time Complexity: O(n)
  Space Complexity: O(n)
- Note: 
+ Note: where n is the total number of nodes
  */
 func zigZagTraverse(array: [[Int]]) -> [Int] {
-    var traversed = [Int]()
-    var row = 0
-    var col = 0
+    var values = [Int]()
+    // `isDown` tells whether we are going down or not
+    var isDown = true
     let endRow = array.count - 1
-    let endCol = array[0].count - 1
-    var isGoingDown = true
-    
-    while row <= endRow, col <= endCol {
-        traversed.append(array[row][col])
-        if isGoingDown {
-            if col == 0 || row == endRow {
-                isGoingDown = false
-                if row == endRow {
-                    col += 1
+    let endColumn = array[0].count - 1
+    let startRow = 0
+    let startColumn = 0
+    var cRow = 0
+    var cColumn = 0
+    while cRow <= endRow, cColumn <= endColumn {
+        // in one iteration we will visit only one element
+        values.append(array[cRow][cColumn])
+        // check whether we are going down
+        if isDown {
+            // if current row is equal to end row or current column is equal to end column, then we have to change the direction, and we have to go up
+            if cRow == endRow || cColumn == startColumn {
+                // this check has priority over the else check, as it will increment side ways (in column)
+                if cRow == endRow {
+                    cColumn += 1
                 } else {
-                    row += 1
+                    cRow += 1
                 }
+                isDown  = false
             } else {
-                row += 1
-                col -= 1
+                cRow += 1
+                cColumn -= 1
             }
         } else {
-            if row == 0 || col == endCol {
-                isGoingDown = true
-                if col == endCol {
-                    row += 1
+            if cColumn == endColumn || cRow == startRow {
+                // this check has higher priority over the else check, as it will increment down ways (in rows)
+                if cColumn == endColumn {
+                    cRow += 1
                 } else {
-                   col += 1
+                    cColumn += 1
                 }
+                isDown = true
             } else {
-                row -= 1
-                col += 1
+                cRow -= 1
+                cColumn += 1
             }
         }
     }
-    return traversed
+    return values
 }
