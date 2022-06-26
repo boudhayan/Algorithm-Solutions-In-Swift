@@ -42,6 +42,7 @@
 		6A67AE452863885F00DCD992 /* MaxPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE432863885E00DCD992 /* MaxPathSum.swift */; };
 		6A67AE4828639D3000DCD992 /* FindNodesDistanceK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE4728639D3000DCD992 /* FindNodesDistanceK.swift */; };
 		6A67AE4B2864E79D00DCD992 /* LowestCommonInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE4A2864E79D00DCD992 /* LowestCommonInteger.swift */; };
+		6A67AE4E2868E0B000DCD992 /* RiverSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE4D2868E0B000DCD992 /* RiverSizes.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -284,6 +285,7 @@
 		6A67AE432863885E00DCD992 /* MaxPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxPathSum.swift; sourceTree = "<group>"; };
 		6A67AE4728639D3000DCD992 /* FindNodesDistanceK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNodesDistanceK.swift; sourceTree = "<group>"; };
 		6A67AE4A2864E79D00DCD992 /* LowestCommonInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonInteger.swift; sourceTree = "<group>"; };
+		6A67AE4D2868E0B000DCD992 /* RiverSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverSizes.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -694,6 +696,14 @@
 				6A67AE4A2864E79D00DCD992 /* LowestCommonInteger.swift */,
 			);
 			path = "Lowest Common Manager";
+			sourceTree = "<group>";
+		};
+		6A67AE4C2868E0A300DCD992 /* River Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				6A67AE4D2868E0B000DCD992 /* RiverSizes.swift */,
+			);
+			path = "River Sizes";
 			sourceTree = "<group>";
 		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
@@ -1438,6 +1448,7 @@
 		6AF5788326A2E674007B37CA /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				6A67AE4C2868E0A300DCD992 /* River Sizes */,
 				6A67AE492864E78900DCD992 /* Lowest Common Manager */,
 				6A67AE4628639D1400DCD992 /* Find Nodes Distance K */,
 				6A67AE422863885200DCD992 /* Max Path Sum */,
@@ -2116,6 +2127,7 @@
 				6A912443270482A600D50C17 /* IncreasingTripletSubsequence.swift in Sources */,
 				6AF5790526A6DCA1007B37CA /* LarrysArray.swift in Sources */,
 				6AA826BC2807584F00F79CDF /* GroupAnagrams1.swift in Sources */,
+				6A67AE4E2868E0B000DCD992 /* RiverSizes.swift in Sources */,
 				6AF5795226ABF532007B37CA /* ValidateBST.swift in Sources */,
 				6AF5791D26A82ABE007B37CA /* Encryption.swift in Sources */,
 				6A09C88627EDC26600BB9A38 /* ApartmentHunting.swift in Sources */,
