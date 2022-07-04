@@ -34,4 +34,4 @@ func accuracyTest(root: Double, x: Double, n: Double) -> Double {
     return pow(root, n) - x
 }
 
-//print(root(x: 7.0, n: 3.0))
+//;.lo;,iko ≤m         print(root(x: 7.0, n: 3.0))
