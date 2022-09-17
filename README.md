@@ -74,11 +74,11 @@ Suggestions and contributions are welcome.
 50. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Container%20With%20Most%20Water">Container with Most Water</a>
 51. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/License%20Key%20Formatting">License Key Formatting</a>
 52. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Unique%20Email%20Address">Unique Email Addresses</a>
-53. <a href=""></a>
-54. <a href=""></a>
-55. <a href=""></a>
-56. <a href=""></a>
-57. <a href=""></a>
+53. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Sort%20by%20Parity">Sort By Parity</a>
+54. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Maximum%20Bags%20with%20Full%20Capacity%20of%20Rocks">Maximum Bags with Full Capacity of Rocks</a>
+55. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Search%20a%202D%20Matrix%20II">Search 2D Matrix II</a>
+56. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Remove%20Duplicates%20Sorted%20Array">Remove Duplicates Sorted Array</a>
+57. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Remove%20Element">Remove Element</a>
 58. <a href=""></a>
 59. <a href=""></a>
 60. <a href=""></a>
