@@ -5,22 +5,25 @@ Suggestions and contributions are welcome.
 
 <a href=""></a>
 ### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank">HackerRank</a>
-1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">3D Surface Area</a>
-2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Almost%20Sorted">Almost Sorted</a>
-3. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Binary%20Search%20Trees">Binary Search Trees</a>
-4. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Bitwise%20AND">Bitwise AND</a>
-5. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Convert%20Decimal%20To%20Binary">Convert Decimal to Binary</a>
-6. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Count%20Pairs">Count Pairs</a>
-7. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Encryption">Encryption</a>
-8. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Extra%20Long%20Factorials">Extra Long Factorials</a>
-9. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Larry's%20Array">Larry's Array</a>
-10. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Merge%20Sort">Merge Sort</a>
-11. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Palindrome%20String">Palindrome String</a>
-12. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Reverse%20String">Reverse String</a>
-13. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Sum%20of%20Natural%20Number">Sum of Natural Number</a>
-14. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Tic Tac Toe Winner</a>
-15. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Two%20Strings">Two Strings</a>
+| Serial No.  | Problem  | Solution  | Time Complexity | Space Complexity  | Notes  |
+|---|---|---|---|---|---|
+|1|3D Surface Area|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">Link</a>|_|_|_|
+|2|Almost Sorted|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Almost%20Sorted">Link</a>|_|_|_|
+|3|Binary Search Trees|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Binary%20Search%20Trees">Link</a>|_|_|_|
+|4|Bitwise AND|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Bitwise%20AND">Link</a>|_|_|_|
+|5|Convert Decimal to Binary|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Convert%20Decimal%20To%20Binary">Link</a>|_|_|_|
+|6|Count Pairs|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Count%20Pairs">Link</a>|_|_|_|
+|7|Encryption|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Encryption">Link</a>|_|_|_|
+|8|Extra Long Factorials|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Extra%20Long%20Factorials">Link</a>|_|_|_|
+|9|Larry's Array|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Larry's%20Array">Link</a>|_|_|_|
+|10|Merge Sort|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Merge%20Sort">Link</a>|_|_|_|
+|11|Palindrome String|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Palindrome%20String">Link</a>|_|_|_|
+|12|Reverse String|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Reverse%20String">Link</a>|_|_|_|
+|13|Sum of Natural Number|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Sum%20of%20Natural%20Number">Link</a>|_|_|_|
+|14|Tic Tac Toe Winner|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Link</a>|_|_|_|
+|15|Two Strings|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Two%20Strings">Link</a>|_|_|_|
 
+  
 ### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode">LeetCode</a>
 1. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">3 Sum Closest</a>
 2. <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Merge%20Intervals">Merge Intervals</a>
