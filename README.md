@@ -3,8 +3,7 @@ This repository contains solutions from AlgoExpert, LeetCode &amp; HackerRank in
 
 Suggestions and contributions are welcome.
 
-<a href=""></a>
-### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank">HackerRank</a>
+### <a href=/https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/>HackerRank</a>
 | Serial No.  | Problem  | Solution  | Time Complexity | Space Complexity  | Notes  |
 |---|---|---|---|---|---|
 |1|3D Surface Area|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">Link</a>|_|_|_|
@@ -23,8 +22,9 @@ Suggestions and contributions are welcome.
 |14|Tic Tac Toe Winner|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Tic%20Tac%20Toe%20Winner">Link</a>|_|_|_|
 |15|Two Strings|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Two%20Strings">Link</a>|_|_|_|
 
-  
-### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode">LeetCode</a>
+
+
+### <a href=/https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/>LeetCode</a>
 | Serial No.  | Problem  | Solution  | Time Complexity | Space Complexity  | Notes  |
 |---|---|---|---|---|---|
 |1|3 Sum Closest|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">Link</a>|_|_|_|
@@ -87,7 +87,7 @@ Suggestions and contributions are welcome.
 
 
 
-### <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert">AlgoExpert</a>
+### <a href=/https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/>AlgoExpert</a>
 | Serial No.  | Problem  | Solution  | Time Complexity | Space Complexity  | Notes  |
 |---|---|---|---|---|---|
 |1|Breadth First Search|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/%20Breadth%20First%20Search">Link</a>|_|_|_|
