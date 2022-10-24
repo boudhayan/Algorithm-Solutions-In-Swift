@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Stack {
+fileprivate class Stack {
      var array = [Int]()
     
     var isEmpty: Bool {
@@ -27,7 +27,7 @@ class Stack {
     }
 }
 
-func nextGreaterElement(_ array: [Int]) -> [Int] {
+fileprivate func nextGreaterElement(_ array: [Int]) -> [Int] {
     var elements = Array(repeating: -1, count: array.count)
     let stack = Stack()
     for i in stride(from: 0, to: 2 * array.count, by: 1) {

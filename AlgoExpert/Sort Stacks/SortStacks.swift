@@ -13,14 +13,14 @@ func sortStack(_ stack: inout [Int]) -> [Int] {
         return stack
     }
     let first = stack.removeLast()
-    sortStack(&stack)
+    _ = sortStack(&stack)
     let second = stack.removeLast()
     if first < second {
         stack.append(first)
     } else {
         stack.append(second)
     }
-    sortStack(&stack)
+    _ = sortStack(&stack)
     if first > second {
         stack.append(first)
     } else {

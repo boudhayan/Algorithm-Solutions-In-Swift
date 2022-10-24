@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ListNode {
+fileprivate class ListNode {
     var val: Int
     var next: ListNode?
     
@@ -17,7 +17,7 @@ class ListNode {
     }
 }
 
-func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
+fileprivate func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
     if lists.isEmpty {
         return nil
     }
@@ -31,7 +31,7 @@ func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
     return node
 }
 
-func mergeList(l1: ListNode?, l2: ListNode?) -> ListNode? {
+fileprivate func mergeList(l1: ListNode?, l2: ListNode?) -> ListNode? {
     if l1 == nil { return l2 }
     if l2 == nil { return l1 }
     if l1!.val < l2!.val {

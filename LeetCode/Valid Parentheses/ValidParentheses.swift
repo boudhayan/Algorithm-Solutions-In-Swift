@@ -7,7 +7,7 @@
 
 import Foundation
 
-func isValid(_ s: String) -> Bool {
+fileprivate func isValid(_ s: String) -> Bool {
     guard s.count > 1 else { return false }
     var stack = [Character]()
     for bracket in s {
