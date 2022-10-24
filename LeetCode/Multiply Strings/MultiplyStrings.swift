@@ -7,7 +7,7 @@
 
 import Foundation
 
-func multiply(_ num1: String, _ num2: String) -> String {
+fileprivate func multiply(_ num1: String, _ num2: String) -> String {
     let firstNumber = Array(num1)
     let secondNumber = Array(num2)
     var result = Array(repeating: 0, count: num1.count + num2.count)
