@@ -24,7 +24,7 @@ fileprivate class Stack {
 }
 
 fileprivate func isValid(_ s: String) -> Bool {
-    var stack = Stack()
+    let stack = Stack()
     for char in s {
         let val = "\(char)"
         if val == "(" || val == "{"  || val == "[" {
