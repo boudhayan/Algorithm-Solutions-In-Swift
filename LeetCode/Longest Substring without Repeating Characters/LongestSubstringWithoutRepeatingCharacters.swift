@@ -7,7 +7,7 @@
 
 import Foundation
 
-func lengthOfLongestSubstring(_ s: String) -> Int {
+fileprivate func lengthOfLongestSubstring(_ s: String) -> Int {
     var frequencies = [Character: Int]()
     var startIdx = -1
     var longestSubstringLength = 0
