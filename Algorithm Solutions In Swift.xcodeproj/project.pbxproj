@@ -50,6 +50,7 @@
 		6A651A3429070D2B000731BB /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A651A3329070D2B000731BB /* PlusOne.swift */; };
 		6A651A3A290710AC000731BB /* ArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A651A39290710AC000731BB /* ArrayRotation.swift */; };
 		6A651A3D290783D6000731BB /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A651A3C290783D6000731BB /* ContainsDuplicate.swift */; };
+		6A651A43290784C3000731BB /* IntersectionOfArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A651A42290784C3000731BB /* IntersectionOfArrays.swift */; };
 		6A67AE38285E4FD500DCD992 /* SameBSTs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE37285E4FD500DCD992 /* SameBSTs.swift */; };
 		6A67AE3B285E50D300DCD992 /* ValidateThreeNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE3A285E50D300DCD992 /* ValidateThreeNodes.swift */; };
 		6A67AE3E285E517C00DCD992 /* HeightBalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE3D285E517C00DCD992 /* HeightBalancedBinaryTree.swift */; };
@@ -320,6 +321,7 @@
 		6A651A3329070D2B000731BB /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		6A651A39290710AC000731BB /* ArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRotation.swift; sourceTree = "<group>"; };
 		6A651A3C290783D6000731BB /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		6A651A42290784C3000731BB /* IntersectionOfArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionOfArrays.swift; sourceTree = "<group>"; };
 		6A67AE37285E4FD500DCD992 /* SameBSTs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameBSTs.swift; sourceTree = "<group>"; };
 		6A67AE3A285E50D300DCD992 /* ValidateThreeNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateThreeNodes.swift; sourceTree = "<group>"; };
 		6A67AE3D285E517C00DCD992 /* HeightBalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBalancedBinaryTree.swift; sourceTree = "<group>"; };
@@ -816,6 +818,14 @@
 			path = "Contains Duplicate";
 			sourceTree = "<group>";
 		};
+		6A651A41290784AF000731BB /* Intersection of Two Array II */ = {
+			isa = PBXGroup;
+			children = (
+				6A651A42290784C3000731BB /* IntersectionOfArrays.swift */,
+			);
+			path = "Intersection of Two Array II";
+			sourceTree = "<group>";
+		};
 		6A67AE36285E4FC900DCD992 /* Same BSTs */ = {
 			isa = PBXGroup;
 			children = (
@@ -947,6 +957,7 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A651A41290784AF000731BB /* Intersection of Two Array II */,
 				6A651A3B290783C1000731BB /* Contains Duplicate */,
 				6A651A382907109B000731BB /* Array Rotation */,
 				6A651A3229070D20000731BB /* Plus One */,
@@ -2419,6 +2430,7 @@
 				6AA826BC2807584F00F79CDF /* GroupAnagrams1.swift in Sources */,
 				6A67AE4E2868E0B000DCD992 /* RiverSizes.swift in Sources */,
 				6A479E0328E17636007726E2 /* MergeKLists.swift in Sources */,
+				6A651A43290784C3000731BB /* IntersectionOfArrays.swift in Sources */,
 				6AF5795226ABF532007B37CA /* ValidateBST.swift in Sources */,
 				6AF5791D26A82ABE007B37CA /* Encryption.swift in Sources */,
 				6A09C88627EDC26600BB9A38 /* ApartmentHunting.swift in Sources */,
