@@ -165,4 +165,4 @@ Suggestions and contributions are welcome.
 
 
 
-### Note: ReadMe file does not contain all the solution links from this repo. It is still in progress and I am updating whenever I get free time.
+### Note: ReadMe file does not contain all the solution links from this repo. It is still in progress and I am updating in my free time.
