@@ -14,14 +14,12 @@ import Foundation
  */
 
 func isValidSubsequence(_ array: [Int], _ sequence: [Int]) -> Bool {
-    var aIdx = 0
-    var sIdx = 0
-    while aIdx < array.count, sIdx < sequence.count {
-        guard sIdx != sequence.count else { break }
-        if array[aIdx] == sequence[sIdx] {
-            sIdx += 1
+    var i = 0, j = 0
+    while i < array.count, j < sequence.count {
+        if array[i] == sequence[j] {
+            j += 1
         }
-        aIdx += 1
+        i += 1
     }
-    return sIdx == sequence.count
+    return j == sequence.count
 }
