@@ -7,14 +7,14 @@
 
 import Foundation
 
-class Node {
+fileprivate class Node {
     var next: Node?
     var key: Int
     init(key: Int) {
         self.key = key
     }
 }
-class MyHashSet {
+fileprivate class MyHashSet {
 
     var array: [Node?] = Array(repeating: nil, count: 10000)
 

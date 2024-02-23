@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MyHashMap {
+fileprivate class MyHashMap {
 
     private var array: [Int] = Array(repeating: -1, count: 10000001)
     /** Initialize your data structure here. */

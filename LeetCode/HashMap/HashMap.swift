@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MyHashMap {
+fileprivate class MyHashMap {
     
     class Node {
         var key: Int

@@ -42,5 +42,4 @@ func predictPartyVictory(_ senate: String) -> String {
        return radiantQueue.count == 0 ? "Dire" : "Radiant"
 }
 
-print(predictPartyVictory("RDD"))
 

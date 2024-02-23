@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(validPalindrome2("aba"))
+print("hello")
