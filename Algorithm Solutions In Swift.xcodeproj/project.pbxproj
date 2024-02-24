@@ -185,6 +185,7 @@
 		6AC63CA42B88F2CF0050F3E8 /* KthLargestElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC63CA32B88F2CF0050F3E8 /* KthLargestElement.swift */; };
 		6AC63CA72B8927130050F3E8 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC63CA62B8927130050F3E8 /* MinStack.swift */; };
 		6AC63CAA2B892AFB0050F3E8 /* BucketSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC63CA92B892AFB0050F3E8 /* BucketSort.swift */; };
+		6AC63CAD2B8A64E80050F3E8 /* FindAllPeopleWithSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC63CAC2B8A64E80050F3E8 /* FindAllPeopleWithSecrets.swift */; };
 		6AE51D2D26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D2E26B2996A00102A7C /* FindSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */; };
 		6AE51D3126B31D0300102A7C /* MaxSumNoAdjacent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */; };
@@ -477,6 +478,7 @@
 		6AC63CA32B88F2CF0050F3E8 /* KthLargestElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElement.swift; sourceTree = "<group>"; };
 		6AC63CA62B8927130050F3E8 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		6AC63CA92B892AFB0050F3E8 /* BucketSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSort.swift; sourceTree = "<group>"; };
+		6AC63CAC2B8A64E80050F3E8 /* FindAllPeopleWithSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllPeopleWithSecrets.swift; sourceTree = "<group>"; };
 		6AE51D2C26B2996A00102A7C /* FindSuccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSuccessor.swift; sourceTree = "<group>"; };
 		6AE51D3026B31D0300102A7C /* MaxSumNoAdjacent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSumNoAdjacent.swift; sourceTree = "<group>"; };
 		6AE51D3426B3343A00102A7C /* RemoveKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveKthNodeFromEnd.swift; sourceTree = "<group>"; };
@@ -1169,6 +1171,7 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6AC63CAB2B8A64D80050F3E8 /* Find All People With Secrets */,
 				6AC63CA82B892AEA0050F3E8 /* Bucket Sort */,
 				6AC63CA52B8927030050F3E8 /* Min Stack */,
 				6AC63CA22B88F2B60050F3E8 /* Find kth Largest Element */,
@@ -1909,6 +1912,14 @@
 				6AC63CA92B892AFB0050F3E8 /* BucketSort.swift */,
 			);
 			path = "Bucket Sort";
+			sourceTree = "<group>";
+		};
+		6AC63CAB2B8A64D80050F3E8 /* Find All People With Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				6AC63CAC2B8A64E80050F3E8 /* FindAllPeopleWithSecrets.swift */,
+			);
+			path = "Find All People With Secrets";
 			sourceTree = "<group>";
 		};
 		6AE51D2B26B2995E00102A7C /* Find Successor */ = {
@@ -2867,6 +2878,7 @@
 				6AF5792126A860E8007B37CA /* FirstDuplicateValue.swift in Sources */,
 				6A651A3A290710AC000731BB /* ArrayRotation.swift in Sources */,
 				6AF5793A26A9E332007B37CA /* TypeAliases.swift in Sources */,
+				6AC63CAD2B8A64E80050F3E8 /* FindAllPeopleWithSecrets.swift in Sources */,
 				6A91244B2704846800D50C17 /* LongestPalindrome.swift in Sources */,
 				6A4364C627FC4B5800F09D92 /* ValidAnagram.swift in Sources */,
 				6A67AE412860FECF00DCD992 /* MinMaxStack.swift in Sources */,
