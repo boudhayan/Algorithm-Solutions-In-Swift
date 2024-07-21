@@ -88,6 +88,7 @@
 		6A67AE57286B133300DCD992 /* NumberOfWaysChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE56286B133300DCD992 /* NumberOfWaysChange.swift */; };
 		6A67AE5A286B13EB00DCD992 /* NthRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67AE59286B13EB00DCD992 /* NthRoot.swift */; };
 		6A6C59C82C4D787C004309F7 /* TopologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C59C72C4D787C004309F7 /* TopologicalSort.swift */; };
+		6A6C59CB2C4D78D8004309F7 /* BuildMatrixWithCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6C59CA2C4D78D8004309F7 /* BuildMatrixWithCondition.swift */; };
 		6A88CED726BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CED826BF03F700A3746B /* 3DSurfaceArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */; };
 		6A88CEDB26BFB9D400A3746B /* ZigZagTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */; };
@@ -389,6 +390,7 @@
 		6A67AE56286B133300DCD992 /* NumberOfWaysChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfWaysChange.swift; sourceTree = "<group>"; };
 		6A67AE59286B13EB00DCD992 /* NthRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NthRoot.swift; sourceTree = "<group>"; };
 		6A6C59C72C4D787C004309F7 /* TopologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSort.swift; sourceTree = "<group>"; };
+		6A6C59CA2C4D78D8004309F7 /* BuildMatrixWithCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMatrixWithCondition.swift; sourceTree = "<group>"; };
 		6A88CED626BF03F700A3746B /* 3DSurfaceArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DSurfaceArea.swift; sourceTree = "<group>"; };
 		6A88CEDA26BFB9D400A3746B /* ZigZagTraverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagTraverse.swift; sourceTree = "<group>"; };
 		6A88CEDE26BFD73500A3746B /* SearchInSortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInSortedMatrix.swift; sourceTree = "<group>"; };
@@ -1148,6 +1150,14 @@
 			path = "Topological Sort";
 			sourceTree = "<group>";
 		};
+		6A6C59C92C4D78C9004309F7 /* Build a Matrix With Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				6A6C59CA2C4D78D8004309F7 /* BuildMatrixWithCondition.swift */,
+			);
+			path = "Build a Matrix With Conditions";
+			sourceTree = "<group>";
+		};
 		6A88CED526BF03EA00A3746B /* 3D Surface Area */ = {
 			isa = PBXGroup;
 			children = (
@@ -1183,6 +1193,7 @@
 		6A88CEE526C056A400A3746B /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				6A6C59C92C4D78C9004309F7 /* Build a Matrix With Conditions */,
 				6A6C59C62C4D786F004309F7 /* Topological Sort */,
 				6AD56D732C4196C200E06EE0 /* Maximum Score From Removing Substrings */,
 				6AC63CAB2B8A64D80050F3E8 /* Find All People With Secrets */,
@@ -2846,6 +2857,7 @@
 				6A91242827023ACC00D50C17 /* Search2DMatrixAnother.swift in Sources */,
 				6A88CEEC26C3133600A3746B /* MergeIntervals.swift in Sources */,
 				6AF578CE26A36A9E007B37CA /* FirstNonRepeatingCharacter.swift in Sources */,
+				6A6C59CB2C4D78D8004309F7 /* BuildMatrixWithCondition.swift in Sources */,
 				6A502300285BAC2200688107 /* StaircaseTraversal.swift in Sources */,
 				6A4364B727F82D2900F09D92 /* Subsets.swift in Sources */,
 				6A651A49290785FF000731BB /* ReverseInteger.swift in Sources */,
