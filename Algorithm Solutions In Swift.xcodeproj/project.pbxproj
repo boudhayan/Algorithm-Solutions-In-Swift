@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7037522F3E5618002CFFE1 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037512F3E5618002CFFE1 /* Algorithms */; };
+		1F7037552F3E5642002CFFE1 /* BasicContainers in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037542F3E5642002CFFE1 /* BasicContainers */; };
+		1F7037572F3E5642002CFFE1 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037562F3E5642002CFFE1 /* BitCollections */; };
+		1F7037592F3E5642002CFFE1 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037582F3E5642002CFFE1 /* Collections */; };
+		1F70375B2F3E5642002CFFE1 /* ContainersPreview in Frameworks */ = {isa = PBXBuildFile; productRef = 1F70375A2F3E5642002CFFE1 /* ContainersPreview */; };
+		1F70375D2F3E5642002CFFE1 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1F70375C2F3E5642002CFFE1 /* DequeModule */; };
+		1F70375F2F3E5642002CFFE1 /* HashTreeCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 1F70375E2F3E5642002CFFE1 /* HashTreeCollections */; };
+		1F7037612F3E5642002CFFE1 /* HeapModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037602F3E5642002CFFE1 /* HeapModule */; };
+		1F7037632F3E5642002CFFE1 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037622F3E5642002CFFE1 /* OrderedCollections */; };
+		1F7037652F3E5642002CFFE1 /* TrailingElementsModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037642F3E5642002CFFE1 /* TrailingElementsModule */; };
+		1F7037672F3E5642002CFFE1 /* _RopeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037662F3E5642002CFFE1 /* _RopeModule */; };
 		6A09C87827EA646600BB9A38 /* MinRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87727EA646600BB9A38 /* MinRewards.swift */; };
 		6A09C87B27EA690200BB9A38 /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87A27EA690200BB9A38 /* BuySellStock.swift */; };
 		6A09C87C27EA690200BB9A38 /* BuySellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09C87A27EA690200BB9A38 /* BuySellStock.swift */; };
@@ -565,6 +576,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7037522F3E5618002CFFE1 /* Algorithms in Frameworks */,
+				1F7037552F3E5642002CFFE1 /* BasicContainers in Frameworks */,
+				1F7037592F3E5642002CFFE1 /* Collections in Frameworks */,
+				1F70375F2F3E5642002CFFE1 /* HashTreeCollections in Frameworks */,
+				1F7037672F3E5642002CFFE1 /* _RopeModule in Frameworks */,
+				1F7037572F3E5642002CFFE1 /* BitCollections in Frameworks */,
+				1F7037652F3E5642002CFFE1 /* TrailingElementsModule in Frameworks */,
+				1F7037632F3E5642002CFFE1 /* OrderedCollections in Frameworks */,
+				1F70375B2F3E5642002CFFE1 /* ContainersPreview in Frameworks */,
+				1F7037612F3E5642002CFFE1 /* HeapModule in Frameworks */,
+				1F70375D2F3E5642002CFFE1 /* DequeModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2030,6 +2052,7 @@
 		6AF5787026A2E60E007B37CA = {
 			isa = PBXGroup;
 			children = (
+				6AF5787B26A2E60E007B37CA /* Algorithm Solutions In Swift */,
 				6AA826DB280EB90300F79CDF /* Concepts */,
 				6A09C87D27EBA40900BB9A38 /* Pramp */,
 				6A9927EF27EA4AC700848E23 /* GeekForGeeks */,
@@ -2037,7 +2060,6 @@
 				6AF5792F26A9E0C9007B37CA /* Data Structures */,
 				6AF578FE26A5ACA3007B37CA /* HackerRank */,
 				6AF5788326A2E674007B37CA /* AlgoExpert */,
-				6AF5787B26A2E60E007B37CA /* Algorithm Solutions In Swift */,
 				6AF578D426A376C4007B37CA /* Algorithm Solutions In Swift Tests */,
 				6AF5787A26A2E60E007B37CA /* Products */,
 			);
@@ -2713,6 +2735,10 @@
 				Base,
 			);
 			mainGroup = 6AF5787026A2E60E007B37CA;
+			packageReferences = (
+				1F7037502F3E5618002CFFE1 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 6AF5787A26A2E60E007B37CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3264,6 +3290,83 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F7037502F3E5618002CFFE1 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F7037512F3E5618002CFFE1 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037502F3E5618002CFFE1 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		1F7037542F3E5642002CFFE1 /* BasicContainers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BasicContainers;
+		};
+		1F7037562F3E5642002CFFE1 /* BitCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BitCollections;
+		};
+		1F7037582F3E5642002CFFE1 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		1F70375A2F3E5642002CFFE1 /* ContainersPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = ContainersPreview;
+		};
+		1F70375C2F3E5642002CFFE1 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		1F70375E2F3E5642002CFFE1 /* HashTreeCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HashTreeCollections;
+		};
+		1F7037602F3E5642002CFFE1 /* HeapModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HeapModule;
+		};
+		1F7037622F3E5642002CFFE1 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		1F7037642F3E5642002CFFE1 /* TrailingElementsModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = TrailingElementsModule;
+		};
+		1F7037662F3E5642002CFFE1 /* _RopeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F7037532F3E5642002CFFE1 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = _RopeModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6AF5787126A2E60E007B37CA /* Project object */;
 }
