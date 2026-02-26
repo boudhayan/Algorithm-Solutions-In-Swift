@@ -35,7 +35,7 @@ h6,
 }
 
 .site-shell {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1.2rem 1rem 2rem;
 }
@@ -154,7 +154,7 @@ h6,
 .readme-panel table {
   width: 100%;
   display: table;
-  table-layout: auto;
+  table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 0.9rem 0 1.4rem;
@@ -171,6 +171,7 @@ h6,
   font-size: 0.9rem;
   overflow-wrap: anywhere;
   word-break: break-word;
+  hyphens: auto;
 }
 
 .readme-panel th {
@@ -180,21 +181,40 @@ h6,
 
 .readme-panel th:nth-child(1),
 .readme-panel td:nth-child(1) {
-  width: 1%;
+  width: 5%;
   text-align: center;
   white-space: nowrap;
 }
 
 .readme-panel th:nth-child(2),
 .readme-panel td:nth-child(2) {
-  width: 45%;
+  width: 37%;
+}
+
+.readme-panel th:nth-child(3),
+.readme-panel td:nth-child(3),
+.readme-panel th:nth-child(4),
+.readme-panel td:nth-child(4) {
+  width: 11%;
+}
+
+.readme-panel th:nth-child(5),
+.readme-panel td:nth-child(5) {
+  width: 10%;
+}
+
+.readme-panel th:nth-child(6),
+.readme-panel td:nth-child(6),
+.readme-panel th:nth-child(7),
+.readme-panel td:nth-child(7) {
+  width: 13%;
 }
 
 .readme-panel a {
   color: #0b5a72;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 860px) {
   .readme-panel table,
   .readme-panel thead,
   .readme-panel tbody,
