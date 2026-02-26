@@ -35,7 +35,7 @@ jobs:
           ./scripts/update-readme.sh
       - name: Ensure README is committed
         run: |
-          git diff --exit-code -- README.md
+          git diff --exit-code -- README.md README.pages.md
 
   duplicate-problem-detector:
     name: Duplicate Problem Detector

@@ -3,6 +3,7 @@ set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 readme_path="$repo_root/README.md"
+pages_readme_path="$repo_root/README.pages.md"
 metadata_path="$repo_root/scripts/readme-metadata.tsv"
 repo_url_base="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main"
 
@@ -275,5 +276,8 @@ replace_section "LEETCODE" "$leetcode_table"
 replace_section "ALGOEXPERT" "$algoexpert_table"
 replace_section "GEEKSFORGEEKS" "$geeksforgeeks_table"
 replace_section "PRAMP" "$pramp_table"
+
+# Pages uses this marker-free copy to ensure stable Markdown table rendering.
+sed -E '/^<!-- AUTO:(START|END):[A-Z]+ -->$/d' "$readme_path" > "$pages_readme_path"
 
 echo "README.md updated from directory structure."

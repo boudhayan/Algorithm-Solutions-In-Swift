@@ -25,7 +25,8 @@ title: Algorithm Solutions in Swift
     <a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/Pramp/">Pramp</a>
   </section>
 
-  <section class="readme-panel" id="solution-index" markdown="1">
-    {% include_relative README.md %}
+  <section class="readme-panel" id="solution-index">
+{% capture pages_readme %}{% include_relative README.pages.md %}{% endcapture %}
+{{ pages_readme | markdownify }}
   </section>
 </div>
