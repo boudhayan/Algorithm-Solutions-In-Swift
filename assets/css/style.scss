@@ -148,12 +148,13 @@ h6,
   padding: 1rem 0.8rem;
   background: var(--card);
   backdrop-filter: blur(2px);
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 .readme-panel table {
   width: 100%;
   display: table;
+  table-layout: auto;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 0.9rem 0 1.4rem;
@@ -166,6 +167,10 @@ h6,
   vertical-align: top;
   border: 1px solid #e4ddd1;
   padding: 0.45rem 0.55rem;
+  line-height: 1.35;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .readme-panel th {
@@ -173,8 +178,73 @@ h6,
   background: #faf6ed;
 }
 
+.readme-panel th:nth-child(1),
+.readme-panel td:nth-child(1) {
+  width: 1%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.readme-panel th:nth-child(2),
+.readme-panel td:nth-child(2) {
+  width: 45%;
+}
+
 .readme-panel a {
   color: #0b5a72;
+}
+
+@media (max-width: 1200px) {
+  .readme-panel table,
+  .readme-panel thead,
+  .readme-panel tbody,
+  .readme-panel tr,
+  .readme-panel th,
+  .readme-panel td {
+    display: block;
+    width: 100%;
+  }
+
+  .readme-panel thead {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+  }
+
+  .readme-panel tr {
+    border: 1px solid #e4ddd1;
+    border-radius: 10px;
+    margin-bottom: 0.7rem;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .readme-panel td {
+    border: none;
+    border-bottom: 1px solid #f0e9dc;
+    padding: 0.48rem 0.6rem;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 0.45rem;
+  }
+
+  .readme-panel td:last-child {
+    border-bottom: none;
+  }
+
+  .readme-panel td::before {
+    font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+    font-weight: 700;
+    color: #5a4a36;
+  }
+
+  .readme-panel td:nth-child(1)::before { content: "Serial No."; }
+  .readme-panel td:nth-child(2)::before { content: "Problem"; }
+  .readme-panel td:nth-child(3)::before { content: "Problem Link"; }
+  .readme-panel td:nth-child(4)::before { content: "Solution"; }
+  .readme-panel td:nth-child(5)::before { content: "Difficulty"; }
+  .readme-panel td:nth-child(6)::before { content: "Topic/Pattern"; }
+  .readme-panel td:nth-child(7)::before { content: "Notes"; }
 }
 
 @media (min-width: 900px) {
