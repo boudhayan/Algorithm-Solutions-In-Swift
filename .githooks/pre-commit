@@ -3,4 +3,5 @@ set -euo pipefail
 
 repo_root="$(git rev-parse --show-toplevel)"
 "$repo_root/scripts/update-readme.sh"
+"$repo_root/scripts/fix-and-lint-staged-swift.sh"
 git add "$repo_root/README.md"
