@@ -148,20 +148,22 @@ h6,
   padding: 1rem 0.8rem;
   background: var(--card);
   backdrop-filter: blur(2px);
+  overflow-x: auto;
 }
 
 .readme-panel table {
-  display: block;
   width: 100%;
-  overflow-x: auto;
+  display: table;
   border-collapse: collapse;
   border-spacing: 0;
   margin: 0.9rem 0 1.4rem;
+  background: #fff;
 }
 
 .readme-panel th,
 .readme-panel td {
-  white-space: nowrap;
+  white-space: normal;
+  vertical-align: top;
   border: 1px solid #e4ddd1;
   padding: 0.45rem 0.55rem;
 }
@@ -169,9 +171,6 @@ h6,
 .readme-panel th {
   font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
   background: #faf6ed;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 .readme-panel a {
