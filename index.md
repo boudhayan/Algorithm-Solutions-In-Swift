@@ -26,7 +26,6 @@ title: Algorithm Solutions in Swift
   </section>
 
   <section class="readme-panel" id="solution-index">
-{% capture pages_readme %}{% include_relative README.pages.md %}{% endcapture %}
-{{ pages_readme | markdownify }}
+{% include_relative README.pages.html %}
   </section>
 </div>

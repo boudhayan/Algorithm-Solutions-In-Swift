@@ -3,7 +3,7 @@ set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 readme_path="$repo_root/README.md"
-pages_readme_path="$repo_root/README.pages.md"
+pages_html_path="$repo_root/README.pages.html"
 metadata_path="$repo_root/scripts/readme-metadata.tsv"
 repo_url_base="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main"
 
@@ -29,6 +29,15 @@ trim_whitespace() {
 
 escape_table_text() {
   printf '%s' "$1" | sed 's/|/\\|/g'
+}
+
+html_escape() {
+  printf '%s' "$1" \
+    | sed -e 's/&/\&amp;/g' \
+          -e 's/</\&lt;/g' \
+          -e 's/>/\&gt;/g' \
+          -e 's/"/\&quot;/g' \
+          -e "s/'/\&#39;/g"
 }
 
 metadata_lookup() {
@@ -205,6 +214,101 @@ generate_table() {
   )
 }
 
+generate_html_section() {
+  local category="$1"
+  local section_url="$2"
+  local index=1
+  local dir problem_raw problem_name encoded_path solution_link
+  local metadata_problem_url file_problem_url problem_url
+  local difficulty topic problem_url_attr solution_url_attr
+
+  printf '<h3><a href="%s">%s</a></h3>\n' "$(html_escape "$section_url")" "$(html_escape "$category")"
+  printf '<table>\n'
+  printf '  <thead>\n'
+  printf '    <tr><th>Serial No.</th><th>Problem</th><th>Problem Link</th><th>Solution</th><th>Difficulty</th><th>Topic/Pattern</th><th>Notes</th></tr>\n'
+  printf '  </thead>\n'
+  printf '  <tbody>\n'
+
+  while IFS= read -r dir; do
+    problem_raw="$(basename "$dir")"
+    problem_raw="$(trim_whitespace "$problem_raw")"
+    problem_name="$(html_escape "$problem_raw")"
+
+    encoded_path="$(url_encode "${dir#$repo_root/}")"
+    solution_link="${repo_url_base}/${encoded_path}"
+    solution_url_attr="$(html_escape "$solution_link")"
+
+    metadata_problem_url="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "problem_url")")"
+    file_problem_url="$(extract_problem_url_from_files "$dir")"
+
+    if [[ -n "$metadata_problem_url" ]]; then
+      problem_url="$metadata_problem_url"
+    elif [[ -n "$file_problem_url" ]]; then
+      problem_url="$file_problem_url"
+    else
+      problem_url="$(default_problem_link "$category" "$problem_raw")"
+    fi
+
+    difficulty="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "difficulty")")"
+    if [[ -z "$difficulty" ]]; then
+      difficulty="_"
+    fi
+    difficulty="$(html_escape "$difficulty")"
+
+    topic="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "topic")")"
+    if [[ -z "$topic" ]]; then
+      topic="$(infer_topic "$problem_raw")"
+    fi
+    topic="$(html_escape "$topic")"
+
+    printf '    <tr>'
+    printf '<td>%d</td>' "$index"
+    printf '<td>%s</td>' "$problem_name"
+
+    if [[ -n "$problem_url" ]]; then
+      problem_url_attr="$(html_escape "$problem_url")"
+      printf '<td><a href="%s">Problem</a></td>' "$problem_url_attr"
+    else
+      printf '<td>_</td>'
+    fi
+
+    printf '<td><a href="%s">Solution</a></td>' "$solution_url_attr"
+    printf '<td>%s</td>' "$difficulty"
+    printf '<td>%s</td>' "$topic"
+    printf '<td>_</td>'
+    printf '</tr>\n'
+
+    index=$((index + 1))
+  done < <(
+    find "$repo_root/$category" -mindepth 1 -maxdepth 1 -type d | LC_ALL=C sort
+  )
+
+  printf '  </tbody>\n'
+  printf '</table>\n\n'
+}
+
+generate_pages_html() {
+  cat <<'EOF'
+<h1>Algorithms Solutions in Swift</h1>
+<p>This repository contains Swift solutions from AlgoExpert, LeetCode, HackerRank, GeekForGeeks, and Pramp.</p>
+<p>Suggestions and contributions are welcome.</p>
+
+<h2>How to Use</h2>
+<ul>
+  <li>Browse by platform section and open <strong>Problem Link</strong> for the original prompt.</li>
+  <li>Open <strong>Solution</strong> to view the implementation in this repository.</li>
+  <li>Update <code>Difficulty</code>, <code>Topic/Pattern</code>, or <code>Problem Link</code> overrides in <code>scripts/readme-metadata.tsv</code>.</li>
+</ul>
+
+EOF
+
+  generate_html_section "HackerRank" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/"
+  generate_html_section "LeetCode" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/"
+  generate_html_section "AlgoExpert" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/"
+  generate_html_section "GeekForGeeks" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/GeekForGeeks/"
+  generate_html_section "Pramp" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/Pramp/"
+}
+
 replace_section() {
   local section="$1"
   local rows_file="$2"
@@ -277,7 +381,7 @@ replace_section "ALGOEXPERT" "$algoexpert_table"
 replace_section "GEEKSFORGEEKS" "$geeksforgeeks_table"
 replace_section "PRAMP" "$pramp_table"
 
-# Pages uses this marker-free copy to ensure stable Markdown table rendering.
-sed -E '/^<!-- AUTO:(START|END):[A-Z]+ -->$/d' "$readme_path" > "$pages_readme_path"
+# Pages uses this HTML copy for stable table rendering.
+generate_pages_html > "$pages_html_path"
 
 echo "README.md updated from directory structure."
