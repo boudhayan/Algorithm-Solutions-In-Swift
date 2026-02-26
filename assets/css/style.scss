@@ -1,0 +1,190 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Serif+4:wght@400;600&display=swap");
+
+:root {
+  --bg-0: #f4f1ea;
+  --bg-1: #fdfbf6;
+  --ink-0: #171717;
+  --ink-1: #3a3a3a;
+  --accent: #d04a1a;
+  --accent-soft: #ffe8df;
+  --line: #dfd6c8;
+  --card: #ffffffcc;
+}
+
+body {
+  font-family: "Source Serif 4", Georgia, serif;
+  background:
+    radial-gradient(circle at 8% 8%, #ffe7cc 0%, transparent 36%),
+    radial-gradient(circle at 92% 16%, #e8f7f3 0%, transparent 38%),
+    linear-gradient(180deg, var(--bg-0), var(--bg-1));
+  color: var(--ink-0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+  font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.site-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.2rem 1rem 2rem;
+}
+
+.hero-card {
+  border: 1px solid var(--line);
+  background: linear-gradient(120deg, #fffdf7, #fff);
+  border-radius: 16px;
+  padding: 1.4rem 1.2rem;
+  box-shadow: 0 12px 24px rgba(17, 17, 17, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-card::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  top: -120px;
+  width: 260px;
+  height: 260px;
+  border-radius: 999px;
+  background: radial-gradient(circle, #ffd2bf 0%, transparent 65%);
+}
+
+.hero-eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.83rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.hero-card h1 {
+  margin: 0;
+  line-height: 1.15;
+}
+
+.hero-card p {
+  margin: 0.85rem 0 0;
+  max-width: 74ch;
+  color: var(--ink-1);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  color: #fff;
+  background: var(--accent);
+}
+
+.btn-primary:hover {
+  background: #b53f16;
+}
+
+.btn-ghost {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: #f2cbbd;
+}
+
+.btn-ghost:hover {
+  background: #ffe0d2;
+}
+
+.quick-links {
+  display: flex;
+  gap: 0.6rem;
+  margin: 1rem 0 1.1rem;
+  flex-wrap: wrap;
+}
+
+.quick-links a {
+  text-decoration: none;
+  font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  color: #1f4f44;
+  background: #e8f7f3;
+  border: 1px solid #c8e8df;
+  border-radius: 999px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  padding: 0.34rem 0.68rem;
+}
+
+.quick-links a:hover {
+  background: #daf1ea;
+}
+
+.readme-panel {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem 0.8rem;
+  background: var(--card);
+  backdrop-filter: blur(2px);
+}
+
+.readme-panel table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0.9rem 0 1.4rem;
+}
+
+.readme-panel th,
+.readme-panel td {
+  white-space: nowrap;
+  border: 1px solid #e4ddd1;
+  padding: 0.45rem 0.55rem;
+}
+
+.readme-panel th {
+  font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  background: #faf6ed;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.readme-panel a {
+  color: #0b5a72;
+}
+
+@media (min-width: 900px) {
+  .site-shell {
+    padding: 1.4rem 1.4rem 2.2rem;
+  }
+
+  .hero-card,
+  .readme-panel {
+    padding: 1.4rem;
+  }
+}
