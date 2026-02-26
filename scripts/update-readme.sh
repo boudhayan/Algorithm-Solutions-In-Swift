@@ -30,8 +30,8 @@ generate_table() {
   local index=1
   local dir problem encoded_path link
 
-  printf '| Serial No. | Problem | Solution | Time Complexity | Space Complexity | Notes |\n'
-  printf '|---|---|---|---|---|---|\n'
+  printf '| Serial No. | Problem | Solution | Notes |\n'
+  printf '|---|---|---|---|\n'
 
   while IFS= read -r dir; do
     problem="$(basename "$dir")"
@@ -39,7 +39,7 @@ generate_table() {
     encoded_path="$(url_encode "${dir#$repo_root/}")"
     link="${repo_url_base}/${encoded_path}"
 
-    printf '|%d|%s|<a href="%s">Link</a>|_|_|_|\n' "$index" "$problem" "$link"
+    printf '|%d|%s|<a href="%s">Link</a>|_|\n' "$index" "$problem" "$link"
     index=$((index + 1))
   done < <(
     find "$repo_root/$category" -mindepth 1 -maxdepth 1 -type d | LC_ALL=C sort
@@ -101,15 +101,21 @@ replace_section() {
 hackerrank_table="$(mktemp)"
 leetcode_table="$(mktemp)"
 algoexpert_table="$(mktemp)"
+geeksforgeeks_table="$(mktemp)"
+pramp_table="$(mktemp)"
 
-trap 'rm -f "$hackerrank_table" "$leetcode_table" "$algoexpert_table"' EXIT
+trap 'rm -f "$hackerrank_table" "$leetcode_table" "$algoexpert_table" "$geeksforgeeks_table" "$pramp_table"' EXIT
 
 generate_table "HackerRank" > "$hackerrank_table"
 generate_table "LeetCode" > "$leetcode_table"
 generate_table "AlgoExpert" > "$algoexpert_table"
+generate_table "GeekForGeeks" > "$geeksforgeeks_table"
+generate_table "Pramp" > "$pramp_table"
 
 replace_section "HACKERRANK" "$hackerrank_table"
 replace_section "LEETCODE" "$leetcode_table"
 replace_section "ALGOEXPERT" "$algoexpert_table"
+replace_section "GEEKSFORGEEKS" "$geeksforgeeks_table"
+replace_section "PRAMP" "$pramp_table"
 
 echo "README.md updated from directory structure."
