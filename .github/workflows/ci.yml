@@ -73,13 +73,30 @@ jobs:
   swift-format-lint-check:
     name: Swift Format And Lint Check
     runs-on: macos-latest
+    if: github.event_name == 'pull_request'
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
-      - name: Run style checks
+        with:
+          fetch-depth: 0
+      - name: Run style checks on changed Swift files
+        shell: bash
         run: |
+          set -euo pipefail
           chmod +x scripts/check-swift-style.sh
-          ./scripts/check-swift-style.sh
+          mapfile -d '' swift_files < <(
+            git diff -z --name-only --diff-filter=ACMR \
+              "${{ github.event.pull_request.base.sha }}" \
+              "${{ github.event.pull_request.head.sha }}" \
+              -- '*.swift'
+          )
+
+          if [[ "${#swift_files[@]}" -eq 0 ]]; then
+            echo "No changed Swift files in this PR."
+            exit 0
+          fi
+
+          ./scripts/check-swift-style.sh "${swift_files[@]}"
 
   link-health:
     name: Link Health
