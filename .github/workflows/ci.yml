@@ -1,0 +1,135 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  metadata-validate:
+    name: Metadata Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate README metadata
+        run: |
+          chmod +x scripts/validate-readme-metadata.sh
+          ./scripts/validate-readme-metadata.sh
+
+  readme-sync-check:
+    name: README Sync Check
+    runs-on: ubuntu-latest
+    needs: metadata-validate
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate README
+        run: |
+          chmod +x scripts/update-readme.sh
+          ./scripts/update-readme.sh
+      - name: Ensure README is committed
+        run: |
+          git diff --exit-code -- README.md
+
+  duplicate-problem-detector:
+    name: Duplicate Problem Detector
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Detect duplicate problem names
+        run: |
+          chmod +x scripts/check-duplicate-problems.sh
+          ./scripts/check-duplicate-problems.sh
+
+  swift-build-test:
+    name: Swift Build And Test
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and test project
+        shell: bash
+        run: |
+          set -euo pipefail
+          project="Algorithm Solutions In Swift.xcodeproj"
+          list_output="$(xcodebuild -list -project "$project")"
+          echo "$list_output"
+
+          if echo "$list_output" | sed -n '/Schemes:/,$p' | grep -Fq "Algorithm Solutions In Swift"; then
+            xcodebuild \
+              -project "$project" \
+              -scheme "Algorithm Solutions In Swift" \
+              -destination "platform=macOS" \
+              build test
+          else
+            xcodebuild -project "$project" -target "Algorithm Solutions In Swift" build
+            xcodebuild -project "$project" -target "Algorithm Solutions In Swift Tests" build
+          fi
+
+  swift-format-lint-check:
+    name: Swift Format And Lint Check
+    runs-on: macos-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run style checks
+        run: |
+          chmod +x scripts/check-swift-style.sh
+          ./scripts/check-swift-style.sh
+
+  link-health:
+    name: Link Health
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: --no-progress --max-concurrency 8 --timeout 20 --accept 200,429,403 README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  codeql:
+    name: CodeQL
+    runs-on: macos-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    strategy:
+      fail-fast: false
+      matrix:
+        language:
+          - swift
+    steps:
+      - uses: actions/checkout@v4
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+      - name: Build for CodeQL
+        shell: bash
+        run: |
+          set -euo pipefail
+          project="Algorithm Solutions In Swift.xcodeproj"
+          list_output="$(xcodebuild -list -project "$project")"
+
+          if echo "$list_output" | sed -n '/Schemes:/,$p' | grep -Fq "Algorithm Solutions In Swift"; then
+            xcodebuild \
+              -project "$project" \
+              -scheme "Algorithm Solutions In Swift" \
+              -destination "platform=macOS" \
+              build
+          else
+            xcodebuild -project "$project" -target "Algorithm Solutions In Swift" build
+          fi
+      - name: Analyze with CodeQL
+        uses: github/codeql-action/analyze@v3
