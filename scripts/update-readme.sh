@@ -25,10 +25,13 @@ trim_whitespace() {
   printf '%s' "$value"
 }
 
-generate_rows() {
+generate_table() {
   local category="$1"
   local index=1
   local dir problem encoded_path link
+
+  printf '| Serial No. | Problem | Solution | Time Complexity | Space Complexity | Notes |\n'
+  printf '|---|---|---|---|---|---|\n'
 
   while IFS= read -r dir; do
     problem="$(basename "$dir")"
@@ -95,18 +98,18 @@ replace_section() {
   mv "$temp_file" "$readme_path"
 }
 
-hackerrank_rows="$(mktemp)"
-leetcode_rows="$(mktemp)"
-algoexpert_rows="$(mktemp)"
+hackerrank_table="$(mktemp)"
+leetcode_table="$(mktemp)"
+algoexpert_table="$(mktemp)"
 
-trap 'rm -f "$hackerrank_rows" "$leetcode_rows" "$algoexpert_rows"' EXIT
+trap 'rm -f "$hackerrank_table" "$leetcode_table" "$algoexpert_table"' EXIT
 
-generate_rows "HackerRank" > "$hackerrank_rows"
-generate_rows "LeetCode" > "$leetcode_rows"
-generate_rows "AlgoExpert" > "$algoexpert_rows"
+generate_table "HackerRank" > "$hackerrank_table"
+generate_table "LeetCode" > "$leetcode_table"
+generate_table "AlgoExpert" > "$algoexpert_table"
 
-replace_section "HACKERRANK" "$hackerrank_rows"
-replace_section "LEETCODE" "$leetcode_rows"
-replace_section "ALGOEXPERT" "$algoexpert_rows"
+replace_section "HACKERRANK" "$hackerrank_table"
+replace_section "LEETCODE" "$leetcode_table"
+replace_section "ALGOEXPERT" "$algoexpert_table"
 
 echo "README.md updated from directory structure."

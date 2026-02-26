@@ -4,9 +4,9 @@ This repository contains solutions from AlgoExpert, LeetCode, and HackerRank in 
 Suggestions and contributions are welcome.
 
 ### [HackerRank](https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/)
+<!-- AUTO:START:HACKERRANK -->
 | Serial No. | Problem | Solution | Time Complexity | Space Complexity | Notes |
 |---|---|---|---|---|---|
-<!-- AUTO:START:HACKERRANK -->
 |1|3D Surface Area|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/3D%20Surface%20Area">Link</a>|_|_|_|
 |2|Almost Sorted|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Almost%20Sorted">Link</a>|_|_|_|
 |3|Binary Search Trees|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/Binary%20Search%20Trees">Link</a>|_|_|_|
@@ -25,9 +25,9 @@ Suggestions and contributions are welcome.
 <!-- AUTO:END:HACKERRANK -->
 
 ### [LeetCode](https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/)
+<!-- AUTO:START:LEETCODE -->
 | Serial No. | Problem | Solution | Time Complexity | Space Complexity | Notes |
 |---|---|---|---|---|---|
-<!-- AUTO:START:LEETCODE -->
 |1|3 Sum Closest|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/3%20Sum%20Closest">Link</a>|_|_|_|
 |2|Add Strings|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Add%20Strings">Link</a>|_|_|_|
 |3|Array Rotation|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/Array%20Rotation">Link</a>|_|_|_|
@@ -135,9 +135,9 @@ Suggestions and contributions are welcome.
 <!-- AUTO:END:LEETCODE -->
 
 ### [AlgoExpert](https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/)
+<!-- AUTO:START:ALGOEXPERT -->
 | Serial No. | Problem | Solution | Time Complexity | Space Complexity | Notes |
 |---|---|---|---|---|---|
-<!-- AUTO:START:ALGOEXPERT -->
 |1|Apartment Hunting|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Apartment%20Hunting">Link</a>|_|_|_|
 |2|Array of Products|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/Array%20of%20Products">Link</a>|_|_|_|
 |3|BST Construction|<a href="https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/BST%20Construction">Link</a>|_|_|_|
