@@ -47,6 +47,29 @@ jobs:
           chmod +x scripts/check-duplicate-problems.sh
           ./scripts/check-duplicate-problems.sh
 
+  swift-build-check:
+    name: Swift Build Check
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile project
+        shell: bash
+        run: |
+          set -euo pipefail
+          project="Algorithm Solutions In Swift.xcodeproj"
+          list_output="$(xcodebuild -list -project "$project")"
+          echo "$list_output"
+
+          if echo "$list_output" | sed -n '/Schemes:/,$p' | grep -Fq "Algorithm Solutions In Swift"; then
+            xcodebuild \
+              -project "$project" \
+              -scheme "Algorithm Solutions In Swift" \
+              -destination "platform=macOS" \
+              build
+          else
+            xcodebuild -project "$project" -target "Algorithm Solutions In Swift" build
+          fi
+
   swift-format-lint-check:
     name: Swift Format And Lint Check
     runs-on: macos-latest
