@@ -214,77 +214,103 @@ generate_table() {
   )
 }
 
-generate_html_section() {
+category_repo_url() {
   local category="$1"
-  local section_url="$2"
-  local index=1
+
+  case "$category" in
+    HackerRank)
+      printf 'https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/'
+      ;;
+    LeetCode)
+      printf 'https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/'
+      ;;
+    AlgoExpert)
+      printf 'https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/'
+      ;;
+    GeekForGeeks)
+      printf 'https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/GeekForGeeks/'
+      ;;
+    Pramp)
+      printf 'https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/Pramp/'
+      ;;
+    *)
+      printf '%s' "$repo_url_base"
+      ;;
+  esac
+}
+
+generate_solution_cards_html() {
+  local category section_url platform_slug index=1
   local dir problem_raw problem_name encoded_path solution_link
   local metadata_problem_url file_problem_url problem_url
-  local difficulty topic problem_url_attr solution_url_attr
+  local difficulty topic search_blob problem_url_attr solution_url_attr
 
-  printf '<h3><a href="%s">%s</a></h3>\n' "$(html_escape "$section_url")" "$(html_escape "$category")"
-  printf '<table>\n'
-  printf '  <thead>\n'
-  printf '    <tr><th>Serial No.</th><th>Problem</th><th>Problem Link</th><th>Solution</th><th>Difficulty</th><th>Topic/Pattern</th><th>Notes</th></tr>\n'
-  printf '  </thead>\n'
-  printf '  <tbody>\n'
+  for category in HackerRank LeetCode AlgoExpert GeekForGeeks Pramp; do
+    section_url="$(category_repo_url "$category")"
+    platform_slug="$(printf '%s' "$category" | tr '[:upper:]' '[:lower:]')"
+    index=1
 
-  while IFS= read -r dir; do
-    problem_raw="$(basename "$dir")"
-    problem_raw="$(trim_whitespace "$problem_raw")"
-    problem_name="$(html_escape "$problem_raw")"
+    while IFS= read -r dir; do
+      problem_raw="$(basename "$dir")"
+      problem_raw="$(trim_whitespace "$problem_raw")"
+      problem_name="$(html_escape "$problem_raw")"
 
-    encoded_path="$(url_encode "${dir#$repo_root/}")"
-    solution_link="${repo_url_base}/${encoded_path}"
-    solution_url_attr="$(html_escape "$solution_link")"
+      encoded_path="$(url_encode "${dir#$repo_root/}")"
+      solution_link="${repo_url_base}/${encoded_path}"
+      solution_url_attr="$(html_escape "$solution_link")"
 
-    metadata_problem_url="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "problem_url")")"
-    file_problem_url="$(extract_problem_url_from_files "$dir")"
+      metadata_problem_url="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "problem_url")")"
+      file_problem_url="$(extract_problem_url_from_files "$dir")"
 
-    if [[ -n "$metadata_problem_url" ]]; then
-      problem_url="$metadata_problem_url"
-    elif [[ -n "$file_problem_url" ]]; then
-      problem_url="$file_problem_url"
-    else
-      problem_url="$(default_problem_link "$category" "$problem_raw")"
-    fi
+      if [[ -n "$metadata_problem_url" ]]; then
+        problem_url="$metadata_problem_url"
+      elif [[ -n "$file_problem_url" ]]; then
+        problem_url="$file_problem_url"
+      else
+        problem_url="$(default_problem_link "$category" "$problem_raw")"
+      fi
 
-    difficulty="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "difficulty")")"
-    if [[ -z "$difficulty" ]]; then
-      difficulty="_"
-    fi
-    difficulty="$(html_escape "$difficulty")"
+      difficulty="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "difficulty")")"
+      if [[ -z "$difficulty" || "$difficulty" == "_" ]]; then
+        difficulty="Unknown"
+      fi
 
-    topic="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "topic")")"
-    if [[ -z "$topic" ]]; then
-      topic="$(infer_topic "$problem_raw")"
-    fi
-    topic="$(html_escape "$topic")"
+      topic="$(trim_whitespace "$(metadata_lookup "$category" "$problem_raw" "topic")")"
+      if [[ -z "$topic" ]]; then
+        topic="$(infer_topic "$problem_raw")"
+      fi
+      if [[ "$topic" == "_" ]]; then
+        topic="General"
+      fi
 
-    printf '    <tr>'
-    printf '<td>%d</td>' "$index"
-    printf '<td>%s</td>' "$problem_name"
+      search_blob="$(printf '%s %s %s %s' "$problem_raw" "$category" "$difficulty" "$topic" | tr '[:upper:]' '[:lower:]')"
 
-    if [[ -n "$problem_url" ]]; then
-      problem_url_attr="$(html_escape "$problem_url")"
-      printf '<td><a href="%s">Problem</a></td>' "$problem_url_attr"
-    else
-      printf '<td>_</td>'
-    fi
+      printf '<article class="solution-card" data-platform="%s" data-search="%s">\n' \
+        "$(html_escape "$platform_slug")" "$(html_escape "$search_blob")"
+      printf '  <div class="solution-card-top">\n'
+      printf '    <a class="platform-pill platform-%s" href="%s">%s</a>\n' \
+        "$(html_escape "$platform_slug")" "$(html_escape "$section_url")" "$(html_escape "$category")"
+      printf '    <span class="serial-pill">#%d</span>\n' "$index"
+      printf '  </div>\n'
+      printf '  <h3>%s</h3>\n' "$problem_name"
+      printf '  <p class="solution-card-meta"><span>%s</span><span>%s</span></p>\n' \
+        "$(html_escape "$difficulty")" "$(html_escape "$topic")"
+      printf '  <div class="solution-card-actions">\n'
+      if [[ -n "$problem_url" ]]; then
+        problem_url_attr="$(html_escape "$problem_url")"
+        printf '    <a class="card-link" href="%s">Problem</a>\n' "$problem_url_attr"
+      else
+        printf '    <span class="card-link card-link-muted">Problem N/A</span>\n'
+      fi
+      printf '    <a class="card-link card-link-primary" href="%s">Solution</a>\n' "$solution_url_attr"
+      printf '  </div>\n'
+      printf '</article>\n'
 
-    printf '<td><a href="%s">Solution</a></td>' "$solution_url_attr"
-    printf '<td>%s</td>' "$difficulty"
-    printf '<td>%s</td>' "$topic"
-    printf '<td>_</td>'
-    printf '</tr>\n'
-
-    index=$((index + 1))
-  done < <(
-    find "$repo_root/$category" -mindepth 1 -maxdepth 1 -type d | LC_ALL=C sort
-  )
-
-  printf '  </tbody>\n'
-  printf '</table>\n\n'
+      index=$((index + 1))
+    done < <(
+      find "$repo_root/$category" -mindepth 1 -maxdepth 1 -type d | LC_ALL=C sort
+    )
+  done
 }
 
 generate_pages_html() {
@@ -295,18 +321,85 @@ generate_pages_html() {
 
 <h2>How to Use</h2>
 <ul>
-  <li>Browse by platform section and open <strong>Problem Link</strong> for the original prompt.</li>
-  <li>Open <strong>Solution</strong> to view the implementation in this repository.</li>
+  <li>Use search and platform filters to quickly find a problem.</li>
+  <li>Open <strong>Problem</strong> for the original prompt and <strong>Solution</strong> for this repository implementation.</li>
   <li>Update <code>Difficulty</code>, <code>Topic/Pattern</code>, or <code>Problem Link</code> overrides in <code>scripts/readme-metadata.tsv</code>.</li>
 </ul>
 
+<section class="solutions-toolbar" aria-label="Solution filters">
+  <div class="solutions-search-wrap">
+    <label for="solution-search">Search solutions</label>
+    <input id="solution-search" type="search" placeholder="Type problem, topic, or platform..." autocomplete="off" />
+  </div>
+  <div class="platform-filters" role="group" aria-label="Platform filters">
+    <button class="platform-filter is-active" type="button" data-platform-filter="all">All</button>
+    <button class="platform-filter" type="button" data-platform-filter="hackerrank">HackerRank</button>
+    <button class="platform-filter" type="button" data-platform-filter="leetcode">LeetCode</button>
+    <button class="platform-filter" type="button" data-platform-filter="algoexpert">AlgoExpert</button>
+    <button class="platform-filter" type="button" data-platform-filter="geeksforgeeks">GeekForGeeks</button>
+    <button class="platform-filter" type="button" data-platform-filter="pramp">Pramp</button>
+  </div>
+  <p id="results-count" class="results-count"></p>
+</section>
+
+<section id="solution-cards" class="solution-card-grid">
 EOF
 
-  generate_html_section "HackerRank" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/HackerRank/"
-  generate_html_section "LeetCode" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/LeetCode/"
-  generate_html_section "AlgoExpert" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/AlgoExpert/"
-  generate_html_section "GeekForGeeks" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/GeekForGeeks/"
-  generate_html_section "Pramp" "https://github.com/boudhayan/Algorithm-Solutions-In-Swift/tree/main/Pramp/"
+  generate_solution_cards_html
+
+  cat <<'EOF'
+</section>
+
+<script>
+(() => {
+  const searchInput = document.getElementById("solution-search");
+  const cards = Array.from(document.querySelectorAll(".solution-card"));
+  const resultCount = document.getElementById("results-count");
+  const platformButtons = Array.from(document.querySelectorAll("[data-platform-filter]"));
+  let activePlatform = "all";
+
+  if (!searchInput || cards.length === 0 || !resultCount) {
+    return;
+  }
+
+  const renderCount = (visible, total) => {
+    resultCount.textContent = `Showing ${visible} of ${total} solutions`;
+  };
+
+  const applyFilters = () => {
+    const query = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const cardPlatform = card.dataset.platform || "";
+      const cardSearch = card.dataset.search || "";
+      const matchesPlatform = activePlatform === "all" || cardPlatform === activePlatform;
+      const matchesQuery = query.length === 0 || cardSearch.includes(query);
+      const isVisible = matchesPlatform && matchesQuery;
+      card.hidden = !isVisible;
+      if (isVisible) {
+        visibleCount += 1;
+      }
+    });
+
+    renderCount(visibleCount, cards.length);
+  };
+
+  platformButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activePlatform = button.dataset.platformFilter || "all";
+      platformButtons.forEach((otherButton) => {
+        otherButton.classList.toggle("is-active", otherButton === button);
+      });
+      applyFilters();
+    });
+  });
+
+  searchInput.addEventListener("input", applyFilters);
+  renderCount(cards.length, cards.length);
+})();
+</script>
+EOF
 }
 
 replace_section() {

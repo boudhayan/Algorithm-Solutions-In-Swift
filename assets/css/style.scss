@@ -145,126 +145,221 @@ h6,
 .readme-panel {
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 1rem 0.8rem;
+  padding: 1rem;
   background: var(--card);
   backdrop-filter: blur(2px);
-  overflow-x: visible;
+  overflow: visible;
 }
 
-.readme-panel table {
-  width: 100%;
-  display: table;
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin: 0.9rem 0 1.4rem;
-  background: #fff;
-}
-
-.readme-panel th,
-.readme-panel td {
-  white-space: normal;
-  vertical-align: top;
+.solutions-toolbar {
   border: 1px solid #e4ddd1;
-  padding: 0.45rem 0.55rem;
-  line-height: 1.35;
-  font-size: 0.9rem;
-  overflow-wrap: anywhere;
-  word-break: break-word;
-  hyphens: auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin: 0.8rem 0 1rem;
+  display: grid;
+  gap: 0.7rem;
 }
 
-.readme-panel th {
+.solutions-search-wrap {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.solutions-search-wrap label {
   font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
-  background: #faf6ed;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: #5a4a36;
 }
 
-.readme-panel th:nth-child(1),
-.readme-panel td:nth-child(1) {
-  width: 5%;
+#solution-search {
+  width: 100%;
+  border: 1px solid #dacfbf;
+  border-radius: 10px;
+  padding: 0.58rem 0.7rem;
+  font-size: 0.94rem;
+  background: #fffdfa;
+}
+
+#solution-search:focus {
+  outline: 2px solid #ffd8c7;
+  border-color: #d48a65;
+}
+
+.platform-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.platform-filter {
+  border: 1px solid #dacfbf;
+  background: #fffdfa;
+  color: #5a4a36;
+  border-radius: 999px;
+  padding: 0.3rem 0.66rem;
+  font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.platform-filter.is-active {
+  background: #d04a1a;
+  color: #fff;
+  border-color: #d04a1a;
+}
+
+.results-count {
+  margin: 0;
+  font-size: 0.84rem;
+  color: #61513f;
+}
+
+.solution-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 0.75rem;
+}
+
+.solution-card {
+  border: 1px solid #e4ddd1;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.78rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.58rem;
+  box-shadow: 0 4px 12px rgba(20, 20, 20, 0.04);
+}
+
+.solution-card[hidden] {
+  display: none;
+}
+
+.solution-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.platform-pill {
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.73rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.platform-hackerrank {
+  background: #e3f9ec;
+  color: #086638;
+  border-color: #b8ebcc;
+}
+
+.platform-leetcode {
+  background: #fff2df;
+  color: #924d00;
+  border-color: #ffd9a4;
+}
+
+.platform-algoexpert {
+  background: #efeaff;
+  color: #5a3ec8;
+  border-color: #d7c8ff;
+}
+
+.platform-geeksforgeeks {
+  background: #e6f7ef;
+  color: #166d45;
+  border-color: #bae4cd;
+}
+
+.platform-pramp {
+  background: #e6f1ff;
+  color: #1d4f97;
+  border-color: #bfd7ff;
+}
+
+.serial-pill {
+  font-size: 0.76rem;
+  color: #7b6a57;
+  font-weight: 600;
+}
+
+.solution-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.28;
+}
+
+.solution-card-meta {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.solution-card-meta span {
+  background: #f7f2e9;
+  border: 1px solid #e6ddcf;
+  border-radius: 999px;
+  padding: 0.16rem 0.52rem;
+  font-size: 0.76rem;
+  color: #5f4f3d;
+}
+
+.solution-card-actions {
+  display: flex;
+  gap: 0.45rem;
+  margin-top: auto;
+}
+
+.card-link {
+  flex: 1;
   text-align: center;
-  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid #d6cdbc;
+  border-radius: 8px;
+  padding: 0.42rem 0.54rem;
+  color: #3f4f63;
+  background: #faf8f3;
+  font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
-.readme-panel th:nth-child(2),
-.readme-panel td:nth-child(2) {
-  width: 37%;
+.card-link-primary {
+  border-color: #0b5a72;
+  background: #0b5a72;
+  color: #fff;
 }
 
-.readme-panel th:nth-child(3),
-.readme-panel td:nth-child(3),
-.readme-panel th:nth-child(4),
-.readme-panel td:nth-child(4) {
-  width: 11%;
+.card-link-muted {
+  color: #968674;
+  background: #f5f1ea;
 }
 
-.readme-panel th:nth-child(5),
-.readme-panel td:nth-child(5) {
-  width: 10%;
+.card-link:hover {
+  filter: brightness(0.98);
 }
 
-.readme-panel th:nth-child(6),
-.readme-panel td:nth-child(6),
-.readme-panel th:nth-child(7),
-.readme-panel td:nth-child(7) {
-  width: 13%;
-}
+@media (max-width: 640px) {
+  .solution-card-grid {
+    grid-template-columns: 1fr;
+  }
 
-.readme-panel a {
-  color: #0b5a72;
-}
+  .solution-card-actions {
+    flex-direction: column;
+  }
 
-@media (max-width: 860px) {
-  .readme-panel table,
-  .readme-panel thead,
-  .readme-panel tbody,
-  .readme-panel tr,
-  .readme-panel th,
-  .readme-panel td {
-    display: block;
+  .card-link {
     width: 100%;
   }
-
-  .readme-panel thead {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-  }
-
-  .readme-panel tr {
-    border: 1px solid #e4ddd1;
-    border-radius: 10px;
-    margin-bottom: 0.7rem;
-    overflow: hidden;
-    background: #fff;
-  }
-
-  .readme-panel td {
-    border: none;
-    border-bottom: 1px solid #f0e9dc;
-    padding: 0.48rem 0.6rem;
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 0.45rem;
-  }
-
-  .readme-panel td:last-child {
-    border-bottom: none;
-  }
-
-  .readme-panel td::before {
-    font-family: "Space Grotesk", "Avenir Next", "Segoe UI", sans-serif;
-    font-weight: 700;
-    color: #5a4a36;
-  }
-
-  .readme-panel td:nth-child(1)::before { content: "Serial No."; }
-  .readme-panel td:nth-child(2)::before { content: "Problem"; }
-  .readme-panel td:nth-child(3)::before { content: "Problem Link"; }
-  .readme-panel td:nth-child(4)::before { content: "Solution"; }
-  .readme-panel td:nth-child(5)::before { content: "Difficulty"; }
-  .readme-panel td:nth-child(6)::before { content: "Topic/Pattern"; }
-  .readme-panel td:nth-child(7)::before { content: "Notes"; }
 }
 
 @media (min-width: 900px) {
