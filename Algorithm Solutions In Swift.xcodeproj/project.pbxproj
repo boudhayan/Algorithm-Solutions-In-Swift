@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F21EEE72F54613100E0274E /* MakeArithmeticProgression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21EEE62F54612300E0274E /* MakeArithmeticProgression.swift */; };
 		1F7037522F3E5618002CFFE1 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037512F3E5618002CFFE1 /* Algorithms */; };
 		1F7037552F3E5642002CFFE1 /* BasicContainers in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037542F3E5642002CFFE1 /* BasicContainers */; };
 		1F7037572F3E5642002CFFE1 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037562F3E5642002CFFE1 /* BitCollections */; };
@@ -332,6 +333,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F21EEE62F54612300E0274E /* MakeArithmeticProgression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeArithmeticProgression.swift; sourceTree = "<group>"; };
 		1F85E42D2F500D060097933E /* RecursiveBubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveBubbleSort.swift; sourceTree = "<group>"; };
 		1F85E4302F500D210097933E /* RecusriveInsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecusriveInsertionSort.swift; sourceTree = "<group>"; };
 		1F85E4352F5062420097933E /* SortedRotated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRotated.swift; sourceTree = "<group>"; };
@@ -598,6 +600,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F21EEE52F54611E00E0274E /* Can Make Arithmetic Progression */ = {
+			isa = PBXGroup;
+			children = (
+				1F21EEE62F54612300E0274E /* MakeArithmeticProgression.swift */,
+			);
+			path = "Can Make Arithmetic Progression";
+			sourceTree = "<group>";
+		};
 		1F85E42C2F500D010097933E /* Recursive Bubble Sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -1350,6 +1360,7 @@
 				6A88CEEA26C3132700A3746B /* Merge Intervals */,
 				6A88CEE626C056BD00A3746B /* 3 Sum Closest */,
 				1F85E42F2F500D1D0097933E /* Recursive Insertion Sort */,
+				1F21EEE52F54611E00E0274E /* Can Make Arithmetic Progression */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -2993,6 +3004,7 @@
 				6A651A4C2907866D000731BB /* FirstUniqueCharacter.swift in Sources */,
 				6AF5788626A2E67F007B37CA /* TwoNumberSum.swift in Sources */,
 				6AF5790926A6E0FC007B37CA /* BinarySearchTrees.swift in Sources */,
+				1F21EEE72F54613100E0274E /* MakeArithmeticProgression.swift in Sources */,
 				6AF578BC26A34C97007B37CA /* RemoveDuplicatesFromLinkedList.swift in Sources */,
 				6AF5795A26AC287A007B37CA /* ThreeNumberSort.swift in Sources */,
 				6A502306285C8C4600688107 /* ReconstructBST.swift in Sources */,
