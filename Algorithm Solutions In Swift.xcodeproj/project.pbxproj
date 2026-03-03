@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F21EEE72F54613100E0274E /* MakeArithmeticProgression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21EEE62F54612300E0274E /* MakeArithmeticProgression.swift */; };
+		1F21EEEB2F56CA9700E0274E /* ReversePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21EEEA2F56CA9300E0274E /* ReversePairs.swift */; };
 		1F7037522F3E5618002CFFE1 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037512F3E5618002CFFE1 /* Algorithms */; };
 		1F7037552F3E5642002CFFE1 /* BasicContainers in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037542F3E5642002CFFE1 /* BasicContainers */; };
 		1F7037572F3E5642002CFFE1 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 1F7037562F3E5642002CFFE1 /* BitCollections */; };
@@ -334,6 +335,7 @@
 
 /* Begin PBXFileReference section */
 		1F21EEE62F54612300E0274E /* MakeArithmeticProgression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeArithmeticProgression.swift; sourceTree = "<group>"; };
+		1F21EEEA2F56CA9300E0274E /* ReversePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePairs.swift; sourceTree = "<group>"; };
 		1F85E42D2F500D060097933E /* RecursiveBubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveBubbleSort.swift; sourceTree = "<group>"; };
 		1F85E4302F500D210097933E /* RecusriveInsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecusriveInsertionSort.swift; sourceTree = "<group>"; };
 		1F85E4352F5062420097933E /* SortedRotated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedRotated.swift; sourceTree = "<group>"; };
@@ -606,6 +608,21 @@
 				1F21EEE62F54612300E0274E /* MakeArithmeticProgression.swift */,
 			);
 			path = "Can Make Arithmetic Progression";
+			sourceTree = "<group>";
+		};
+		1F21EEE82F56CA7100E0274E /* Reverse Pairs */ = {
+			isa = PBXGroup;
+			children = (
+				1F21EEEA2F56CA9300E0274E /* ReversePairs.swift */,
+			);
+			path = "Reverse Pairs";
+			sourceTree = "<group>";
+		};
+		1F21EEE92F56CA8D00E0274E /* Next Permutation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Next Permutation";
 			sourceTree = "<group>";
 		};
 		1F85E42C2F500D010097933E /* Recursive Bubble Sort */ = {
@@ -1361,6 +1378,8 @@
 				6A88CEE626C056BD00A3746B /* 3 Sum Closest */,
 				1F85E42F2F500D1D0097933E /* Recursive Insertion Sort */,
 				1F21EEE52F54611E00E0274E /* Can Make Arithmetic Progression */,
+				1F21EEE82F56CA7100E0274E /* Reverse Pairs */,
+				1F21EEE92F56CA8D00E0274E /* Next Permutation */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -2936,6 +2955,7 @@
 				6A91246127064A8900D50C17 /* MaxAreaOfIsland.swift in Sources */,
 				6A319EC02908764100801A8A /* SymmetricTree_recursive.swift in Sources */,
 				6A651A25290705FB000731BB /* ValidParantheses.swift in Sources */,
+				1F21EEEB2F56CA9700E0274E /* ReversePairs.swift in Sources */,
 				6AF5789226A2E6F6007B37CA /* NonConstructibleChange.swift in Sources */,
 				6A651A46290785A2000731BB /* ValidSuduku.swift in Sources */,
 				6A88CEE826C056C900A3746B /* ThreeSumClosest.swift in Sources */,
