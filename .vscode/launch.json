@@ -1,0 +1,19 @@
+{
+  // Requires extension "LLDB DAP" (llvm-vs-code-extensions.lldb-dap).
+  // If debugging fails to start: Terminal → `xcrun -f lldb-dap` and set
+  // "lldb-dap.executable-path" in settings to that path.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb-dap",
+      "request": "launch",
+      "name": "Debug main.swift",
+      "program": "${workspaceFolder}/.build/main-swift-out",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Swift: Build main (debug)",
+      "console": "integratedTerminal",
+      "stopOnEntry": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Swift: Run main.swift",
+      "type": "shell",
+      "command": "swift",
+      "args": [
+        "${workspaceFolder}/Algorithm Solutions In Swift/main.swift"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Swift: Run current Swift file",
+      "type": "shell",
+      "command": "swift",
+      "args": ["${file}"],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Swift: Build main (debug)",
+      "type": "shell",
+      "command": "mkdir -p \"${workspaceFolder}/.build\" && swiftc -g \"${workspaceFolder}/Algorithm Solutions In Swift/main.swift\" -o \"${workspaceFolder}/.build/main-swift-out\"",
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "swiftlang.swift-vscode",
+    "llvm-vs-code-extensions.lldb-dap",
+    "formulahendry.code-runner"
+  ]
+}

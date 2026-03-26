@@ -1,0 +1,11 @@
+{
+  // Cmd+R → Code Runner (Swift): see `.vscode/keybindings.json`. Standard VS Code ignores that file;
+  // Cursor may honor it. If ⌘R does nothing, open Keyboard Shortcuts (JSON) (⌘K ⌘S → “Open Keyboard
+  // Shortcuts (JSON)”) and paste the array entries from `.vscode/keybindings.json` into your user file.
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.executorMap": {
+    "swift": "cd \"$dir\" && swift \"$fileName\""
+  }
+}
