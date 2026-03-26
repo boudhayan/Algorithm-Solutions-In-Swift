@@ -1,6 +1,6 @@
 [
   {
-    "key": "cmd+r",
+    "key": "cmd+shift+r",
     "command": "code-runner.run",
     "when": "editorTextFocus && editorLangId == 'swift' && !inDebugRepl && workspaceFolderName == 'Algorithm-Solutions-In-Swift'"
   }
